@@ -404,61 +404,120 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-/* line 4, site.css.scss */
+/* line 1, base/_base.scss */
 body {
-  background: #ECC561;
-  text-align: center;
+  background: #c1d7ef;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+  text-align: center; }
 
-/* line 11, site.css.scss */
-.logo img {
-  height: 18.75em;
-  margin-top: 6em; }
+/* line 8, base/_base.scss */
+.clean-list {
+  text-decoration: none; }
 
-/* line 16, site.css.scss */
-h1 {
-  color: rgba(0, 0, 0, 0.5);
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.8em;
-  font-weight: 400;
-  margin: 0; }
+/* line 12, base/_base.scss */
+.left {
+  float: left; }
 
-/* line 24, site.css.scss */
+/* line 16, base/_base.scss */
+.right {
+  float: right; }
+
+/* line 20, base/_base.scss */
+#first-name {
+  display: inline-block;
+  font-family: 'Josefin Slab', serif;
+  font-size: 6em;
+  font-weight: 600;
+  margin-right: 10px; }
+
+/* line 28, base/_base.scss */
+#last-name {
+  display: inline-block;
+  font-family: 'Josefin Slab', serif;
+  font-size: 6em;
+  font-weight: 100; }
+
+/* line 35, base/_base.scss */
+.experience-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+/* line 41, base/_base.scss */
 .doc {
-  margin: 3em 0;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans Condensed';
+  font-weight: 300;
   font-size: 1.1em;
-  font-weight: 300; }
-  /* line 30, site.css.scss */
+  font-weight: 300;
+  letter-spacing: 5px;
+  margin: 3em 0;
+  padding-right: 20px; }
+  /* line 50, base/_base.scss */
   .doc a {
     border: 1px solid white;
     border-radius: 3px;
-    padding: 0.75em 0.7em;
     color: white;
+    padding: 0.75em 0.7em;
     text-decoration: none;
     transition: color 0.1s linear; }
-    /* line 37, site.css.scss */
+    /* line 57, base/_base.scss */
     .doc a:hover {
-      background: rgba(0, 0, 0, 0.2);
-      color: white;
+      background: rgba(10, 20, 200, 0.2);
+      color: grey;
       transition: all 0.15s linear; }
 
-/* line 45, site.css.scss */
-.welcome {
-  -webkit-animation-name: welcome;
-  -webkit-animation-duration: .9s; }
+/* line 65, base/_base.scss */
+.blog {
+  margin-top: 5em;
+  padding: 0 100px;
+  text-align: left; }
 
-@-webkit-keyframes welcome {
-  from {
-    -webkit-transform: scale(0);
-    opacity: 0; }
-  50% {
-    -webkit-transform: scale(0);
-    opacity: 0; }
-  82.5% {
-    -webkit-transform: scale(1.03);
-    -webkit-animation-timing-function: ease-out;
-    opacity: 1; }
-  to {
-    -webkit-transform: scale(1); } }
+/* line 71, base/_base.scss */
+.read-more {
+  text-align: right;
+  padding-right: 25px; }
+
+/* line 76, base/_base.scss */
+ol, ul, li, p {
+  color: black;
+  font-family: 'Open Sans Condensed';
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 25px; }
+
+/* line 84, base/_base.scss */
+p a {
+  text-decoration: none;
+  color: grey; }
+
+/* line 1, base/_typography.scss */
+h1 {
+  color: white;
+  font-family: 'Josefin Slab';
+  font-weight: 100;
+  font-size: 1.8em;
+  margin-top: 2em; }
+
+/* line 9, base/_typography.scss */
+h2 {
+  font-size: 1.5em; }
+
+/* line 13, base/_typography.scss */
+h2, h3, h3 a {
+  color: grey;
+  font-family: 'Open Sans Condensed';
+  font-weight: 300;
+  letter-spacing: 2px; }
+
+/* line 20, base/_typography.scss */
+h1, h3, .doc {
+  flex-direction: column;
+  justify-content: center; }
+
+/* line 25, base/_typography.scss */
+a {
+  text-decoration: none; }
+  /* line 27, base/_typography.scss */
+  a:hover {
+    transition: all 0.15s linear; }
