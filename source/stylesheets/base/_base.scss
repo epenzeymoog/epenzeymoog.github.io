@@ -1,0 +1,87 @@
+body{
+  background: #c1d7ef;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+
+.clean-list {
+  text-decoration: none;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+#first-name{
+  display: inline-block;
+  font-family: 'Josefin Slab', serif;
+  font-size: 6em;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+#last-name{
+  display: inline-block;
+  font-family: 'Josefin Slab', serif;
+  font-size: 6em;
+  font-weight: 100;
+}
+
+.experience-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.doc {
+  font-family: 'Open Sans Condensed';
+  font-weight: 300;
+  font-size: 1.1em;
+  font-weight: 300;
+  letter-spacing: 5px;
+  margin: 3em 0;
+  padding-right: 20px;
+
+  a {
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    padding: 0.75em 0.7em;
+    text-decoration: none;
+    transition: color 0.1s linear;
+    &:hover {
+      background: rgba(10,20,200,0.2);
+      color: grey;
+      transition: all 0.15s linear;
+    }
+  }
+}
+
+.blog{
+  margin-top: 5em;
+  padding: 0 100px;
+  text-align: left;
+}
+
+.read-more{
+  text-align: right;
+  padding-right: 25px;
+}
+
+ol, ul, li, p,{
+  color: black;
+  font-family: 'Open Sans Condensed';
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+p a{
+  text-decoration: none;
+  color: grey;
+}
