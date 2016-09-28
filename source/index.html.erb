@@ -1,21 +1,18 @@
 ---
-title: Eva PenzeyMoog
 layout: layout
+title: Eva PenzeyMoog
 ---
 
-<h1 id=first-name>Eva </h1><h1 id=last-name> PenzeyMoog</h1>
-<h2>UX DESIGNER</h2>
+<header class="title">
+	<h1 class="title__main title--bold"> Eva </h1>
+	<h1 class="title__main title--thin"> PenzeyMoog</h1>
+	<h2>UX DESIGNER</h2>
+
+  <section class="main-button">
+    <%= link_to "work", "/work.html", :class => 'submit-button' %>
   
-<section class="experience-buttons">
-  <p class="doc">
-    <%= link_to "work", "/work.html" %>
-  </p>
-  
-  <p class="doc">
-    <%= link_to "writing", "/blog.html"%>
-  </p>
-  
-   <p class="doc">
-    <%= link_to "projects", "/projects.html" %>
-  </p>
-</section>
+    <%= link_to "writing", "/blog.html", :class => 'submit-button' %>
+
+    <%= link_to "projects", "/projects.html", :class => 'submit-button' %>
+  </section>
+</header>
