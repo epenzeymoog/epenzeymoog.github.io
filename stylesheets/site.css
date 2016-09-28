@@ -404,9 +404,17 @@ textarea {
   font: inherit;
   /* 2 */ }
 
+/* line 4, neat/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box; }
+
+/* line 9, neat/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit; }
+
 /* line 1, base/_base.scss */
 body {
-  background: #c1d7ef;
+  background: #C1D7EF;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   text-align: center; }
@@ -416,69 +424,46 @@ body {
   text-decoration: none; }
 
 /* line 12, base/_base.scss */
-.left {
-  float: left; }
-
-/* line 16, base/_base.scss */
-.right {
-  float: right; }
+.title {
+  margin-top: 4em; }
+  @media (min-width: 520px) {
+    /* line 12, base/_base.scss */
+    .title {
+      margin-top: 10em; } }
 
 /* line 20, base/_base.scss */
-#first-name {
-  display: inline-block;
-  font-family: 'Josefin Slab', serif;
-  font-size: 6em;
+.title__main {
+  display: inline;
+  font-family: "Josefin Slab", serif;
+  font-size: 2em;
+  margin: 0;
+  width: 100%; }
+  @media (min-width: 520px) {
+    /* line 20, base/_base.scss */
+    .title__main {
+      font-size: 6em; } }
+
+/* line 32, base/_base.scss */
+.title--bold {
   font-weight: 600;
   margin-right: 10px; }
 
-/* line 28, base/_base.scss */
-#last-name {
-  display: inline-block;
-  font-family: 'Josefin Slab', serif;
-  font-size: 6em;
+/* line 37, base/_base.scss */
+.title--thin {
   font-weight: 100; }
 
-/* line 35, base/_base.scss */
-.experience-buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: center; }
-
 /* line 41, base/_base.scss */
-.doc {
-  font-family: 'Open Sans Condensed';
-  font-weight: 300;
-  font-size: 1.1em;
-  font-weight: 300;
-  letter-spacing: 5px;
-  margin: 3em 0;
-  padding-right: 20px; }
-  /* line 50, base/_base.scss */
-  .doc a {
-    border: 1px solid white;
-    border-radius: 3px;
-    color: white;
-    padding: 0.75em 0.7em;
-    text-decoration: none;
-    transition: color 0.1s linear; }
-    /* line 57, base/_base.scss */
-    .doc a:hover {
-      background: rgba(10, 20, 200, 0.2);
-      color: grey;
-      transition: all 0.15s linear; }
-
-/* line 65, base/_base.scss */
 .blog {
   margin-top: 5em;
   padding: 0 100px;
   text-align: left; }
 
-/* line 71, base/_base.scss */
+/* line 47, base/_base.scss */
 .read-more {
   text-align: right;
   padding-right: 25px; }
 
-/* line 76, base/_base.scss */
+/* line 52, base/_base.scss */
 ol, ul, li, p {
   color: black;
   font-family: 'Open Sans Condensed';
@@ -486,38 +471,72 @@ ol, ul, li, p {
   letter-spacing: 1px;
   line-height: 25px; }
 
-/* line 84, base/_base.scss */
+/* line 60, base/_base.scss */
 p a {
   text-decoration: none;
   color: grey; }
 
 /* line 1, base/_typography.scss */
 h1 {
-  color: white;
-  font-family: 'Josefin Slab';
-  font-weight: 100;
-  font-size: 1.8em;
-  margin-top: 2em; }
+  color: #F7F7FF; }
 
-/* line 9, base/_typography.scss */
-h2 {
-  font-size: 1.5em; }
-
-/* line 13, base/_typography.scss */
+/* line 5, base/_typography.scss */
 h2, h3, h3 a {
   color: grey;
   font-family: 'Open Sans Condensed';
   font-weight: 300;
   letter-spacing: 2px; }
 
-/* line 20, base/_typography.scss */
-h1, h3, .doc {
-  flex-direction: column;
-  justify-content: center; }
-
-/* line 25, base/_typography.scss */
+/* line 12, base/_typography.scss */
 a {
   text-decoration: none; }
-  /* line 27, base/_typography.scss */
+  /* line 14, base/_typography.scss */
   a:hover {
+    transition: all 0.15s linear; }
+
+/* line 1, _buttons.scss */
+.main-button {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 20, neat/mixins/_clearfix.scss */
+  .main-button::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+/* line 5, _buttons.scss */
+.submit-button {
+  border: 1px solid white;
+  border-radius: 5px;
+  color: #F7F7FF;
+  font-family: "Open Sans Condensed";
+  font-weight: 300;
+  font-size: 1.1em;
+  font-weight: 300;
+  letter-spacing: 5px;
+  margin: .5em 0;
+  padding: 15px 0;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 74.41059%;
+  margin-left: 12.79471%; }
+  /* line 89, neat/grid/_span-columns.scss */
+  .submit-button:last-child {
+    margin-right: 0; }
+  @media (min-width: 520px) {
+    /* line 5, _buttons.scss */
+    .submit-button {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+      margin-left: 0%; }
+      /* line 89, neat/grid/_span-columns.scss */
+      .submit-button:last-child {
+        margin-right: 0; } }
+  /* line 24, _buttons.scss */
+  .submit-button:hover {
+    background: rgba(10, 20, 200, 0.1);
     transition: all 0.15s linear; }
