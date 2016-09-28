@@ -9,19 +9,30 @@ body{
   text-decoration: none;
 }
 
-.title {
-  margin-top: 4em;
+.center-vertical {
+  margin: auto 0;
+  position: absolute;
+  top: 10%;
+  width: 100%;
 
-  @media (min-width: $md-screen) {
-    margin-top: 10em;
+
+  @media (min-width: $lg-screen) {
+    height: 100px;
+    left: 20px;
+    margin-top: -200px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
   }
+}
+
+.title {
+  font-family: $josefin;
 }
 
 .title__main {
   display: inline;
-  font-family: $josefin;
   font-size: 2em;
-  margin: 0;
   width: 100%;
 
   @media (min-width: $md-screen) {
@@ -31,12 +42,21 @@ body{
 
 .title--bold {
   font-weight: 600;
-  margin-right: 10px;
 }
 
 .title--thin {
   font-weight: 100;
 }
+
+
+
+
+
+
+
+
+
+
 
 .blog{
   margin-top: 5em;
