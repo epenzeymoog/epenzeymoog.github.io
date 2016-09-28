@@ -424,46 +424,55 @@ body {
   text-decoration: none; }
 
 /* line 12, base/_base.scss */
-.title {
-  margin-top: 4em; }
-  @media (min-width: 520px) {
+.center-vertical {
+  margin: auto 0;
+  position: absolute;
+  top: 10%;
+  width: 100%; }
+  @media (min-width: 900px) {
     /* line 12, base/_base.scss */
-    .title {
-      margin-top: 10em; } }
+    .center-vertical {
+      height: 100px;
+      left: 20px;
+      margin-top: -200px;
+      position: absolute;
+      right: 20px;
+      top: 50%; } }
 
-/* line 20, base/_base.scss */
+/* line 29, base/_base.scss */
+.title {
+  font-family: "Josefin Slab", serif; }
+
+/* line 33, base/_base.scss */
 .title__main {
   display: inline;
-  font-family: "Josefin Slab", serif;
   font-size: 2em;
-  margin: 0;
   width: 100%; }
   @media (min-width: 520px) {
-    /* line 20, base/_base.scss */
+    /* line 33, base/_base.scss */
     .title__main {
       font-size: 6em; } }
 
-/* line 32, base/_base.scss */
+/* line 43, base/_base.scss */
 .title--bold {
-  font-weight: 600;
-  margin-right: 10px; }
+  font-weight: 600; }
 
-/* line 37, base/_base.scss */
+/* line 47, base/_base.scss */
 .title--thin {
   font-weight: 100; }
 
-/* line 41, base/_base.scss */
+/* line 61, base/_base.scss */
 .blog {
   margin-top: 5em;
   padding: 0 100px;
   text-align: left; }
 
-/* line 47, base/_base.scss */
+/* line 67, base/_base.scss */
 .read-more {
   text-align: right;
   padding-right: 25px; }
 
-/* line 52, base/_base.scss */
+/* line 72, base/_base.scss */
 ol, ul, li, p {
   color: black;
   font-family: 'Open Sans Condensed';
@@ -471,7 +480,7 @@ ol, ul, li, p {
   letter-spacing: 1px;
   line-height: 25px; }
 
-/* line 60, base/_base.scss */
+/* line 80, base/_base.scss */
 p a {
   text-decoration: none;
   color: grey; }
