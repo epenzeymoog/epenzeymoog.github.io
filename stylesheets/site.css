@@ -549,3 +549,158 @@ a {
   .submit-button:hover {
     background: rgba(10, 20, 200, 0.1);
     transition: all 0.15s linear; }
+
+/* line 1, partials/_nav.scss */
+nav {
+  background-color: #F7F7FF;
+  border-bottom: 1px solid #eee;
+  min-height: 75px;
+  width: 100%; }
+  /* line 7, partials/_nav.scss */
+  nav ul {
+    display: inline-block;
+    margin-bottom: 1em; }
+  /* line 12, partials/_nav.scss */
+  nav li {
+    display: block;
+    float: left;
+    padding: 0; }
+  /* line 18, partials/_nav.scss */
+  nav a {
+    display: block;
+    line-height: 45px; }
+  /* line 23, partials/_nav.scss */
+  nav a:hover {
+    color: #C1D7EF; }
+  @media (max-width: 550px) {
+    /* line 1, partials/_nav.scss */
+    nav {
+      text-align: center; } }
+
+/* line 32, partials/_nav.scss */
+.nav-wrapper {
+  width: 90%; }
+
+/* line 36, partials/_nav.scss */
+.logo--left {
+  float: left;
+  padding-left: 1em; }
+
+/* line 41, partials/_nav.scss */
+.nav--right {
+  float: right;
+  padding-left: 0; }
+
+/* line 46, partials/_nav.scss */
+.logo {
+  color: #424651;
+  font-family: "Open Sans Condensed" sans-serif;
+  font-size: 1.6em;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase; }
+
+/* line 55, partials/_nav.scss */
+.nav-links {
+  color: #424651;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 0 1em;
+  text-align: center; }
+
+/* line 1, _cards.scss */
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px; }
+  /* line 20, neat/mixins/_clearfix.scss */
+  .container::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+/* line 6, _cards.scss */
+.card {
+  background-color: #F7F7FF;
+  border: 1px solid #F7F7FF;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  width: 100%;
+  overflow: hidden;
+  position: relative; }
+  @media (min-width: 1000px) {
+    /* line 6, _cards.scss */
+    .card {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      /* line 89, neat/grid/_span-columns.scss */
+      .card:last-child {
+        margin-right: 0; }
+      /* line 78, neat/grid/_omega.scss */
+      .card:nth-child(4n) {
+        margin-right: 0; }
+      /* line 83, neat/grid/_omega.scss */
+      .card:nth-child(4n+1) {
+        clear: left; } }
+
+/* line 22, _cards.scss */
+.card__photo img {
+  border-radius: 5px 5px 0 0;
+  margin: 0 auto;
+  width: 100%;
+  -moz-border-radius: 1em; }
+
+/* line 29, _cards.scss */
+.card-section {
+  height: 2em; }
+
+/* line 33, _cards.scss */
+.card-section__content {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  padding: 3px;
+  position: absolute;
+  transition: all 0.5s ease;
+  width: 100%; }
+  /* line 41, _cards.scss */
+  .card-section__content p {
+    font-size: .7em;
+    line-height: 1.7em;
+    margin: 0;
+    padding: 0; }
+    @media (min-width: 500px) {
+      /* line 41, _cards.scss */
+      .card-section__content p {
+        font-size: 1.1em;
+        line-height: 1.4em; } }
+    @media (min-width: 800px) {
+      /* line 41, _cards.scss */
+      .card-section__content p {
+        font-size: 1.5em; } }
+    @media (min-width: 1000px) {
+      /* line 41, _cards.scss */
+      .card-section__content p {
+        font-size: 1em; } }
+
+/* line 62, _cards.scss */
+.card__title {
+  margin: 0; }
+
+/* line 66, _cards.scss */
+.card-section__description {
+  font-style: italic;
+  padding: 10px 0; }
+
+/* line 71, _cards.scss */
+.card:hover .card-section__content {
+  background-color: white;
+  bottom: 0; }
+
+/* line 76, _cards.scss */
+.card-section__title a:hover {
+  color: #C1D7EF;
+  transition: all 0.15s linear; }
