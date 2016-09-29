@@ -1,0 +1,15 @@
+.article-container {
+  margin-top: 5em;
+  padding: 0;
+  text-align: left;
+
+  &, a:hover {
+  	color: $white;
+  }
+}
+
+.article-container__link { 
+  padding-right: 25px;
+  text-align: right;
+}
+

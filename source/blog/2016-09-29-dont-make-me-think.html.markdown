@@ -1,10 +1,16 @@
 ---
-title: Don't Make Me Think Book Review
+title: dont-make-me-think
+date: 2016-09-29 23:10 UTC
+tags:
+---
+
+---
+title: Don't Make Me Think
 ---
 
 <html>
 <body>
-<section class="blog">
+<section class="article-container">
     <h1>Don't Make Me Think: A Classic Read and a Nostalgic Trip</h1>
 
 <p>Don’t Make Me Think, Steven Krug’s guide for website usability, is considered a classic in the design field, and for good reason. It was first written in 2000, when websites looked

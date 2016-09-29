@@ -1,45 +1,46 @@
 ---
-title: Eva PenzeyMoog Writing
-layout: blog
+pageable: true
+per_page: 10
+title: Eva PenzeyMoog
 ---
-<div class="welcome">
-</div>
+<%= partial "partials/nav" %>
+<div class="container">
+<section class="article-container">
 
-<section class="blog">
-
-<h3><a href="blog/2016/09/02/bourbon-and-neat.html">Using Bourbon &amp; Neat</a></h3>
+<h3><a href="/blog/2016/09/29/using-bourbon-and-neat.html">Using Bourbon &amp; Neat</a></h3>
 <p>Bourbon is a mixin library for Sass. Some people at thoughtbot decided it would be a good idea to centralize some of the most useful mixins so that we’re not all reinventing the wheel in slightly different ways all the time. Neat is a cool little grid framework that makes layout and positioning - the cause most designers’ eternal headache - much easier. It’s super responsive, clean and lightweight. </p>
-<p class="read-more"><a href="blog/2016/09/02/bourbon-and-neat.html">Read more...</a></p>
+<p class="article-container__link"><a href="/blog/2016/09/29/using-bourbon-and-neat.html">Read more...</a></p>
 
-<h3><a href="blog/2016/08/19/css-architecture.html">CSS Architecture</a></h3>
+<h3><a href="/blog/2016/08/19/css-architecture.html">CSS Architecture</a></h3>
 <p>Writing styles for a simple webpage with CSS is easy, but with larger projects comes a lot more CSS, with the result that we need a way to organize it all. CSS by itself doesn’t tell us how to structure our work, and the pit of specificity is bottomless. If you’re like me, you’ve hit the point of feeling overwhelmed with how much CSS you have, and searched for best practices to organize it, only to have the various blogs and help forums tell you “it depends.” The way you should do a lot of things with CSS depends on the project. It’s something that you’ll figure out with experience on diverse projects and lots of research and trial and error. But if you’re a newer designer looking for help with project you have to do right now, this answer is far from helpful. This article will give an overview of a few ways to organize your CSS, and try to give some direction around the sorts of projects the methods work for. But at the end of the day, you’re going to have to just choose the one that seems best and start working. Maybe you’ll realize a different way will be better, and completely rewrite your styles, but more than likely you’ll get something up and out the door and know better for next time. First, this article will describe a way to organize your design elements before you even get into code (atomic design). Next comes three ways you can go about organizing your CSS. </p>
-<p class="read-more"><a href="blog/2016/08/19/css-architecture.html">Read more...</a></p>
+<p class="article-container__link"><a href="/blog/2016/08/19/css-architecture.html">Read more...</a></p>
 
-<h3><a href="blog/2016/08/09/fun-with-html-forms.html">Fun with HTML5 Forms</a></h3>
+<h3><a href="/blog/2016/08/09/fun-with-html-forms.html">Fun with HTML5 Forms</a></h3>
 <p>Forms are important for capturing user information and are found everywhere around the internet, from sign up forms for apps to posting Facebook status to inputting your birthday to show that you’re over 21 before entering a brewery’s website. They’re essential and they’re everywhere. And yet they’re often a huge barrier to a user friendly experience, and while there are many reasons for this, one is that designers often don’t know about the wide variety of options available to them. Knowing how forms are built can help designers make them more user friendly. This is yet another reason for designers to be versed in the technical side of what they’re designing. </p>
-<p class="read-more"><a href="blog/2016/08/09/fun-with-html-forms.html">Read more...</a></p>
+<p class="article-container__link"><a href="/blog/2016/08/09/fun-with-html-forms.html">Read more...</a></p>
 
-<h3><a href="blog/2016/08/09/semantic-html-matters.html">Semantic HTML Matters</a></h3>
+<h3><a href="/blog/2016/08/09/semantic-html-matters.html">Semantic HTML Matters</a></h3>
 <p>The basics of HTML and CSS are often the very first lessons in “teach yourself to code” tutorials. This makes sense, as these two languages build the basic visuals of a website and are much easier for a beginner to wrap their head around than, say, creating an array in ruby. They teach just enough to get yourself up and running so that you can move onto the fund stuff, but rarely move beyond the simplest of elements, much less teach us why semantic HTML is important. It makes sense to start here, but the fact that these tutorials typically only teach very basic HTML, combined with the fact that many developers never return to these “basics,” means that our knowledge stays, well, basic. I hate to admit that I’m one of these people - I’d rather dedicate my time to learning cool things like flex box (with my favorite <a href="http://flexboxfroggy.com/">frog-based game</a>) and <a href="https://css-tricks.com/css3-gradients/">beautiful CSS gradients</a> than learn about all the elements HTML5 gives us beyond <code>header</code>, <code>footer</code> and <code>section</code>. But alas, my mentor here at 8th Light has (I suspect) caught me using one too many <code>div</code> elements, and it’s high time I went back and augmented my HTML knowledge, which at this point has been the very minimum needed to hand-code a website. This might fly at some companies, but 8th Light is all about doing things right and not cutting corners, meaning it’s time for me to give up my constant use of <code>div</code>s and learn to do things properly now as an apprentice, before I ever have the chance to subject a client to an abundance of <code>div</code> tags. </p>
-<p class="read-more"><a href="blog/2016/08/09/semantic-html-matters.html">Read more...</a></p>
+<p class="article-container__link"><a href="/blog/2016/08/09/semantic-html-matters.html">Read more...</a></p>
 
-<h3><a href="blog/2016/08/09/mobile-first-and-responsive-design.html">The Technical Designer: Cross-platform Design &amp; Mobile First</a></h3>
+<h3><a href="/blog/2016/08/09/mobile-first-and-responsive-design.html">The Technical Designer: Cross-platform Design &amp; Mobile First</a></h3>
 <p>This post is broken down into two sections: design and development/technical. I highly suggest my designer colleagues muddle their way through the technical half and use the links to explore the topics. I’ve <a href="https://github.com/epenzeymoog/my_blog/blob/master/source/2016-06-24-first_post.html.markdown">made the case before</a> for designers to be familiar with code and how things work. Designing for mobile first is yet another excellent example of a case where having a full understanding of how it all works makes you able to create better designs than if you only understand how the design half works. And developers, you too should have a working knowledge of the basics of web design (a full post on why is coming later), so I encourage you to read the design portion. Basically, designers and developers alike, read the entire post and choose a topic or two to dig into that are on the other side of your expertise.</p>
-<p class="read-more"><a href="blog/2016/08/09/mobile-first-and-responsive-design.html">Read more...</a></p>
+<p class="article-container__link"><a href="/blog/2016/08/09/mobile-first-and-responsive-design.html">Read more...</a></p>
 
-<h3><a href="blog/2016/07/01/Dont-Make-Me-Think-Book-Review.html">Don't Make Me Think: A Classic Read and a Nostalgic Trip</a></h3>
+<h3><a href="/blog/2016/07/01/Dont-Make-Me-Think-Book-Review.html">Don't Make Me Think: A Classic Read and a Nostalgic Trip</a></h3>
 <p>Don’t Make Me Think, Steven Krug’s guide for website usability, is considered a classic in the design field, and for good reason. It was first written in 2000, when websites looked
 <a href="http://www.3riversstadium.com/index2.html">like this</a>
 and using the internet caused your parents to miss calls on the land line. Despite the book being ancient in terms of the short life of modern web use, all of the main points remain solidly relevant. Few books that have to do with technology of the day can say the same, a fact I confirmed during a recent visit to the large programming section of the Harold Washington Library. Books much newer are completely archaic and obsolete within the constantly-evolving world of what makes the internet run. But not Don’t Make Me Think. This book remains a treasure trove of useful information, with the author’s wisdom packaged in a time capsule from the year 2000. Not only is the book readable, funny, and quick, it’s also fascinating to see how things worked back then, and nothing beats the warm feeling of nostalgia for the experience of using the giant family apple desktop computer as a kid.</p>
-<p class="read-more"><a href="blog/2016/07/01/Dont-Make-Me-Think-Book-Review.html">Read more...</a></p>
+<p class="article-container__link"><a href="/blog/2016/07/01/Dont-Make-Me-Think-Book-Review.html">Read more...</a></p>
 
-<h3><a href="blog/2016/08/09/should-designers-be-technical.html">How Technical Should Designers Be?</a></h3>
+<h3><a href="/blog/2016/08/09/should-designers-be-technical.html">How Technical Should Designers Be?</a></h3>
 <p>I see these questions come up again and again in articles and talks within the tech community. Recently I've seen a lot of articles with headlines like "UX Designers: Forget Learning to Code. Study Business Instead." These really bother me - designers have the capicity to learn more than one ancillary skill. We should obviously be choosing what to learn outside of pure design skills based on what we need to do our jobs well, what our companies want, and what we personally find interesting.</p>
 
 <p>For the most part, web designers don’t need to know how to code per se. But here’s the thing: what you *do* want is control over you work and a seat at the table. You’re also not just any designer; you’re smart, and hard-working, and talented, and you want to be able to keep up with the developers and more technical people at your company.</p>
 
 <p>As part of my writing during my 8th Light Design Apprenticeship, I will be exploring development and more technical pieces of how the internet works from a designer’s perspective, and writing about it so that you, the ambitious designer, can better understand what’s going on.</p>
 
-<p class="read-more"><a href="blog/2016/08/09/should-designers-be-technical.html">Read more...</a></p>
+<p class="article-container__link"><a href="/blog/2016/08/09/should-designers-be-technical.html">Read more...</a></p>
 
 </section>
+</div>
