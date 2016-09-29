@@ -50,3 +50,7 @@ activate :deploy do |deploy|
 end
 
 activate :directory_indexes
+
+activate :blog do |blog|
+  # set options on blog
+end
