@@ -1,8 +1,9 @@
 ---
-title: using-bourbon-and-neat
-date: 2016-09-29 23:18 UTC
+title: css-architecture
+date: 2016-09-30 14:29 UTC
 tags:
 ---
+
 <section class="article-container">
 <h1>Using Bourbon & Neat</h1>
 
@@ -83,6 +84,6 @@ If you don’t have Sass, install by going to your home directory and entering:<
 <p>cd into your Sass stylesheets directory. Now write:</p>
 <code>$ neat install</code>
 
-<p>Now you’re up and running with Bourbon and Neat! There are tons of things in those directories that you can use to structure your project. Don't forget that the main SCSS file that SASS compiles to the main CSS file is nothing but <code>@import</code> tags. Go through them and figure out what you want to use, and delete things you definitely don’t.</p>
+<p>Now you’re up and running with Bourbon and Neat! There are tons of things in those directories that you can use to structure your project. Go through them and figure out what you want to use, and delete things you definitely don’t.</p>
 
 </section>

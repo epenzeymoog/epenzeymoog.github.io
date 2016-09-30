@@ -1,6 +1,6 @@
 ---
 title: How Technical Should Designers Be
-date: 2016-08-09
+date: 2016-09-29
 tags: design
 ---
 

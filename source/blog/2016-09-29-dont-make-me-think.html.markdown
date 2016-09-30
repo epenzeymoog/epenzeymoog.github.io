@@ -3,13 +3,6 @@ title: dont-make-me-think
 date: 2016-09-29 23:10 UTC
 tags:
 ---
-
----
-title: Don't Make Me Think
----
-
-<html>
-<body>
 <section class="article-container">
     <h1>Don't Make Me Think: A Classic Read and a Nostalgic Trip</h1>
 
@@ -64,5 +57,3 @@ and using the internet caused your parents to miss calls on the land line. Despi
 <p>Productopia:
 Another site that went under during the dot-com crash, this is probably the prettiest site in the book. I’m not quite sure what it does (Krug uses it as an example of a great site that doesn’t do a good job showing the user what it’s all about) but just look at those boxes of colors! Even back then styling options were incredibly limited, a designer managed to make this. Hopefully in 15 years I’ll look back on my work with such pride.</p>
 </section>
-  </body>
-</html>

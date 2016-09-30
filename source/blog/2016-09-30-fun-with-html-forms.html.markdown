@@ -1,0 +1,102 @@
+---
+title: fun-with-html-forms
+date: 2016-09-30 14:20 UTC
+tags:
+---
+
+<section class="article-container">
+<h1>Fun with HTML forms</h1>
+<p>Forms are important for capturing user information and are found everywhere around the internet, from sign up forms for apps to posting Facebook status to inputting your birthday to show that you’re over 21 before entering a brewery’s website. They’re essential and they’re everywhere. And yet they’re often a huge barrier to a user friendly experience, and while there are many reasons for this, one is that designers often don’t know about the wide variety of options available to them. Knowing how forms are built can help designers make them more user friendly. This is yet another reason for designers to be versed in the technical side of what they’re designing. By the way, the topic of designing forms is a <a href="https://www.gravitatedesign.com/blog/best-form-ever/">whole separate</a> <a href="http://www.lukew.com/ff/entry.asp?1502">(and huge)</a> issue that every designer should explore from a UX standpoint.</p>
+
+<p>There are a lot of options for creating forms, and people have recently been doing some really exciting things with making forms easier and more fun to fill out. Yes, forms can be exciting!!! I’ll cover that part towards the end, as a reward for getting through this admittedly dull topic. In the meantime, there’s been a lot of action lately around forms, with HTML5 releasing 13 new input fields in 2013. Many of them have no reached a solid browser support to start to be used in every day websites. Let’s start with the old standards and then move onto the exciting stuff. Note that lots of these input types can accept “attributes,” which give more information about how the form should look and function. There are lots of attributes and tons of possibilities for using them within input types. I’ve noted where values are the most useful or essential when necessary within the explanation of the various input types.</p>
+
+<h2>Input Types</h2>
+<p>For a long time there were 7 main input types: text, password, radio, checkbox, number, button and submit. These are still among the most commonly used.</p>
+
+<strong>Input type: text</strong>
+<p>&lt; input type=“text” &gt; creates a single line input field that can by typed into.</p>
+
+<strong>Input type: password</strong>
+<p>&lt; input type=“password” &gt; creates a single line password field. It’s just like a text field, only the input get’s “masked.” Instead of the text showing up, the display shows asterisks or circles.</p>
+
+<strong>Input type: radio</strong>
+<p>&lt; input type=“radio” &gt; creates radio buttons, which are little clickable circles. With radio buttons, only one can be selected, so using these means you’re forcing the user to choose just one of the options.</p>
+
+<strong>Input type: checkbox</strong>
+<p>&lt; input type=“checkbox” &gt; creates checkboxes, which are little clickable squares. With checkboxes, the user can select multiple options, or none at all.</p>
+
+<p>It’s a common mistake to get radio boxes and checkboxes confused when designing a form. Pay attention when you’re setting it up and make sure to always test it out with someone before releasing it to the masses. This is the most common error that will get pointed out. There’s nothing worse that being forced to report that you only have a dog when you also have a cat and some fish.</p>
+
+<strong>Input type: button</strong>
+<p> &lt; input type=“button &gt; creates a grey rectangular button with text in the middle of it. Note that this used to be the way to create a button, but HTML5 gave <code>button</code> it’s very own element, so creating it using an input is no longer necessary. The most common result of clicking a button is moving to a new URL as if it was a link (which it essentially is.) While the <code>button</code> element still can’t do much on its own, it’s a useful way for users to https://css-tricks.com/use-button-element/ get at some action that requires javascript, which is a whole separate topic.&lt;/button&gt; 
+
+<strong>Input type: submit</strong>
+<p>&lt; input type=“submit” &gt; creates a button that submits the form input to a form handler. A form handler is typically a server page with a script that processes the input data and is specified in the form’s action attribute. In simple websites, this is often an email address (meaning the form’s input gets sent to someone in an email) and in larger websites it’s usually sent to a server. More complex sites that get lots of forms and need a system to manage them create a custom form handler that can do things like sort the information into databases.</p>
+
+
+
+<h2>New HTML5 Input Types</h2>
+<p>HTML5 added several new input types. They behave as input type: text and are not well supported by old browsers.</p>
+
+<strong>Input type: number</strong>
+<p>&lt; input type=“number” &gt; creates an input field for a numeric value. It also creates up and down arrows that allow users to select numbers from the list. This input type can include the attributes “min” and “max” so that users can only select numbers from within a certain range.</p>
+
+<strong>Input type: date</strong>
+<p>&lt; input type=“date” &gt; is used for inputs that should be a date. The text field is auto-populated with “mm/dd/yyyy” and there’s a small date picker as well as a down arrow indicating a drop down that opens to a calendar’s month view.</p>
+
+<strong>Input type: color</strong>
+<p>&lt; input type=“color” &gt; is used for inputs that should be a color. It creates a small red rectangle that when clicked brings up the color wheel. The user can select their favorite color and then close the color wheel. The input received is the hex value of that color.</p>
+
+<strong>Input type: range</strong>
+<p>&lt; input type=“range” &gt; is used for inputs that should contain a value within a range. The attributes “min” and “max” are used to set the lower and upper limits of the range. This input type creates a grey slider bar with a circle in the middle the user can move to the point within the range they’d like to select. The input is recorded as the number within the range.</p>
+
+<strong>Input type: month</strong>
+<p>&lt; input type=“month” &gt; allows the user to select both a month and a year. A dropdown arrow reveals a month calendar the user can select from. This input type creates a box with 9 dashes followed by 4 dashes. The user can use the date picker to select a month (which are written out, not numbered) or the user can start typing a month in and it will auto-populate. For example, typing “F” resulted in February. The user can then hit tab to go to the year section and type in four numbers to input the year.</p>
+
+<strong>Input type: week</strong>
+<p>&lt; input type=“week” &gt; allows the user to select both a week and a year. A dropdown arrow reveals a month calendar the user can select from (it selects an entire week). This input type creates a box with “week -  - , -  -  -  -.” A date picker allows the user to select the number of the week (starting with 1), or the user can type it into the field directly. The user then types in the year.</p>
+
+<strong>Input time: time</strong>
+<p>&lt; input type=“time” &gt; allows the user to select a time (but no time zone). It results in a box where the user can either directly input or use the time selector to choose the hour (two digits) and minute (two digits) and then either AM or PM.</p>
+
+<strong>Input type: datetime</strong>
+<p>&lt; input type=“datetime” &gt; is not yet supported on Chrome, Firefox or Internet Explorer. On the browsers it does work on, it results in a date picker pop up when the user clicks into the (blank) text field, including a time zone.</p>
+ 
+<strong>Input type: datetime-local</strong>
+<p>&lt; input type=“datetime-local” &gt; is not yet supported on Firefox or Internet Explorer 10 and earlier. On the browsers it does work on, it results in a date picker pop up when the user clicks into the text field, with no time zone.</p>
+
+<strong>Input type: email</strong>
+<p>&lt; input type=“email” &gt; is used for input types that should contain an email address. It is a blank text field with nothing special, but if the user clicks “submit” without entering and “@“ sign, an alert will appear telling the user to enter an email address with an “@“ sign. It does not require a valid “.com” or similar text (meaning it accepts something like “monkey@bananas as an acceptable response). This input type is not supported in IE9 and earlier.</p>
+
+<strong>Input type: search</strong>
+<p>&lt; input type=“search” &gt; is used for search fields, which behave like regular text fields. When the user inputs something into the text field (for example “bananas”) the result is recorded as “googlesearch=bananas.” There isn’t a lot of usefulness for this input type yet. Theoretically using it on a smartphone could bring up an internal search applet. Mostly it exists right now so that the designer can add extra presentation to let the user know it’s a search box. Also, pressing ESC in a search input will clear the results.</p>
+
+<strong>Input type: tel</strong>
+<p>&lt; input type=“tel” &gt; is used for an input that should contain a phone number. It is only supported in Safari 8. From my testing, there are no actual requirements for this text field, as entering “asdf” was accepted as recorded input.</p>
+
+<strong>Input type: url</strong>
+<p>&lt; input type=“url” &gt; is used for an input that should contain a url, for example, an online job application with the form “enter your portfolio website.” This input type is not supported in IE9 and earlier versions. This input type does have requirements - submitting “asdf” results in an alert asking the user to enter a url. To make things confusing, it also does not accept “google.com” or “www.google.com.” The only thing I could make it accept was “http://google.com” and even then the recorded input was merely “illegal input,” not the actual text I had entered. The main benefit of this input type comes when it’s being used on a smart phone, as it causes the url keyboard to be brought up, which replaces the space bar with a period, a forward slash, and “.com” key. </p>
+
+<h2>Cool New Stuff</h2>
+<p>Dull as forms are, they’re super important and designers are working hard to make them easier. There are some <a href="https://medium.com/swlh/creative-form-input-field-design-examples-bfe5dd50808a#.jz4u1lh28"> new ideas out there</a> that even go so far as to make form - dare I say - fun. We’ll probably take all of these innovations for granted in a few years, but right now these new designs feel pretty awesome. Here’s a round up of the cool new stuff in the world of forms:</p>
+
+<strong>Single-field form interface</strong>
+<p>A great way to make forms more user friendly is to make the form feel manageable by not presenting the user with a giant form right away. Revealing things as the user needs to interact with them is a solid UX practice. The amazing <a href="http://tympanus.net/codrops/2014/04/01/minimal-form-interface/"> single-field form interface</a> is a great way to do that. Each new input for the form is only revealed when the user is finished with the last input, and some javascript makes the transitions from one input field to the next smooth and pleasant.</p>
+
+<strong>Single-field form credit cart input pattern</strong>
+<p>Designer Brad Frost took the concept of single-field form interface and created a design for a credit card information form that’s quick and painless. See his short and sweet explanation and screencast demo <a href="http://bradfrost.com/blog/post/single-field-credit-card-input-pattern/"> on his blog.</a> His creation makes it feel like there’s one single field for credit card number, expiration date, CID number and zip code, due to the fact that the form is continuously resizing itself as the user puts in new information and the cursor automatically jumps to the next field once it reaches the necessary amount of characters. (This “auto jumping” is also a really cool form feature that’s <a href="http://www.htmlcodetutorial.com/forms/index_famsupp_162.html"> created with javascript.</a> Here’s to hoping someday the HTML wizards are able to make it happen with a simple HTML attribute. I should note here that there’s <a href="http://stackoverflow.com/questions/1959398/moving-a-focus-when-the-input-text-field-reaches-a-max-length"> some debate</a> about this functionality, as people who aren’t used to it can easily make mistakes, such as hitting tab when they’re done with a field, which, with this functionality, would cause the curser to move two fields over instead of one. But like lots of UI features, something that’s debated now could very well become an expected action within the next few years.)</p>
+
+<strong>Fullscreen Forms</strong>
+<p>A <a href="http://tympanus.net/codrops/2014/07/30/fullscreen-form-interface/"> fullscreen form</a> centers around the idea that if people have fewer distractions, they’ll get through the form quicker. By making the form fullscreen (and sometimes using some nifty javascript animations), the user is able to focus on the task of filling it out.</p>
+
+<strong>Natural Language Forms</strong>
+<p>Natural language UI is a form of UI that essentially has writing that mimics the way we actually write. Rather than a form that asks for “First Name:” followed by a text field, it might say “Hi! Tell me a bit about yourself” followed by a form with “My name is ____ and I live in ____.” These <a href="http://tympanus.net/codrops/2013/05/21/natural-language-form-with-custom-input-elements/"> natural language forms</a> can make filling out a form feel more personal.</p>
+
+<strong>Visual Representation Form</strong>
+<p>Just like a natural language form mimics the way we actually communicate with people, <a href="https://dribbble.com/shots/1108262-Credit-Card-skeuomorph-flat-and-contour"> visual representation</a> forms mimic the physical item that holds the information we’re entering into the form. The most obvious example of this is a credit card. The previous link shows an example of this type of form. The user types the credit card information into a form that’s in the shape of a credit card, which is sort of fun and helps the user understand exactly what is being asked of them.</p>
+
+<h2>Conclusion</h2>
+<p>While forms can definitely be boring, there are so many great ways that HTML5 is making things exciting, and designers are finding ways to make filling them out simple, painless, and sometimes even a little bit fun. Hopefully these new developments help us all to embrace forms as not just something kind of annoying that we need because of the information they give us, but as an exciting and delightful part of our user’s experience within our products.</p>
+</p>
+
+</section>

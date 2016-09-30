@@ -23,8 +23,10 @@ page '/*.txt', layout: false
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
   # blog.prefix = "blog"
+  # blog.permalink = "/blog/:year-:month-:day-:title.html"
+  blog.sources = "/blog/:year-:month-:day-:title.html"
 
-  # blog.permalink = "{year}/{month}/{day}/{title}.html"
+  blog.permalink = "/blog/{year}/{month}/{day}/{title}.html"
   # Matcher for blog source files
   # blog.sources = "{year}-{month}-{day}-{title}.html"
   # blog.taglink = "tags/{tag}.html"
@@ -46,16 +48,14 @@ activate :blog do |blog|
 end
 
 page "/feed.xml", layout: false
-# Reload the browser automatically whenever files change
-# configure :development do
-#   activate :livereload
-# end
 
 # Build-specific configuration
 configure :build do
   # Minify CSS on build
   # activate :minify_css
-
+  # Relative assets needed to deploy to Github Pages
+  # activate :relative_assets
+  # set :site_url, "/epenzeymoog"
   # Minify Javascript on build
   # activate :minify_javascript
 end
@@ -64,26 +64,6 @@ end
 # configure :development do
 #   activate :livereload
 # end
-
-###
-# Helpers
-###
-
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
-
-# Build-specific configuration
-configure :build do
-  # Minify CSS on build
-  # activate :minify_css
-
-  # Minify Javascript on build
-  # activate :minify_javascript
-end
 
 activate :deploy do |deploy|
   deploy.deploy_method = :git
@@ -98,3 +78,5 @@ set :images_dir, 'images'
 # activate :blog do |blog|
 #   blog.prefix = "blog"
 # end
+
+# set :site_url, ""
