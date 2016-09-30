@@ -5,7 +5,867 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2016-09-30T10:20:00-05:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>the-technical-designer</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2016/09/30/the-technical-designer/"/>
+    <id>http://blog.url.com/blog/2016/09/30/the-technical-designer/</id>
+    <published>2016-09-30T10:20:00-05:00</published>
+    <updated>2016-09-30T10:21:38-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;section class="article-container"&gt;
+&lt;h1&gt;How Technical Should Designers Be?&lt;/h1&gt;
+
+&lt;p&gt;I see these questions come up again and again in articles and talks within the tech community. Recently I've seen a lot of articles with headlines like "UX Designers: Forget Learning to Code. Study Business Instead." These really bother me - designers have the capicity to learn more than one ancillary skill. We should obviously be choosing what to learn outside of pure design skills based on what we need to do our jobs well, what our companies want, and what we personally find interesting.&lt;/p&gt;
+
+&lt;p&gt;For the most part, web designers don’t need to know how to code per se. But here’s the thing: what you *do* want is control over you work and a seat at the table. You’re also not just any designer; you’re smart, and hard-working, and talented, and you want to be able to keep up with the developers and more technical people at your company.&lt;/p&gt;
+
+&lt;p&gt;As part of my writing during my 8th Light Design Apprenticeship, I will be exploring development and more technical pieces of how the internet works from a designer’s perspective, and writing about it so that you, the ambitious designer, can better understand what’s going on.&lt;/p&gt;
+
+&lt;p&gt;***&lt;/p&gt;
+
+&lt;p&gt;This week I started my 5 months as a Design Apprentice at a software shop called 8th Light. Their modern apprenticeship program is an incredible opportunity to learn from the company’s experts (called “crafters,” in that software is their craft). I get to come to work every day and fill the hours learning to fill the gaps in my knowledge and do it in such a way that I’m learning how to do things that will help me work with clients later on, like getting good at estimating the amount of time it will take me to do something and collaborating with teammates.&lt;/p&gt;
+
+&lt;p&gt;One of the most interesting parts about the experience is that I’m the sole Design Apprentice among about a dozen Software Apprentices. Every morning we gather as a group to describe what we’re working on and offer each other solutions, which is followed by an hour-long talk given by a Crafter. For obvious reasons, these talks are aimed at the Software Apprentices and are focused on the world of development.&lt;/p&gt;
+
+&lt;p&gt;Much of these talks, as well as the discussion between the other Apprentices, goes way over my head. They sound like a bunch of young geniuses, and sitting in a room of them can be incredibly daunting. I do know enough about how the internet works and about front-end development that I was able to code and deploy my portfolio site, and during my UX Design Immersive, I was among the most technical in the class. Now, hearing so much that I don’t understand is humbling, to say the least.&lt;/p&gt;
+
+&lt;p&gt;So where does this leave me? I could tune out during these discussions, as well as find reasons not to go to the talks at all. After all, how much does a web/ux designer really need to know about all this technical stuff? This is the question I’ve been mulling over during my first few days.   The answer I’ve come to is this: no, I don’t need to know these things to be a good designer. But I don’t want to be just a good designer - I want to be a great designer. I want to understand the technical requirements and constraints of what I’m designing for (websites, apps, etc) and I want to speed the process of design and production up, not slow it down. If I’m able to gather the information that a developer would usually need to get from a client, and don’t have to run too many questions or ideas past my programming colleagues, everything will run more smoothly.&lt;/p&gt;
+
+&lt;p&gt;Not to mention, more skills is never a bad thing. Don’t get me wrong - I plan on being a UX designer first and foremost. But I’m lucky enough to be spending the next few months in a place where it’s my job to learn, and spending a few hours throughout the week getting up to speed on how the internet works, development basics and collaboration tools like using github is definitely a worthwhile use of time.&lt;/p&gt;
+
+&lt;p&gt;And since part of the Apprenticeship involves blogging about what I’m learning, I’m going to be writing a series of posts explaining these technical things in a way less technical people who work in the tech field will understand and benefit from. I'm going on a journey to become a techical designer, and I'm bringing you along with me.&lt;/p&gt;
+
+&lt;/section&gt;
+</content>
+  </entry>
+  <entry>
+    <title>mobile-first-and-responsive-design</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2016/09/30/mobile-first-and-responsive-design/"/>
+    <id>http://blog.url.com/blog/2016/09/30/mobile-first-and-responsive-design/</id>
+    <published>2016-09-30T09:30:00-05:00</published>
+    <updated>2016-09-30T10:15:55-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;section class="article-container"&gt;
+&lt;h1&gt;The Technical Designer: Cross-platform Design &amp;amp; Mobile First&lt;/h1&gt;
+
+&lt;p&gt;This post is broken down into two sections: design and development/technical. I highly suggest my designer colleagues muddle their way through the technical half and use the links to explore the topics. I’ve &lt;a href="https://github.com/epenzeymoog/my_blog/blob/master/source/2016-06-24-first_post.html.markdown"&gt;made the case before&lt;/a&gt; for designers to be familiar with code and how things work. Designing for mobile first is yet another excellent example of a case where having a full understanding of how it all works makes you able to create better designs than if you only understand how the design half works. And developers, you too should have a working knowledge of the basics of web design (a full post on why is coming later), so I encourage you to read the design portion. Basically, designers and developers alike, read the entire post and choose a topic or two to dig into that are on the other side of your expertise.&lt;/p&gt;
+
+&lt;h2&gt;The Basics&lt;/h2&gt;
+&lt;p&gt;We can’t talk about mobile first without first discussing the basics of cross-platform design. Essentially, there are dozens of screen sizes out there, from small phones to large monitor displays (we’re not going to cover Apple watches here).&lt;/p&gt;
+
+&lt;p&gt;UX designer Theresa Neil’s informative &lt;a href="http://www.slideshare.net/theresaneil/all-the-screens-cross-platform-design-strategies/7-Responsive_Site_Native_App_Web"&gt;informative slide deck&lt;/a&gt; uses this image to explain the options in a nutshell:&lt;/p&gt;
+
+&lt;img src="/images/responsive/cross-platform-design-options.png" alt="Cross platform design options" height="402" width="602" /&gt;
+
+&lt;p&gt;As the image shows, there are two options for getting to your mobile device: web or installed. Installed includes apps and hybrid apps (which allow a site to access some of your phone’s operating system so that it can behave like an app). This post isn’t going to talk about those two options. Obviously having an app is ideal, as you can access all sorts of things on the mobile device and control the experience, but getting users to download an app can be difficult. I for one consistently look at Yelp pages on my phone, and it always tells me download the app and I consistently say no and simply look at their mobile site, as I’m usually in a hurry and don’t want to bother with waiting for the app to download. For reasons like that, even services that do have an app should also have a solid mobile web experience.&lt;/p&gt;
+
+&lt;p&gt;So that leaves the other two options: a responsive site vs an optimized site. A responsive site is just what it sounds like: a single site that has been created in such a way that its styles “respond” to different screen sizes and ensure that it looks good on every device imaginable. An optimized site, on the other hand, is a site that’s dedicated solely to mobile. These have an “m” before the url (for example, m.facebook.com) Optimized sites are rare. Giant companies that get a ton of traffic from mobile, like Facebook or ebay, have them, but the average company doesn’t need one. &lt;a href="https://www.atilus.com/mobile-optimized-vs-responsive-websites/"&gt;This article&lt;/a&gt; does a great job further breaking down the pros and cons of responsive vs. optimized sites.&lt;/p&gt;
+
+&lt;p&gt;So, apps are a different beast and optimized sites are rare - that leaves us with responsive sites, which is what the rest of this post attempts to tackle. However, there’s something you should know first.&lt;/p&gt;
+
+&lt;img src="/images/responsive/one-does-not-simply.png" alt="Boromir" height="402" width="602" /&gt;
+
+&lt;p&gt;Designing a responsive site is a lot of work and actually implementing the styles in CSS can be a massive undertaking. There are dozens of things to consider and in the still new field of responsive design, best practices and standards are still getting sussed out. There are multiple ways to achieve the same thing, and choosing which one is best for your site takes a lot of thought. And finally, the implementation side gets pretty technical. At least a moderate understanding of CSS is necessary to make sense of some of how to actually write the code that makes sites responsive. The learning curve for basic CSS is pretty low, but it gets higher when you start to manipulate your CSS for responsiveness. But, if you’re among those designers who, like me, strive to have a solid technical understanding and write front-end code, don’t be daunted! This guide should serve as a solid first step, and I’ll provide tons of links to pages where things are explained more deeply. Just know that being able to create responsive websites is going to be a bit of a journey, but considering the immense importance of responsive and mobile first design in general, it’s one well worth taking.&lt;/p&gt;
+
+&lt;h2&gt;Mobile First Design &amp;amp; UX Constraints&lt;/h2&gt;
+
+&lt;p&gt;Designing for mobile first first means buying into the idea that mobile-specific design matters. While this may have been an issue five years ago, there are fewer and fewer designers who would argue that ensuring that people accessing your website on their phones have a good experience doesn’t matter. People can and will look at every type of website on their mobile devices. In 2014, &lt;a href="http://www.smartinsights.com/mobile-marketing/mobile-marketing-analytics/mobile-marketing-statistics/"&gt;mobile access overtook desktop access.&lt;/a&gt; As of 2015, over half of all google searches &lt;a href="http://www.inc.com/larry-kim/google-execs-share-10-incredible-new-mobile-web-stats.html"&gt;occur on mobile devices,&lt;/a&gt; and mobile &lt;a href="http://blog.woorank.com/2015/02/reasons-to-have-mobile-friendly-website/"&gt;surpasses desktop&lt;/a&gt; when it comes to shopping.  Overall, &lt;a href="http://blog.woorank.com/2015/02/reasons-to-have-mobile-friendly-website/"&gt;one third&lt;/a&gt; of all online traffic is mobile.&lt;/p&gt;
+
+&lt;p&gt;The issue has a deeper side as well - low income people often have smart phones but no laptop/desktop, meaning they’re &lt;a href="http://www.pewinternet.org/2015/04/01/us-smartphone-use-in-2015/"&gt;performing important tasks,&lt;/a&gt; like job hunting, on their phones. It’s important that websites translate nicely to mobile for people who don’t have any other option.&lt;/p&gt;
+
+&lt;p&gt;In short, designing for mobile matters a lot, and it’s only going to get more important. But we are still designing for desktops first, with smaller screen sizes as an after thought (more specifics on this in the second section). The idea of designing for mobile first changes all that. It means that instead of opening Sketch and creating a new desktop artboard that’s 1024px wide, making our designs, and then figuring out how to translate those to an iPhone-sized artboard, we instead start with the iPhone-sized artboard and do the desktop one later. Mobile literally comes first (surprisingly, many people who use the term don’t understand this. It’s also comes first in the development process, which I’ll get to later).&lt;/p&gt;
+
+&lt;p&gt;The great thing about designing for mobile first is that it forces you to focus on what matters. All the extra stuff gets cut out when you’re designing for the small screens of mobile devices. You’re forced to consider what your users really need and then present them with just that, since there isn’t room for anything else. This is something that designers should be doing anyway, but it’s a very easy step to skip when designing for desktop. If you’re debating putting three pieces of information on the home page, and you’re not sure about which one is the most important to your users, you can just put up all three, even through two may rarely be used and could even detract from the overall experience. Designing for mobile first fixes this problem by forcing us to figure out what’s most important.&lt;/p&gt;
+
+&lt;p&gt;Designer and small screen enthusiast Luke Wroblewski, who literally wrote the book on mobile first (it’s also called &lt;em&gt;Mobile First&lt;/em&gt;) has tons of great advice for designers. It was written in 2011, and in the rapid whirlwind of progress of this field, a mere 5 years can make something feel dated, but Wroblewski’s book holds up. While some of the statistics are dated and touch actions we think of as common today were only just beginning to become standardized, his advice for how to think about mobile design is exceedingly useful, and I’d recommend every designer read his work. What follows are some key pieces of advice gleaned from his writing that can help guide designers in their mobile first work.&lt;/p&gt;
+
+&lt;h3&gt;Get Rid of the Fluff&lt;/h3&gt;
+&lt;p&gt;Like I mentioned earlier, designing for mobile means you have to get rid of the fluff. All the extras and useless things that needed to be on a website’s home page don’t have a place on mobile websites. If something like an ad does make it, it had better be at the bottom because people will likely get confused about whether or not they’re on the right site if they see something unrelated to what they’re trying to be doing.&lt;/p&gt;
+
+&lt;p&gt;Wroblewski points out &lt;a href="kayak.com"&gt;kayak.com&lt;/a&gt; as a great example, and five years later it still holds true. Their site on a desktop looks great, but there are numerous elements at the top that don’t make the cut to mobile. From my phone, I have three tabs: flights, hotels and cars. On my laptop, the options are: flights, hotels, cars, packages, activities, more, trips and sign up. On the mobile site, there are no highlighted deals, advertisements or attempts to get me to sign up for fare updates. If those things were on the mobile site, they’d have to be stacked in one long column and people would have to scroll endlessly to see what was there. From a UX standpoint, being able to see everything on one page, with no scrolling down, helps users feel at ease that they aren’t missing anything, and focus on the task at hand. With the extra junk gone, the result is a simple and easy to use website.&lt;/p&gt;
+
+&lt;h3&gt;Navigation &amp;amp; Organization&lt;/h3&gt;
+&lt;p&gt;When it comes to mobile first design, content trumps navigation. If people go to your site from their phone and see nothing but navigation bars, they’re going to be frustrated. Navigation needs to be handled differently - either reduced in size (like kayak did) or moved all together behind a hamburger menu (though these &lt;a href="http://jamesarcher.me/the-hamburger-menu/"&gt;aren’t really that great&lt;/a&gt; from a usability standpoint and &lt;a href="https://techcrunch.com/2014/05/24/before-the-hamburger-button-kills-you/"&gt;arguably shouldn’t be used at all)&lt;/a&gt; or a button titled “menu" &lt;a href="http://exisweb.net/menu-eats-hamburger"&gt;(which was recently shown to better.)&lt;/a&gt; The designers of the mobile site at kayak could have included all of their navigation items at the expense of the actual flight searching field being pushed down, but the understanding that searching for flights is the main reason people come to their site helped them make the decision to prioritize it and keep it towards the top. The other items are hidden behind a “menu” button.&lt;/p&gt;
+
+&lt;img src="/images/responsive/kayak-desktop-site.png" alt="Kayak desktop site" height="202" width="402" /&gt;
+
+&lt;img src="/images/responsive/kayak-mobile.png" alt="Kayak mobile site" height="202" width="120" /&gt;
+
+&lt;h3&gt;Mobile behaviors&lt;/h3&gt;
+&lt;p&gt;It’s vital that designers understand how and why people use their mobile devices to access websites. Contrary to the notion that people are only using their phones while “on-the-go,” in 2011, Wroblewski notes that over 80% of smart phone owners use their devices at home and at work. The main difference between someone exploring a site on their desktop versus their mobile device is that people use their phones for short bursts of activity while desktop use is typically longer. UX designer Rachel Hitman sums it up nicely: “desktop use is diving while mobile use is snorkeling.” They both involve looking at fish, but the way its done is different. This further makes the case that we need to design mobile sites that let users quickly access the information or activity they need.&lt;/p&gt;
+
+&lt;p&gt;When it comes to the information and activities users need to access on their mobile devices, Josh Clark, author of Tapworthy, explains that it comes down to three main things:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;I’m local - I need to figure something out about where I am right now, like a restaurant address, local activities and events, and transit to get there.&lt;/li&gt;
+	&lt;li&gt;I’m bored - I’m bored and my phone is going to provide something fun or interesting to pass the time.&lt;/li&gt;
+	&lt;li&gt;I’m micro tasking - I need to read, learn, work, or do some other task.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This means that when we design mobile sites for businesses, we need to to ensure that we are giving people what they want. That means a business mobile site should have their address and phone number in a visible spot (like the footer, as opposed to in a page that’s linked to from behind a “menu” button) and that after the most essential information, a site should allow users to keep exploring (if they’re on the site because they’re bored). If your site involves micro tasking, you need to fully understand which tasks are the most important to the highest number of your users (like booking flights is for Kayak’s users). As an example, Wroblewski points to ESPN’s site for mobile, which has a simple header on the top, followed by timely content and then popular time killers. YouTube, on the other hand, had a flaw back in 2011: when users got to the end of a video, there was nowhere else to go - no suggested content or items that would keep them on the page. Making sure users have a clear actions to take and paths to follow is important for the overall experience, not to mention the valuable aspect of how much time they spend on your site.&lt;/p&gt;
+
+&lt;h3&gt;Touch constraints&lt;/h3&gt;
+&lt;p&gt;We typically design for mobile for right-handed people (sorry, lefties) and need to make sure that we’re considering what is easy to reach when a user is physically holding a phone in their hand. You don’t want to put a button that will get used a lot in the “stretch” or “ow” areas of the screen. You will want to put extreme or undesirable actions there - things like “delete” or “cancel” - so that users don’t accidentally hit them and suddenly have to start whatever they were doing over.&lt;/p&gt;
+
+&lt;img src="/images/responsive/ease-of-touch-on-mobile.png" alt="Ease of touch on mobile" height="302" width="500" /&gt;
+
+&lt;p&gt;Designers also need to ensure that touch points are big enough to be easily tapped, swiped, etc, and make sure they are far enough apart from one another that users don’t mistakenly tap the wrong thing. Different companies have different guidelines on how to design for their products. Microsoft recommends 9mm touch targets with a minimum size of 7mm and at least 2mm of space between targets. 
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src="/images/responsive/touch-targets.png" alt="touch targets sizing example" height="402" width="252" /&gt;
+&lt;br /&gt;
+Luke Wrobleski’s site has a nice article that sums up the different design guidelines &lt;a href="http://www.lukew.com/ff/entry.asp?1085"&gt;here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Consider expected touch actions&lt;/h3&gt;
+&lt;p&gt;Thinks like “pull down to refresh” and “swipe for more options” are now expected, and should be included in your design notes. (Never assume a developer will know what’s in your head and make it happen - you must to be detailed about how people will interact with your designs). Interaction design is its own field, as there’s so much that goes into it, but all designers should have a working knowledge of various actions and what’s possible. Research is key here - if your website is a travel service, you need to know what the standard expectations are for mobile versions of travel websites. Users will become frustrated if they expect that a double tap will enlarge a photo on your site and it doesn’t.&lt;/p&gt;
+
+&lt;img src="/images/responsive/touch-actions.png" alt="touch actions" height="402" width="402" /&gt;
+
+&lt;h3&gt;Embrace forms&lt;/h3&gt;
+&lt;p&gt;Forms are among the most boring things to design, but having a form with a great user experience is key. They’re usually how a company gets information they vitally need - an email address for email updates or the credit card number to make a purchase. Forms have a notorious history of having poor user experience, and the effects can be multiplied on a small touch screen where the user has less control. Despite this, people can and do fill out forms on their phones, and we need to design for that reality. Wrobleski, as always, has a ton of great advice in this realm. His advice for designing forms for mobile includes:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Save space by putting labels on top of the input field. If possible (like with a text field), put the label inside of the field and have it disappear when the user starts typing.&lt;/li&gt;
+	&lt;li&gt;Make strong visual distinctions between a form’s label and the user’s input to the form so that they don’t get confused. If you put a label inside of a text form, make it grey and the answer black - don’t make both of them grey or the users will think certain fields have already been filled out for them.&lt;/li&gt;
+	&lt;li&gt;Consider tap efficiency and use “spinners” (like how you select time in your iPhone alarm clock) instead of drop-down selectors when there are many options. If a number input is typically small (like how many travelers you’re purchasing tickets for on kayak.com, which is usually one or two), use a plus and minus button. Always set a default number that makes sense, like Kayak’s “number of travelers” default number of one.&lt;/li&gt; 
+	&lt;li&gt;Use input-specific keyboards with different kinds of input fields. For example, use the email keyboard for a text field asking for an email address. It’ll have “.” and “@“ which reduces the number of clicks and makes things easier for the user.&lt;/li&gt;
+	&lt;li&gt;Make sure to have a note for the developer to turn off autocapitalize and autocorrect settings for form inputs where they don’t make sense, like email and password.&lt;/li&gt;
+	&lt;li&gt;Reveal the format upfront. For example, in a form field collecting the user’s phone number, use  this as your hint text: ___-___-____ . Don’t gradually reveal the input mask while the user is answering the question. With phone numbers, we often see this format: XXX-XXX-XXXX, but as the user types, parenthesis appear around the first number, then the second number, then the first three. This is inconsistent with how the format was presented and can be confusing to users.&lt;/li&gt;
+	&lt;li&gt;Wrobleski: “When it comes to mobile forms, be brutally efficient and trim, trim, trim.” If you don’t absolutely need the information, don’t ask for it. It’s touch enough to get users to fill out forms, doubly so on mobile devices. Take any chance to make it quicker and more painless for your users.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Rethink hover&lt;/h3&gt;
+&lt;p&gt;All hover elements will have to be replaced, since there’s no hover equivalent when using a mobile device. You touch it or you don’t; there is no in-between. If your site reveals something on hover, such as a drop down menu in the navigation that appears when the user hovers over a link, you’ll have to find a new way to display that information. Alternatively, you could use the opportunity to scrap information that gets revealed on hover, as this &lt;a href="https://en.wikipedia.org/wiki/Mystery_meat_navigation"&gt;“mystery meat”&lt;/a&gt; approach is &lt;a href="http://nerdwerx.com/blog/99-ways-to-make-your-website-useless-mystery-meat-navigation"&gt;commonly regarded as a terrible practice.&lt;/a&gt; (You can see more examples of all the confusing things you can do with reveal-on-hover things &lt;a href="https://www.safaribooksonline.com/library/view/designing-web-interfaces/9780596155353/ch04s05.html"&gt;here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Remember big screens…probably&lt;/h3&gt;
+&lt;p&gt;The discussion around responsive design typically revolves around mobile devices, tablets, laptops and desktops, but doesn’t include designing for responsive design for super wide screens:  The typical desktop-first approach also falls short when we consider large screens. The numbers show about &lt;a href="http://www.rapidtables.com/web/dev/screen-resolution-statistics.htm"&gt;10% of Americans are using “large” screen sizes&lt;/a&gt; (though that also depends on how you define “large”). Also, it’s typical that websites often visited by people who work in tech will get a &lt;a href="http://webdesign.tutsplus.com/articles/life-beyond-960px-designing-for-large-screens--webdesign-7348"&gt;larger percentage&lt;/a&gt; of people visiting the site  on a large screen. Although 10% certainly isn’t a big number, it’s very significant and these users need to be considered in the design process as well. Actually doing that is tricky, as this is still a new process without set guidelines. Should you allow your content to fill up all the whitespace? What about a text column that suddenly gets so wide it becomes difficult to read? This is another great reason why designers should have technical understanding. Do you know what will happen to a column of text on a super wide screen? Are you designing for the practical realities of how computers work? &lt;a href="http://webdesign.tutsplus.com/articles/life-beyond-960px-designing-for-large-screens--webdesign-7348"&gt;This article&lt;/a&gt; is a good starting point if you’re looking to learn more about designing for ultra big screens, and &lt;a href="http://www.visionpointmarketing.com/blog/entry/maximum-page-width-in-fluid-responsive-design"&gt;this one&lt;/a&gt; helps understand the idea of designing for a maximum screen width.&lt;/p&gt;
+
+&lt;h3&gt;Reduce HTTP requests and design for spotty coverage&lt;/h3&gt;
+&lt;p&gt;When you go to a website, your web browser fetches files (a page, an image, etc) from a web server. It does this using HTTP, or Hypertext Transfer Protocol, which is a request/response protocol. That means that your computer sends a request for a file (for example, get me the file about.html when clicking on a company’s “About” page), and the web server sends back a response (“Here’s the file”) along with the file itself. (More about how this works &lt;a href="http://rve.org.uk/dumprequest"&gt;here&lt;/a&gt;). This process doesn’t work well if a user is accessing a site from their phone and they have spotty coverage. Less HTTP requests mean the users are downloading less stuff, which can help improve performance when coverage isn’t great. There are a couple of things we can do to reduce the number of HTTP requests (and don’t be afraid to ask developers on your team for help with this:
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href="https://css-tricks.com/css3-gradients/"&gt;Use CSS to make gradients&lt;/a&gt; instead of using a background image (which would require an HTTP request). (This is some seriously cool CSS and worth checking out regardless lowering HTTP requests.)&lt;/li&gt;
+	&lt;li&gt;Also use CSS create rounded corners, text shadows, and box shadows, rather than using images.&lt;/li&gt;
+	&lt;li&gt;Use &lt;a href="https://css-tricks.com/data-uris/"&gt;data URIs&lt;/a&gt; for small images like a special icon for bullet lists or a down arrow in a drop down. Don’t do this for large images.&lt;/li&gt;
+	&lt;li&gt;Bundle together and minify CSS and JavaScript files.&lt;/li&gt;
+	&lt;li&gt;&lt;a href="http://www.html5rocks.com/en/tutorials/appcache/beginner/"&gt;Use proper HTTP headers&lt;/a&gt; to ensure files are properly cached so that files are available even when the user is offline.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+
+&lt;h2&gt;Responsive &amp;amp; mobile first development&lt;/h2&gt;
+
+&lt;p&gt;Onto an overview of how responsive/movile-first development works. A quick warning to my designer friends who are, like me, on a journey to learn front-end development in order to be able to bring their creations to life and be a better designer: this stuff takes a while to learn. Plan on working on this over the next few days if not weeks. Whatever you do, don’t give up, and don’t be afraid to ask for help. Front-end development beyond basic HTML and CSS is a field in and of itself and if it was easy to learn, everyone would do it. If you get stuck, go back to the basics, find codepens to practice with, google your questions and if possible, as for help. Remember, you don’t want to be a good designer, you want to be a great designer, and knowing these things will help you get there. So be ok with being uncomfortable and read on.&lt;/p&gt;
+
+&lt;p&gt;In more technical terms, mobile first means that the first screen designed for is a mobile one. The typical process for implementing the front-end of a website is to start with putting your text and images into the HTML document, then styling it with CSS. You get it looking good on your screen, whatever size that is, and then start dragging the screen to be a smaller width, see where things break (images stocking, things overlapping, etc) and write a breakpoint to give new styling at that width. Then you make your site width a bit smaller, find a new issue, and write a new media query. This is all fine and dandy, except for the part where it’s a ton of unnecessary work. Designing for mobile first, however, means an opposite approach: you start off with your styling at a small mobile screen size (the smallest phone screen designers typically design for right now is 320px, the width of certain iPhones; we’re not considering apple watches here).&lt;/p&gt;
+
+&lt;p&gt;But first, there’s a lot to learn, and since there are experts out there who can explain this stuff way better than I can, it’s best to point you to their writing. I’ve curated a list of articles that are going to help you understand how this works. Read them in order and play around with the examples they provide to better understand the concepts.&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;p&gt;&lt;strong&gt;Understanding the difference between units:&lt;/strong&gt; keywords, pixels, points, percentages, ems and rems. Start with &lt;a href="https://css-tricks.com/css-font-size/"&gt;this article&lt;/a&gt; and then read &lt;a href="http://kyleschaeffer.com/development/css-font-size-em-vs-px-vs-pt-vs/"&gt;this one.&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;p&gt;&lt;strong&gt;Next comes understanding responsive design with media queries.&lt;/strong&gt; Media queries have long been the way to make websites responsive. Essentially, you write your CSS styles, then set a media query so that at a certain screen width, different styles occur. This is just one of many methods, and it’s probably the most basic, but it’s still in use and something you need to know about. Read about media queries &lt;a href="http://www.htmlgoodies.com/beyond/css/introduction-to-css-media-queries.html"&gt;here&lt;/a&gt; and practice them with &lt;a href="https://codepen.io/TrentWalton/pen/kqxDy"&gt;this codepen.&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;p&gt;&lt;strong&gt;Two types of media queries:&lt;/strong&gt; did you notice when you were reading about media queries that sometimes they say mid-width and sometimes they say max-width? Desktop-first design uses max-width and mobile first design uses min-width. It’s ok if you find this confusing - the labeling doesn't do us any favors and even some senior designer still have to look up which is which. Read more about it &lt;a href="http://www.the-haystack.com/2015/12/23/choosing-between-min-and-max-width/"&gt;here&lt;/a&gt; and practice with max-width &lt;a href="http://codepen.io/schmeeves/pen/bZvPKx"&gt;here&lt;/a&gt; and min-width &lt;a href="http://codepen.io/schmeeves/pen/GqxbGy"&gt;here.&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;p&gt;&lt;strong&gt;Media query pitfulls:&lt;/strong&gt; have you figured out the big problem with media queries? They were great back when there were just a few different devices we had to design for. We could set a few breakpoints and be done with it. But now there are dozens of sizes of phones, tables and e-readers, and that means a lot of media queries. Not only that, but there are a few other more &lt;a href="http://trydevkit.com/blog-post/the-drawbacks-of-media-queries-for-responsive-design/df7f6af5-64d0-f043-82b0-526010d5b916"&gt;technical drawbacks&lt;/a&gt; you should be familiar with.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Up and coming: fluid design&lt;/h3&gt;
+&lt;p&gt;“Fluid design” is a newer thing that might overtake media query-based responsive design at some point. I don’t know anyone who uses it, but it’s something you should be familiar with (and full disclaimer, I don’t fully understand it, but want to mention it here and provide some links so you can at least be familiar with it). Some call fluid design the answer to the problem with media queries. When there are so many device sizes out there, we need something more than a website that “responds” to the screen width; our designs need to be truly fluid. There’s still a lot of confusion about the term “fluid” vs. the term “responsive.” As you already know, responsive sites use media queries to create different styles for different screen widths. They have break points and set containers, so if you really think about, everything is still fixed; there are just lots and lots of fixed styles and media queries dictate which one is getting used. Fluid websites, on the other hand, do not have break points or set containers. Start with &lt;a href="http://blog.spinweb.net/6-beautiful-examples-of-fluid-website-design"&gt;this article&lt;/a&gt; for a nice overview and some example of beautiful fluid websites and then work your way through &lt;a href="http://www.creativebloq.com/css3/create-fluid-layouts-html5-and-css3-3142768"&gt;this article&lt;/a&gt; to get some practice.&lt;/p&gt;
+
+&lt;h3&gt;Understanding Responsive Typography&lt;/h3&gt;
+&lt;p&gt;There is a lot to learn here, and things have changed a lot in the last 5 years, meaning that even when you do find a good explanation for something, it might be out of date. From my own time spent trying to figure out how best to handle typography, I’ve learned not to trust anything written before 2013. A nasty &lt;a href="http://stackoverflow.com/questions/12257158/zooming-on-chrome-causes-css-positioning-issues"&gt;bug with zooming&lt;/a&gt; (which caused layouts to change significantly when users zoomed in on a website) got fixed in 2012, and that changed a lot. So always make sure what you’re reading is current. As of now (summer 2016), there are a few options on how to handle typography.&lt;/p&gt;
+&lt;p&gt;Start by getting an understanding of typography by working your way through &lt;a href="http://practicaltypography.com/"&gt;this online book.&lt;/a&gt; There’s a lot to typography other than purely the text; line height, for example, is an important part of readability that often suffers with responsive design. Get to know the basics here. (Don’t be fooled, the chapter names are all actually clickable links. And if you can afford to, you should absolutely &lt;a href="http://practicaltypography.com/how-to-pay-for-this-book.html"&gt;sustain this author’s awesome work monetarily&lt;/a&gt;).&lt;/p&gt; 
+&lt;p&gt;A popular practice is to set a font size for the entire document, and then treat every instance of font-size that comes after it as a child and use a relative unit, such as ems, that scales the font according to what you set its parent. So if you set the body to font-size: 12px and then set the font-size of a paragraph to font-size: 2em, your paragraph text would be 2 times the size of the body, or 24px. Here is a &lt;a href="http://codepen.io/schmeeves/pen/XKELKw"&gt;super simple codepen&lt;/a&gt; to use to play around with. Next, read about why it doesn’t always work perfectly &lt;a href="https://www.filamentgroup.com/lab/how-we-learned-to-leave-body-font-size-alone.html"&gt;here.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Did you think you were done learning about units? The need for responsive design has necessitated the creation of even more units, but keep going because these ones are really cool and make things much easier. Learn about wh, vh, vmin and vmax &lt;a href="https://css-tricks.com/viewport-sized-typography/"&gt;here&lt;/a&gt; and then because it can be helpful to read articles that explain it a bit differently, read &lt;a href="http://generatedcontent.org/post/21279324555/viewportunits"&gt;this one too.&lt;/a&gt; Note that this is for more than just typography, but make sure to test your designs on different browsers since this isn’t fully supported yet.&lt;/p&gt;
+&lt;p&gt;Another option is to create a typographical scale. You go int your CSS document and set every type element - h1, h2, p, etc - to the size you want. You get to control exactly how each of the text elements is set by default, and then can use media queries to change the size of those elements for different screens. Start learning about how to set up a type scale &lt;a href="http://webdesign.tutsplus.com/articles/how-to-establish-a-modular-typographic-scale--webdesign-14927"&gt;here&lt;/a&gt; and then move onto &lt;a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography"&gt;this article,&lt;/a&gt;which explains the issue of relative the scale between elements becoming more exaggerated as screen size becomes lower, and proposes a very specific scale to use for the text elements at 6 different screen sizes.&lt;/p&gt;
+&lt;p&gt;If, after all this, you feel ready to go further and continue learning advanced HTML and CSS, go to front-end master &lt;a href="http://learn.shayhowe.com/"&gt;Shay Howe’s website&lt;/a&gt; and start working through his lessons.&lt;/p&gt;
+
+
+&lt;h3&gt;Wrapping it up&lt;/h3&gt;
+&lt;p&gt;Mobile first, responsive, and fluid design and implementation encompass a lot of different areas of knowledge, from user-centric understanding of how people use their phones to form design to media queries to a solid understanding of typography. If it takes a while to nail down the task of “creating a responsive website” or “going mobile first,” you know you’re doing it right. At the end of the day, there are multiple options to choose from and it’s important to understand all of them in order to pick the one that best fits your project. Standards are still emerging and browsers are still catching up to what is possible. At the end of the day, the answer is usually the ever-frustrating “it depends,” and you need to use a method that seems like it would make sense for your project, test it out, and make your changes accordingly.&lt;/p&gt;
+&lt;/section&gt;
+</content>
+  </entry>
+  <entry>
+    <title>css-architecture</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2016/09/30/css-architecture/"/>
+    <id>http://blog.url.com/blog/2016/09/30/css-architecture/</id>
+    <published>2016-09-30T09:29:00-05:00</published>
+    <updated>2016-09-30T10:14:44-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;section class="article-container"&gt;
+&lt;h1&gt;Using Bourbon &amp;amp; Neat&lt;/h1&gt;
+
+&lt;p&gt;Bourbon is a mixin library for Sass.&lt;/p&gt;
+
+&lt;p&gt;Sass gives us the ability to keep our styles in cleanly separated files and write those styles with the help of variables that we define in yet another file. We use @import to import the files to each other and build on top of them. They are all imported into a single file made up of nothing but imports - this is our main Sass file. Sass uses it’s magic (the watch command, which is explained later) to compile the contents of this main Sass file (which are the contents of all the other files it’s lined to) to a single CSS file that the browser uses to get styles from. Sass saves us from the messiness of a long CSS file. It does all the work for us.&lt;/p&gt;
+
+&lt;p&gt;Sass mixing are blocks of code that we define once and then re-use in other places. If you’ve ever learned a programming language, you can think of these the same as functions or methods. Mixing can take multiple parameters/arguments.&lt;/p&gt;
+
+&lt;p&gt;For example, in my project I am going to have a few different headlines with different styles for color and font size. So I create a mixin called “headline” and give it the arguments of $color and$size:&lt;/p&gt;
+
+&lt;code&gt;
+@mixin headline ($color, $size) {
+&lt;/code&gt;
+&lt;code&gt;
+  color: $color;
+&lt;/code&gt;
+&lt;code&gt;
+  font-size: $size;
+&lt;/code&gt;
+}
+&amp;lt;/code&amp;gt;
+
+&lt;p&gt; With this mixin, we are preparing whatever we apply it to to be ready to catch a color and font-size, which we will define as arguments when we need to. When I want to use this for one of my headline styles, for example an h2 that I want to be 18px and red, I would write:&lt;/p&gt;
+
+&lt;code&gt;
+h2 {
+  @include headline(red, 18px);
+}
+&lt;/code&gt;
+
+&lt;p&gt;Now my h2 will have color: red and font-size: 18px. Sass will compile this to:&lt;/p&gt;
+
+&lt;code&gt;
+h1 {
+  color: green;   
+  font-size: 12px;
+}
+&lt;/code&gt;
+
+&lt;p&gt;You can also pass a variable as an argument. If you defined a variable $base-color: pink; then you could have written:&lt;/p&gt;
+
+&lt;code&gt;
+h2 {
+  @include headline ($base-color, 18px)
+}
+&lt;/code&gt;
+
+&lt;p&gt;Let’s get back to Bourbon. Like I said earlier, Bourbon is a mixin library for Sass. Some people at thoughtbot decided it would be a good idea to centralize some of the most useful mixins so that we’re not all reinventing the wheel in slightly different ways all the time. The actual mixins are really useful, and once you’re finished setting it all up, go through each item to check out what it does.&lt;/p&gt;
+
+&lt;p&gt;Once you have Bourbon you can get Neat. Neat is a cool little grid framework that makes layout and positioning - the cause most designers’ eternal headache - much easier. It’s super responsive, clean and lightweight.&lt;/p&gt;
+
+&lt;p&gt;Here’s how to get it all up and running:&lt;/p&gt;
+
+&lt;p&gt;If you’ve never used Sass before, you'll have to install that first. If you’re not sure, run the following command in your terminal:&lt;/p&gt;
+&lt;code&gt;$ sass -v&lt;/code&gt;
+
+&lt;p&gt;If you have Sass, you’ll get “Sass 3.4.22 (Selective Steve)” or something similar. 
+If you don’t have Sass, install by going to your home directory and entering:&lt;/p&gt;
+&lt;code&gt;$ gem install sass&lt;/code&gt;
+
+&lt;p&gt;Sass has a handy feature that allows it to be constantly watching for changes in your sass files and compiling them to your css file. You’ll want to use your main Sass file for this, which you will use to import all the other styles you’ve written with Sass, as well as your variables file. This file is essentially one long list of @import “_variables” and so on. To set up the watch for changes, cd into your stylesheets directory and run:&lt;/p&gt;
+&lt;code&gt;$sass - - watch input.scss:output.css&lt;/code&gt;
+
+&lt;p&gt;Replacing “input” and “output” with your own file names. This is telling Sass to watch your scss file (where you are inputting styles) and output it your css file.&lt;/p&gt;
+
+&lt;p&gt;In the project’s directory, install Bourbon using RubyGems:&lt;/p&gt;
+&lt;code&gt;$ gem install bourbon&lt;/code&gt;
+
+&lt;p&gt;2. Change directories into the project’s stylesheets directory and use the following command to generate the bourbon folder full of cool things:&lt;/p&gt;
+&lt;code&gt;$ bourbon install&lt;/code&gt;
+
+&lt;p&gt;3. Open up your main stylesheet. If you’ve used Sass before, you know this as the main stylesheet that has all of your @import code where you’re important your various styles. At the very top of this document add @import “bourbon/bourbon” . It will have to be at the very top, before all the other @import s. &lt;/p&gt;
+
+&lt;p&gt;Now you can install Neat. Back in your project directory in terminal, write:&lt;/p&gt;
+&lt;code&gt;$ gem install neat&lt;/code&gt;
+
+&lt;p&gt;cd into your Sass stylesheets directory. Now write:&lt;/p&gt;
+&lt;code&gt;$ neat install&lt;/code&gt;
+
+&lt;p&gt;Now you’re up and running with Bourbon and Neat! There are tons of things in those directories that you can use to structure your project. Go through them and figure out what you want to use, and delete things you definitely don’t.&lt;/p&gt;
+
+&lt;/section&gt;
+</content>
+  </entry>
+  <entry>
+    <title>fun-with-html-forms</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2016/09/30/fun-with-html-forms/"/>
+    <id>http://blog.url.com/blog/2016/09/30/fun-with-html-forms/</id>
+    <published>2016-09-30T09:20:00-05:00</published>
+    <updated>2016-09-30T10:15:18-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;section class="article-container"&gt;
+&lt;h1&gt;Fun with HTML forms&lt;/h1&gt;
+&lt;p&gt;Forms are important for capturing user information and are found everywhere around the internet, from sign up forms for apps to posting Facebook status to inputting your birthday to show that you’re over 21 before entering a brewery’s website. They’re essential and they’re everywhere. And yet they’re often a huge barrier to a user friendly experience, and while there are many reasons for this, one is that designers often don’t know about the wide variety of options available to them. Knowing how forms are built can help designers make them more user friendly. This is yet another reason for designers to be versed in the technical side of what they’re designing. By the way, the topic of designing forms is a &lt;a href="https://www.gravitatedesign.com/blog/best-form-ever/"&gt;whole separate&lt;/a&gt; &lt;a href="http://www.lukew.com/ff/entry.asp?1502"&gt;(and huge)&lt;/a&gt; issue that every designer should explore from a UX standpoint.&lt;/p&gt;
+
+&lt;p&gt;There are a lot of options for creating forms, and people have recently been doing some really exciting things with making forms easier and more fun to fill out. Yes, forms can be exciting!!! I’ll cover that part towards the end, as a reward for getting through this admittedly dull topic. In the meantime, there’s been a lot of action lately around forms, with HTML5 releasing 13 new input fields in 2013. Many of them have no reached a solid browser support to start to be used in every day websites. Let’s start with the old standards and then move onto the exciting stuff. Note that lots of these input types can accept “attributes,” which give more information about how the form should look and function. There are lots of attributes and tons of possibilities for using them within input types. I’ve noted where values are the most useful or essential when necessary within the explanation of the various input types.&lt;/p&gt;
+
+&lt;h2&gt;Input Types&lt;/h2&gt;
+&lt;p&gt;For a long time there were 7 main input types: text, password, radio, checkbox, number, button and submit. These are still among the most commonly used.&lt;/p&gt;
+
+&lt;strong&gt;Input type: text&lt;/strong&gt;
+&lt;p&gt;&amp;lt; input type=“text” &amp;gt; creates a single line input field that can by typed into.&lt;/p&gt;
+
+&lt;strong&gt;Input type: password&lt;/strong&gt;
+&lt;p&gt;&amp;lt; input type=“password” &amp;gt; creates a single line password field. It’s just like a text field, only the input get’s “masked.” Instead of the text showing up, the display shows asterisks or circles.&lt;/p&gt;
+
+&lt;strong&gt;Input type: radio&lt;/strong&gt;
+&lt;p&gt;&amp;lt; input type=“radio” &amp;gt; creates radio buttons, which are little clickable circles. With radio buttons, only one can be selected, so using these means you’re forcing the user to choose just one of the options.&lt;/p&gt;
+
+&lt;strong&gt;Input type: checkbox&lt;/strong&gt;
+&lt;p&gt;&amp;lt; input type=“checkbox” &amp;gt; creates checkboxes, which are little clickable squares. With checkboxes, the user can select multiple options, or none at all.&lt;/p&gt;
+
+&lt;p&gt;It’s a common mistake to get radio boxes and checkboxes confused when designing a form. Pay attention when you’re setting it up and make sure to always test it out with someone before releasing it to the masses. This is the most common error that will get pointed out. There’s nothing worse that being forced to report that you only have a dog when you also have a cat and some fish.&lt;/p&gt;
+
+&lt;strong&gt;Input type: button&lt;/strong&gt;
+&lt;p&gt; &amp;lt; input type=“button &amp;gt; creates a grey rectangular button with text in the middle of it. Note that this used to be the way to create a button, but HTML5 gave &lt;code&gt;button&lt;/code&gt; it’s very own element, so creating it using an input is no longer necessary. The most common result of clicking a button is moving to a new URL as if it was a link (which it essentially is.) While the &lt;code&gt;button&lt;/code&gt; element still can’t do much on its own, it’s a useful way for users to https://css-tricks.com/use-button-element/ get at some action that requires javascript, which is a whole separate topic.&amp;lt;/button&amp;gt; 
+
+&lt;strong&gt;Input type: submit&lt;/strong&gt;
+&lt;p&gt;&amp;lt; input type=“submit” &amp;gt; creates a button that submits the form input to a form handler. A form handler is typically a server page with a script that processes the input data and is specified in the form’s action attribute. In simple websites, this is often an email address (meaning the form’s input gets sent to someone in an email) and in larger websites it’s usually sent to a server. More complex sites that get lots of forms and need a system to manage them create a custom form handler that can do things like sort the information into databases.&lt;/p&gt;
+
+
+
+&lt;h2&gt;New HTML5 Input Types&lt;/h2&gt;
+&lt;p&gt;HTML5 added several new input types. They behave as input type: text and are not well supported by old browsers.&lt;/p&gt;
+
+&lt;strong&gt;Input type: number&lt;/strong&gt;
+&lt;p&gt;&amp;lt; input type=“number” &amp;gt; creates an input field for a numeric value. It also creates up and down arrows that allow users to select numbers from the list. This input type can include the attributes “min” and “max” so that users can only select numbers from within a certain range.&lt;/p&gt;
+
+&lt;strong&gt;Input type: date&lt;/strong&gt;
+&lt;p&gt;&amp;lt; input type=“date” &amp;gt; is used for inputs that should be a date. The text field is auto-populated with “mm/dd/yyyy” and there’s a small date picker as well as a down arrow indicating a drop down that opens to a calendar’s month view.&lt;/p&gt;
+
+&lt;strong&gt;Input type: color&lt;/strong&gt;
+&lt;p&gt;&amp;lt; input type=“color” &amp;gt; is used for inputs that should be a color. It creates a small red rectangle that when clicked brings up the color wheel. The user can select their favorite color and then close the color wheel. The input received is the hex value of that color.&lt;/p&gt;
+
+&lt;strong&gt;Input type: range&lt;/strong&gt;
+&lt;p&gt;&amp;lt; input type=“range” &amp;gt; is used for inputs that should contain a value within a range. The attributes “min” and “max” are used to set the lower and upper limits of the range. This input type creates a grey slider bar with a circle in the middle the user can move to the point within the range they’d like to select. The input is recorded as the number within the range.&lt;/p&gt;
+
+&lt;strong&gt;Input type: month&lt;/strong&gt;
+&lt;p&gt;&amp;lt; input type=“month” &amp;gt; allows the user to select both a month and a year. A dropdown arrow reveals a month calendar the user can select from. This input type creates a box with 9 dashes followed by 4 dashes. The user can use the date picker to select a month (which are written out, not numbered) or the user can start typing a month in and it will auto-populate. For example, typing “F” resulted in February. The user can then hit tab to go to the year section and type in four numbers to input the year.&lt;/p&gt;
+
+&lt;strong&gt;Input type: week&lt;/strong&gt;
+&lt;p&gt;&amp;lt; input type=“week” &amp;gt; allows the user to select both a week and a year. A dropdown arrow reveals a month calendar the user can select from (it selects an entire week). This input type creates a box with “week -  - , -  -  -  -.” A date picker allows the user to select the number of the week (starting with 1), or the user can type it into the field directly. The user then types in the year.&lt;/p&gt;
+
+&lt;strong&gt;Input time: time&lt;/strong&gt;
+&lt;p&gt;&amp;lt; input type=“time” &amp;gt; allows the user to select a time (but no time zone). It results in a box where the user can either directly input or use the time selector to choose the hour (two digits) and minute (two digits) and then either AM or PM.&lt;/p&gt;
+
+&lt;strong&gt;Input type: datetime&lt;/strong&gt;
+&lt;p&gt;&amp;lt; input type=“datetime” &amp;gt; is not yet supported on Chrome, Firefox or Internet Explorer. On the browsers it does work on, it results in a date picker pop up when the user clicks into the (blank) text field, including a time zone.&lt;/p&gt;
+ 
+&lt;strong&gt;Input type: datetime-local&lt;/strong&gt;
+&lt;p&gt;&amp;lt; input type=“datetime-local” &amp;gt; is not yet supported on Firefox or Internet Explorer 10 and earlier. On the browsers it does work on, it results in a date picker pop up when the user clicks into the text field, with no time zone.&lt;/p&gt;
+
+&lt;strong&gt;Input type: email&lt;/strong&gt;
+&lt;p&gt;&amp;lt; input type=“email” &amp;gt; is used for input types that should contain an email address. It is a blank text field with nothing special, but if the user clicks “submit” without entering and “@“ sign, an alert will appear telling the user to enter an email address with an “@“ sign. It does not require a valid “.com” or similar text (meaning it accepts something like “monkey@bananas as an acceptable response). This input type is not supported in IE9 and earlier.&lt;/p&gt;
+
+&lt;strong&gt;Input type: search&lt;/strong&gt;
+&lt;p&gt;&amp;lt; input type=“search” &amp;gt; is used for search fields, which behave like regular text fields. When the user inputs something into the text field (for example “bananas”) the result is recorded as “googlesearch=bananas.” There isn’t a lot of usefulness for this input type yet. Theoretically using it on a smartphone could bring up an internal search applet. Mostly it exists right now so that the designer can add extra presentation to let the user know it’s a search box. Also, pressing ESC in a search input will clear the results.&lt;/p&gt;
+
+&lt;strong&gt;Input type: tel&lt;/strong&gt;
+&lt;p&gt;&amp;lt; input type=“tel” &amp;gt; is used for an input that should contain a phone number. It is only supported in Safari 8. From my testing, there are no actual requirements for this text field, as entering “asdf” was accepted as recorded input.&lt;/p&gt;
+
+&lt;strong&gt;Input type: url&lt;/strong&gt;
+&lt;p&gt;&amp;lt; input type=“url” &amp;gt; is used for an input that should contain a url, for example, an online job application with the form “enter your portfolio website.” This input type is not supported in IE9 and earlier versions. This input type does have requirements - submitting “asdf” results in an alert asking the user to enter a url. To make things confusing, it also does not accept “google.com” or “www.google.com.” The only thing I could make it accept was “http://google.com” and even then the recorded input was merely “illegal input,” not the actual text I had entered. The main benefit of this input type comes when it’s being used on a smart phone, as it causes the url keyboard to be brought up, which replaces the space bar with a period, a forward slash, and “.com” key. &lt;/p&gt;
+
+&lt;h2&gt;Cool New Stuff&lt;/h2&gt;
+&lt;p&gt;Dull as forms are, they’re super important and designers are working hard to make them easier. There are some &lt;a href="https://medium.com/swlh/creative-form-input-field-design-examples-bfe5dd50808a#.jz4u1lh28"&gt; new ideas out there&lt;/a&gt; that even go so far as to make form - dare I say - fun. We’ll probably take all of these innovations for granted in a few years, but right now these new designs feel pretty awesome. Here’s a round up of the cool new stuff in the world of forms:&lt;/p&gt;
+
+&lt;strong&gt;Single-field form interface&lt;/strong&gt;
+&lt;p&gt;A great way to make forms more user friendly is to make the form feel manageable by not presenting the user with a giant form right away. Revealing things as the user needs to interact with them is a solid UX practice. The amazing &lt;a href="http://tympanus.net/codrops/2014/04/01/minimal-form-interface/"&gt; single-field form interface&lt;/a&gt; is a great way to do that. Each new input for the form is only revealed when the user is finished with the last input, and some javascript makes the transitions from one input field to the next smooth and pleasant.&lt;/p&gt;
+
+&lt;strong&gt;Single-field form credit cart input pattern&lt;/strong&gt;
+&lt;p&gt;Designer Brad Frost took the concept of single-field form interface and created a design for a credit card information form that’s quick and painless. See his short and sweet explanation and screencast demo &lt;a href="http://bradfrost.com/blog/post/single-field-credit-card-input-pattern/"&gt; on his blog.&lt;/a&gt; His creation makes it feel like there’s one single field for credit card number, expiration date, CID number and zip code, due to the fact that the form is continuously resizing itself as the user puts in new information and the cursor automatically jumps to the next field once it reaches the necessary amount of characters. (This “auto jumping” is also a really cool form feature that’s &lt;a href="http://www.htmlcodetutorial.com/forms/index_famsupp_162.html"&gt; created with javascript.&lt;/a&gt; Here’s to hoping someday the HTML wizards are able to make it happen with a simple HTML attribute. I should note here that there’s &lt;a href="http://stackoverflow.com/questions/1959398/moving-a-focus-when-the-input-text-field-reaches-a-max-length"&gt; some debate&lt;/a&gt; about this functionality, as people who aren’t used to it can easily make mistakes, such as hitting tab when they’re done with a field, which, with this functionality, would cause the curser to move two fields over instead of one. But like lots of UI features, something that’s debated now could very well become an expected action within the next few years.)&lt;/p&gt;
+
+&lt;strong&gt;Fullscreen Forms&lt;/strong&gt;
+&lt;p&gt;A &lt;a href="http://tympanus.net/codrops/2014/07/30/fullscreen-form-interface/"&gt; fullscreen form&lt;/a&gt; centers around the idea that if people have fewer distractions, they’ll get through the form quicker. By making the form fullscreen (and sometimes using some nifty javascript animations), the user is able to focus on the task of filling it out.&lt;/p&gt;
+
+&lt;strong&gt;Natural Language Forms&lt;/strong&gt;
+&lt;p&gt;Natural language UI is a form of UI that essentially has writing that mimics the way we actually write. Rather than a form that asks for “First Name:” followed by a text field, it might say “Hi! Tell me a bit about yourself” followed by a form with “My name is ____ and I live in ____.” These &lt;a href="http://tympanus.net/codrops/2013/05/21/natural-language-form-with-custom-input-elements/"&gt; natural language forms&lt;/a&gt; can make filling out a form feel more personal.&lt;/p&gt;
+
+&lt;strong&gt;Visual Representation Form&lt;/strong&gt;
+&lt;p&gt;Just like a natural language form mimics the way we actually communicate with people, &lt;a href="https://dribbble.com/shots/1108262-Credit-Card-skeuomorph-flat-and-contour"&gt; visual representation&lt;/a&gt; forms mimic the physical item that holds the information we’re entering into the form. The most obvious example of this is a credit card. The previous link shows an example of this type of form. The user types the credit card information into a form that’s in the shape of a credit card, which is sort of fun and helps the user understand exactly what is being asked of them.&lt;/p&gt;
+
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;While forms can definitely be boring, there are so many great ways that HTML5 is making things exciting, and designers are finding ways to make filling them out simple, painless, and sometimes even a little bit fun. Hopefully these new developments help us all to embrace forms as not just something kind of annoying that we need because of the information they give us, but as an exciting and delightful part of our user’s experience within our products.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;/section&gt;
+</content>
+  </entry>
+  <entry>
+    <title>semantic-html-matters</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2016/09/30/semantic-html-matters/"/>
+    <id>http://blog.url.com/blog/2016/09/30/semantic-html-matters/</id>
+    <published>2016-09-30T09:13:00-05:00</published>
+    <updated>2016-09-30T10:16:21-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;section class="article-container"&gt;
+&lt;h1&gt;Semantic HTML Matters&lt;/h1&gt;
+
+&lt;h2&gt;The Basics of HTML&lt;/h2&gt;
+
+&lt;p&gt;The basics of HTML and CSS are often the very first lessons in “teach yourself to code” tutorials. This makes sense, as these two languages build the basic visuals of a website and are much easier for a beginner to wrap their head around than, say, creating an array in ruby. They teach just enough to get yourself up and running so that you can move onto the fund stuff, but rarely move beyond the simplest of elements, much less teach us why semantic HTML is important. It makes sense to start here, but the fact that these tutorials typically only teach very basic HTML, combined with the fact that many developers never return to these “basics,” means that our knowledge stays, well, basic. I hate to admit that I’m one of these people - I’d rather dedicate my time to learning cool things like flex box (with my favorite &lt;a href="http://flexboxfroggy.com/"&gt;frog-based game&lt;/a&gt;) and &lt;a href="https://css-tricks.com/css3-gradients/"&gt;beautiful CSS gradients&lt;/a&gt; than learn about all the elements HTML5 gives us beyond &lt;code&gt;header&lt;/code&gt;, &lt;code&gt;footer&lt;/code&gt; and &lt;code&gt;section&lt;/code&gt;. But alas, my mentor here at 8th Light has (I suspect) caught me using one too many &lt;code&gt;div&lt;/code&gt; elements, and it’s high time I went back and augmented my HTML knowledge, which at this point has been the very minimum needed to hand-code a website. This might fly at some companies, but 8th Light is all about doing things right and not cutting corners, meaning it’s time for me to give up my constant use of &lt;code&gt;div&lt;/code&gt;s and learn to do things properly now as an apprentice, before I ever have the chance to subject a client to an abundance of &lt;code&gt;div&lt;/code&gt; tags. &lt;/p&gt;
+
+&lt;h2&gt;Semantic HTML&lt;/h2&gt;
+
+&lt;p&gt;Semantics is the study of the meaning of words and phrases in language, and semantic elements are simply elements that have a meaning. In HTML, a semantic element describes its meaning. For example, the &lt;code&gt;header&lt;/code&gt; element is describing itself - “header” is both its name and its meaning. Alternatively, the element &lt;code&gt;div&lt;/code&gt; is non-semantic, because “div” is not a word that tells us anything about its content. &lt;code&gt;span&lt;/code&gt; is the other commonly used non-semantic HTML element.&lt;/p&gt;
+
+&lt;h2&gt;Why Bother with Semantic HTML?&lt;/h2&gt;
+&lt;p&gt;Using proper semantic elements in our HTML is important for a lot of reasons. First, it makes it easier for us to go back to and change things later. Also, since it’s easier to understand, a new person on the project can pick up the code they can learn it much faster. Second, it helps us when writing our CSS styles - we can change the look of the site without recoding all of the HTML.&lt;/p&gt;
+
+&lt;p&gt;In addition to helping human developers have an easier job, semantic HTML is also useful for browsers. Browser looks for semantic HTML, and when it finds it, two important things happen: first, visually impaired people are able to have speech browsers read the page to them properly. Using semantic HTML aids in accessibility. Second, search engines understand what the content is about and are able to rank your site more accurately. Semantic HTML helps increase SEO.&lt;/p&gt;
+
+&lt;h2&gt;Non-semantic HTML&lt;/h2&gt;
+&lt;p&gt;Non-semantic HTML elements include &lt;code&gt;div&lt;/code&gt; and &lt;code&gt;span&lt;/code&gt;. &lt;/p&gt;
+
+&lt;p&gt; &lt;code&gt;div&lt;/code&gt; is short for “division,” as in, it divides your elements into chunks of code. A &lt;code&gt;div&lt;/code&gt; creates a block-line element (so essentially there is a line-break before and after it) while &lt;code&gt;span&lt;/code&gt; tags are inline and used for a small chunk of HTML inside a line (for example, a few words in a paragraph). I was unable to figure out the official meaning behind the term “span,” but think it might have to do with the literal meaning of “span,” which is “the full extent of something from end-to-end, as in “the bridge spans a quarter mile over the river.” This might make sense considering a &lt;code&gt;span&lt;/code&gt; element is in-line and spans exactly the area we assign it to (as opposed to the block-element &lt;code&gt;div&lt;/code&gt;, which has a line-break on either end, meaning it covers a bit more than the actual area we assign it to). &lt;/p&gt;
+
+&lt;p&gt;I made a &lt;a href="http://codepen.io/pen/#"&gt;quick codepen &lt;/a&gt;to show the advantage of using proper semantic HTML over &lt;code&gt;div&lt;/code&gt;s. Other than being the right way to do things, better for screen readers and therefore accessibility, and SEO-aiding, it also results in less code, which is always better.&lt;/p&gt;
+
+&lt;h2&gt;Categories of Semantic HTML&lt;/h2&gt;
+
+&lt;h3&gt;Basic Elements&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;&lt;strong&gt;html&lt;/strong&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;html&lt;/code&gt; element is the room of the document. All other elements have to be decedents of this element.&lt;/p&gt;
+
+&lt;h3&gt;Document Metadata&lt;/h3&gt;
+&lt;p&gt;Metadata contains information about the page (as opposed to everything that comes after in this list, which actually make something appear on the screen). Metadata includes information about styles, scripts, and data that help browsers and search engines render and use the page.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&lt;strong&gt;base&lt;/strong&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;base&lt;/code&gt; element specifies the base URL to use for all the relative URLs that are contained within a document. There’s only one &lt;code&gt;base&lt;/code&gt; element per document.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&lt;strong&gt;head&lt;/strong&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;head&lt;/code&gt; element is used to hold the rest of the metadata within it, including the page’s title and links to its style sheets, scripts, and google fonts.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&lt;strong&gt;link&lt;/strong&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;link&lt;/code&gt; element shows relationships between the current document and an external resource and is what is commonly used to link to style sheets. This element is explained further later on.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&lt;strong&gt;title&lt;/strong&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;title&lt;/code&gt; element defines the title of the document, which is shown in the browser bar or page’s tab. The &lt;code&gt;title&lt;/code&gt; can only contain text.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&lt;strong&gt;style&lt;/strong&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;style&lt;/code&gt; element contains the style information for a document and is expected to link to a page written in CSS.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&lt;strong&gt;meta&lt;/strong&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;meta&lt;/code&gt; element is for any metadata that can’t be represented in one of the other meta-related elements listed above. This often includes the line
+&lt;code&gt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8”&lt;/code&gt;
+which designates the character set, as well as the line
+&lt;code&gt;meta name="viewport" content="width=device-width, initial-scale=1.0”&lt;/code&gt;
+which is necessary for CSS media queries (which are used for responsive design styles LINK) to be recognized.&lt;/p&gt;
+
+&lt;h3&gt;Sectioning&lt;/h3&gt;
+&lt;p&gt;Content section semantic HTML tags include &lt;code&gt;body&lt;/code&gt;, &lt;code&gt;header&lt;/code&gt;, &lt;code&gt;footer&lt;/code&gt;, &lt;code&gt;nav&lt;/code&gt;, &lt;code&gt;section&lt;/code&gt;, &lt;code&gt;h1&lt;/code&gt;, &lt;code&gt;h2&lt;/code&gt;, &lt;code&gt;h3&lt;/code&gt;, &lt;code&gt;h4&lt;/code&gt;, &lt;code&gt;h5&lt;/code&gt;, &lt;code&gt;h6&lt;/code&gt;, &lt;code&gt;article&lt;/code&gt;, &lt;code&gt;aside&lt;/code&gt; and &lt;code&gt;address&lt;/code&gt;. 
+
+&lt;p&gt;These are very straightforward. The &lt;code&gt;body&lt;/code&gt; tag encompasses the entire body of your document and is second only to the &lt;code&gt;html&lt;/code&gt; tag. The &lt;code&gt;header&lt;/code&gt; element specifies a header for your document or section, and the &lt;code&gt;footer&lt;/code&gt; element species the footer. The &lt;code&gt;section&lt;/code&gt; tag groups together a thematic group. &lt;code&gt;h1&lt;/code&gt;, &lt;code&gt;h2&lt;/code&gt;, &lt;code&gt;h3&lt;/code&gt;, &lt;code&gt;h4&lt;/code&gt;, &lt;code&gt;h5&lt;/code&gt;, &lt;code&gt;h6&lt;/code&gt; are headings, with &lt;code&gt;h1&lt;/code&gt; being the most prominent, with the largest default style, with each heading decreasing in importance and size after &lt;code&gt;h1&lt;/code&gt;. The &lt;code&gt;nav&lt;/code&gt; element is short for “navigation” and defines a block of navigation links that will take the user to other main pages. An &lt;code&gt;aside&lt;/code&gt; element definite content aside from the content it’s placed in. The information in an &lt;code&gt;aside&lt;/code&gt; should be related to its surrounding content. The &lt;code&gt;article&lt;/code&gt; tag specifies independent, self-contained content, like a news article, blog post, or comment. Finally, the &lt;code&gt;address&lt;/code&gt; element supplies contact information for its nearest &lt;code&gt;article&lt;/code&gt; or &lt;code&gt;body&lt;/code&gt; ancestor.&lt;/p&gt;
+
+&lt;p&gt;While this is all pretty obvious, there are a few things that often get skipped over in basic HTML tutorials. First, it’s a common misconception that you should only use &lt;code&gt;header&lt;/code&gt;, &lt;code&gt;footer&lt;/code&gt; and &lt;code&gt;aside&lt;/code&gt; once per page but that is not the case. W3schools states: “the &lt;code&gt;header&lt;/code&gt; element should be used as a container for introductory content. You can have several &lt;code&gt;header&lt;/code&gt; elements in one document.” They provide the following example: &lt;/p&gt;
+
+&lt;img src="/images/html-images/header-example.png" alt="header example" /&gt;
+
+&lt;p&gt;Also, the &lt;code&gt;aside&lt;/code&gt; element is not only used for sidebars (though this example is so overused that you’d be forgiven for thinking this was the case). The &lt;code&gt;aside&lt;/code&gt; tag is for a section of the page that has content that is tangentially related to the rest, but should be separate from that content. Examples outside of a sidebar include an author biography, profile information, and related links. &lt;/p&gt;
+
+&lt;p&gt;Finally, the &lt;code&gt;article&lt;/code&gt; tag often gets replaced with the &lt;code&gt;section&lt;/code&gt; tag due to misunderstanding about what the &lt;code&gt;article&lt;/code&gt; tag is actually for, as well as confusion with these two tags in general.  &lt;code&gt;article&lt;/code&gt; is for more than just what we think of as an “article” (like a news article) but is for any independent, self-contained content, which also includes things like a blog post or a comment on an article or blogpost. On the other hand, &lt;code&gt;section&lt;/code&gt; is for grouping distinct sections of content or functionality. While the exact difference is &lt;a href="http://stackoverflow.com/questions/7549561/section-vs-article-html5"&gt;heavily debated&lt;/a&gt;, my understanding is that &lt;code&gt;section&lt;/code&gt; is broader than &lt;code&gt;article&lt;/code&gt;. This is a good example of how a &lt;code&gt;section&lt;/code&gt; could hold the all the blog content, with an &lt;code&gt;article&lt;/code&gt; used for each blog.&lt;/p&gt;
+
+&lt;img src="/images/html-images/article-example.png" alt="article example" /&gt;
+
+&lt;h3&gt;Grouping Content&lt;/h3&gt;
+&lt;p&gt;Again, fair few of these were new to me, despite the fact that I took a (paid, in-person) front-end dev class where I coded a few websites by hand. Lots of these get covered in the basic online tutorials, some of them don’t, and there are lots of interesting rules and abilities that the really basic ones have that the casual developer might not know about. Let’s dig into it.&lt;/p&gt;
+
+&lt;code&gt;&lt;strong&gt;p&lt;/strong&gt;&lt;/code&gt;
+&lt;p&gt;A &lt;code&gt;p&lt;/code&gt; tag makes a paragraph. This might be the most well-known content tag out there. But did you know that this is more structural than logical? List elements (&lt;code&gt;ol&lt;/code&gt; and &lt;code&gt;ul&lt;/code&gt;) cannot be the children of a &lt;code&gt;p&lt;/code&gt; element. So if we had this code:
+
+&lt;img src="/images/html-images/p-and-ul-example.png" alt="p and ul example" /&gt;
+
+&lt;p&gt;only the first line, “I need groceries” would be red. In order for the entire thing to be red, we would have to replace the &lt;code&gt;p&lt;/code&gt; elements with a &lt;code&gt;div&lt;/code&gt; element. Alternatively, we could close the &lt;code&gt;p&lt;/code&gt; tags and then write our CSS to style all the elements, but that would require more code.&lt;/p&gt;
+
+&lt;p&gt;It’s also important to remember that we shouldn’t use a &lt;code&gt;p&lt;/code&gt; element if there’s something else that is more specific that fits, for example the &lt;code&gt;address&lt;/code&gt; element to write an address.&lt;/p&gt;
+
+&lt;code&gt;&lt;strong&gt;hr&lt;/strong&gt;&lt;/code&gt;
+&lt;p&gt;The &lt;code&gt;hr&lt;/code&gt; tag is use to represent a paragraph-level thematic break, such as a transition to a new topic in a reference book or a scene change in a story. It results in a line across the width of the page and a blank line on either side. It does not have a closing tag.&lt;/p&gt;
+&lt;p&gt;This example:&lt;/p&gt;
+
+&lt;img src="/images/html-images/hr-example.png" alt="hr example" /&gt;
+
+&lt;p&gt;Results in this:&lt;/p&gt;
+
+&lt;img src="/images/html-images/hr-rendered.png" alt="hr example" /&gt;
+
+&lt;p&gt;The &lt;code&gt;hr&lt;/code&gt; tag makes that line. Most people would probably want to create a border that they could style to the desired width and color, but this is also an option. Here’s what the line really looks like (I zoomed way in to be able to see it properly):&lt;/p&gt;
+
+&lt;img src="/images/html-images/hr-rendered-zoomed-in.png" alt="hr rendered zoomed in" /&gt;
+ 
+
+&lt;p&gt;&lt;code&gt;&lt;strong&gt;pre&lt;/strong&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;pre&lt;/code&gt; tag represents a block of preformatted text. Essentially, you have have things like paragraphs and spacing that you would have in a text editor like Pages or Word be preserved in your code as if it were a standard text editor. For example, the spacing and layout of the words in the following poem is an important part of the poem and needs to be preserved. Instead of using all sorts of CSS to get it to look like this, we can just copy and paste into Sublime (my preferred text editor for writing code) surrounded by the &lt;code&gt;pre&lt;/code&gt; tags. (This is also useful when you’re writing a code example and want the example to maintain the spacing/indenting rules of that language.)
+The html code looks like this (I simply copied text from my Pages document into Sublime, which kept all the weird spacing):&lt;/p&gt;
+
+&lt;img src="/images/html-images/pre-example.png" alt="pre example" /&gt;
+
+
+&lt;p&gt;Results in this:&lt;/p&gt;
+
+&lt;img src="/images/html-images/pre-rendered.png" alt="pre rendered" /&gt;
+
+
+
+&lt;p&gt;&lt;code&gt;&lt;strong&gt;blockquote&lt;/strong&gt;&lt;/code&gt; and  &lt;code&gt;&lt;strong&gt;cite&lt;/strong&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;blockquote&lt;/code&gt; tag represents a section that is quoted from another source. (Don’t get this confused with &lt;code&gt;q&lt;/code&gt; tag, which you can read about in the next section.) The content of a &lt;code&gt;blockquote&lt;/code&gt; must be quoted from another source, which can be cited with &lt;code&gt;cite&lt;/code&gt; tag if possible. The &lt;code&gt;cite&lt;/code&gt; tag represents the title of a work. An example of both together is:&lt;/p&gt;
+
+&lt;img src="/images/html-images/blockquote-example.png" alt="blockquote example" /&gt;
+
+&lt;p&gt;Only works can be cited, and people are not works, so the &lt;code&gt;cite&lt;/code&gt; tag in this case goes around the name of the book, not the author. It’s also important to note that a citation is not a quote. (Read about quotes in the &lt;code&gt;q&lt;/code&gt; element, which are inline rather than block quotes, in the next section.) If you’re creating quote symbols in spoken text, you wouldn’t cite the quote. For example, this is wrong:&lt;/p&gt;
+
+&lt;img src="/images/html-images/wrong-cite-examples.png" alt="wrong cite examples" /&gt;
+
+&lt;p&gt;This is correct:&lt;/p&gt;
+
+&lt;img src="/images/html-images/correct-cite-example.png" alt="correct cite example" /&gt;
+
+
+
+&lt;p&gt;&lt;code&gt;&lt;strong&gt;figure&lt;/strong&gt;&lt;/code&gt; and &lt;code&gt;&lt;strong&gt;figcaption&lt;/strong&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The best way to think about the &lt;code&gt;figure&lt;/code&gt; tag is to think about a text book or manual that has different figures throughout the text. The figure could be an image, chart, graph, or some other type of information. Usually the author will discuss a top and write something like “see figure 4.1.” Figure 4.1 will reference this writing and also have a caption, like “a variety of method cards.” The figure is the &lt;code&gt;figure&lt;/code&gt; and the caption is the &lt;code&gt;figcaption&lt;/code&gt;.&lt;/p&gt; 
+
+&lt;p&gt;&lt;code&gt;figures&lt;/code&gt; elements are usually related to the surrounding flow and is self-contained. A &lt;code&gt;figure&lt;/code&gt; should be self-contained so that it can easily be moved around, from a page to its own dedicated page to an appendix. Also, it’s recommended that &lt;code&gt;figure&lt;/code&gt; elements be given their own name so that they can easily be referenced (“see figure 4.1”) as opposed to identified by where they are placed in the page (“see the figure to the right) in case the figure gets moved later.
+The first &lt;code&gt;figcaption&lt;/code&gt; child represents the caption of the figure. If there’s no &lt;code&gt;figcaption&lt;/code&gt;, there’s no caption.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;img src="/images/html-images/figure-and-figcaption-example.png" alt="figure and figcaption example" /&gt;
+
+&lt;p&gt;&lt;code&gt;&lt;strong&gt;ol&lt;/strong&gt;&lt;/code&gt;, &lt;code&gt;&lt;strong&gt;ul&lt;/strong&gt;&lt;/code&gt; and &lt;code&gt;&lt;strong&gt;li&lt;/strong&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;ol&lt;/code&gt; element stands for “ordered list,” as in a list that is numbered, such as the steps in an experiment. &lt;code&gt;ul&lt;/code&gt; stands for “unordered list,” such as a grocery list. &lt;code&gt;li&lt;/code&gt; stands for “list item” and is the child of &lt;code&gt;ol&lt;/code&gt; and &lt;code&gt;ul&lt;/code&gt;. The &lt;code&gt;li&lt;/code&gt; element's end tags can be omitted if the &lt;code&gt;li&lt;/code&gt; element is followed by another &lt;code&gt;li&lt;/code&gt; element or if there is no more content in the parent element.&lt;/p&gt;
+
+&lt;p&gt;An unordered list results in a list with bullet points. For example, this code:&lt;/p&gt;
+
+&lt;img src="/images/html-images/ul-example.png" alt="ul example" /&gt;
+
+&lt;p&gt;Results with:&lt;/p&gt;
+
+&lt;img src="/images/html-images/ul-rendered.png" alt="ul rendered" /&gt;
+
+&lt;p&gt;By default, the listed items in an &lt;code&gt;ol&lt;/code&gt; element will be numbered starting with one. For example, this code:&lt;/p&gt;
+
+&lt;img src="/images/html-images/ol-example.png" alt="ol example" /&gt;
+
+&lt;p&gt;Has this numbered result:&lt;/p&gt;
+
+&lt;img src="/images/html-images/ol-rendered.png" alt="ol rendered" /&gt;
+
+&lt;p&gt;There is also the option to “reverse” the list. For example, if you were making a list of the top 5 best shows on Netflix right now, and wanted the list to start with 5 and end with 1, you could have:&lt;/p&gt;
+
+&lt;img src="/images/html-images/ol-reversed-example.png" alt="ol reversed example" /&gt;
+
+&lt;p&gt;to result in:&lt;/p&gt;
+
+&lt;img src="/images/html-images/ol-reversed-rendered.png" alt="ol reversed rendered" /&gt;
+
+&lt;p&gt;For even more control, you have give your &lt;code&gt;li&lt;/code&gt; elements a value. The following code has the same result as the image above:&lt;/p&gt;
+
+&lt;img src="/images/html-images/ol-value-example.png" alt="ol value example" /&gt;
+
+&lt;p&gt;&lt;code&gt;&lt;strong&gt;dl&lt;/strong&gt;&lt;/code&gt;, &lt;code&gt;&lt;strong&gt;dt&lt;/strong&gt;&lt;/code&gt; and &lt;code&gt;&lt;strong&gt;dd&lt;/strong&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Since these html elements are not commonly taught, it’s best to just say they are for creating certain types of lists and start with an example.&lt;/p&gt;
+&lt;p&gt;The code:&lt;/p&gt;
+
+&lt;img src="/images/html-images/dl-dt-dd-example.png" alt="dl dt dd example" /&gt;
+
+
+&lt;p&gt;Results in:&lt;/p&gt;
+
+&lt;img src="/images/html-images/dl-dt-dd-rendered.png" alt="dl dt dd rendered" /&gt;
+
+&lt;p&gt;&lt;code&gt;dl&lt;/code&gt; stands for “description list” and this element represents an list of things that are associated.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;dt&lt;/code&gt; element represents a term, name, or part of a description within a description list (the &lt;code&gt;dl&lt;/code&gt; element). I couldn’t confirm this, but think that &lt;code&gt;dt&lt;/code&gt; stands for “description term.”&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;dd&lt;/code&gt; element represents a description, definition, or value.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;dl&lt;/code&gt; requires and opening and closing tag. A &lt;code&gt;dt&lt;/code&gt; element, on the other hand, doesn’t need an end tag if it’s immediately followed by another &lt;code&gt;dt&lt;/code&gt; element or by a &lt;code&gt;dd&lt;/code&gt; element. The &lt;code&gt;dd&lt;/code&gt; element’s doesn’t need a closing tag if it’s immediately followed by another &lt;code&gt;dd&lt;/code&gt; element or by a &lt;code&gt;dt&lt;/code&gt; element.&lt;/p&gt;
+
+&lt;code&gt;&lt;strong&gt;main&lt;/strong&gt;&lt;/code&gt;
+&lt;p&gt;The &lt;code&gt;main&lt;/code&gt; element is used to signify what the main content of a page is. It’s different from &lt;code&gt;section&lt;/code&gt;, &lt;code&gt;article&lt;/code&gt; and &lt;code&gt;nav&lt;/code&gt; in that it’s not sectioning content. This means that it doesn’t contribute to the document outline. What it does do is help screen readers understand where the main content is. It came about because people thought that since we had a &lt;code&gt;header&lt;/code&gt;, &lt;code&gt;footer&lt;/code&gt; and &lt;code&gt;aside&lt;/code&gt;, we should also have something that represents the main part of the content. Before this, people often created a &lt;code&gt;div&lt;/code&gt; and gave it a class of “main” or “content.” &lt;/p&gt;
+
+
+&lt;h3&gt;Text level semantics&lt;/h3&gt;
+&lt;code&gt;&lt;strong&gt;a&lt;/strong&gt;&lt;/code&gt;
+&lt;p&gt;The &lt;code&gt;a&lt;/code&gt; element is most commonly seen immediately followed by the href attribute to create a link. In that case, the a is the hypertext anchor. The &lt;code&gt;a&lt;/code&gt; element is also seen used as a placeholder for where a link could go later or in navigation link of the current page.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;a&lt;/code&gt; element can wrap around entire paragraphs, lists, tables, etc, as well as entire sections, so long as there aren’t any buttons, links or other interactive content within it.&lt;/p&gt;
+
+&lt;code&gt;&lt;strong&gt;em&lt;/strong&gt;&lt;/code&gt; and &lt;code&gt;&lt;strong&gt;i&lt;/strong&gt;&lt;/code&gt;
+&lt;p&gt;The &lt;code&gt;em&lt;/code&gt; element represents emphasis in content. The placement of emphasis on certain words in a sentence can change that sentence’s meaning, and the &lt;code&gt;em&lt;/code&gt; tag achieves that stress in HTML. For example:&lt;/p&gt;
+
+&lt;img src="/images/html-images/em-example.png" alt="em example" /&gt;
+
+&lt;p&gt;puts the emphasis on “You’re.”&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;em&lt;/code&gt; element is not the same as generic italics. For italics, &lt;code&gt;i&lt;/code&gt; is used. The &lt;code&gt;i&lt;/code&gt; element represents a span of text that carries a different mood or voice or indicates a different type of text, such as taxonomic designation, a technical term, a word or phrase from another language, or a thought.&lt;/p&gt;
+
+&lt;p&gt;Often, a class attribute is used on the &lt;code&gt;i&lt;/code&gt; element to identify why the element is being used (for example, a word in a different language as opposed to a taxonomic term). This is done so that if it needs too be changed at a later date, the author doesn’t have to search the entire document and annotate each use.&lt;/p&gt;
+
+&lt;p&gt;Example of &lt;code&gt;i&lt;/code&gt; with a class:&lt;/p&gt;
+
+&lt;img src="/images/html-images/i-example.png" alt="i example" /&gt;
+
+&lt;p&gt;Although both &lt;code&gt;em&lt;/code&gt; and &lt;code&gt;i&lt;/code&gt; result in the same style of slanted text, it’s important to use the right element, and a class name if necessary, for screen readers and for ease of change later on.&lt;/p&gt;
+
+&lt;code&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/code&gt; and &lt;code&gt;&lt;strong&gt;b&lt;/strong&gt;&lt;/code&gt;
+&lt;p&gt;Much like &lt;code&gt;em&lt;/code&gt; and &lt;code&gt;i&lt;/code&gt;, &lt;code&gt;strong&lt;/code&gt; is to indicate strong importance, seriousness or urgency. On the other hand, the &lt;code&gt;b&lt;/code&gt; element is used to represent a span of text to which attention needs to be drawn for utilitarian purposes but does not convey any extra importance. An example of this might be a keyword in a text. The &lt;code&gt;b&lt;/code&gt; element is also often used with a class to identify why the element is being used and make changes later on easier. Again, although they both result in what we think of as “bold” text, it’s important to use whichever better fits the purpose for screen readers.&lt;/p&gt;
+
+&lt;code&gt;&lt;strong&gt;small&lt;/strong&gt;&lt;/code&gt;
+&lt;p&gt;The &lt;code&gt;small&lt;/code&gt; element represents small print and other side comments that should have a smaller text than the text around it.&lt;/p&gt;
+
+&lt;code&gt;&lt;strong&gt;s&lt;/strong&gt;&lt;/code&gt;
+&lt;p&gt;The &lt;code&gt;s&lt;/code&gt; element represents content that is no longer relevant or accurate, and results in a strikethrough of the text.&lt;/p&gt;
+
+&lt;code&gt;&lt;strong&gt;q&lt;/strong&gt;&lt;/code&gt;
+&lt;p&gt;The &lt;code&gt;q&lt;/code&gt; element represented quoted text. However, using &lt;code&gt;q&lt;/code&gt; elements to mark up quotations is optional if you’d rather use explicit quotation punctuation. The &lt;code&gt;q&lt;/code&gt; element should not be used for times when quotations would be used for something other than a quote, for example when someone is being sarcastic.&lt;/p&gt;
+
+&lt;code&gt;&lt;strong&gt;dfn&lt;/strong&gt;&lt;/code&gt;
+&lt;p&gt;The &lt;code&gt;dfm&lt;/code&gt; element represents the defining instance of a term. For example,&lt;/p&gt;
+
+&lt;img src="/images/html-images/dfn-example.png" alt="dfn example" /&gt;
+
+&lt;p&gt;In this case, “Irregardless” becomes italicized.&lt;/p&gt;
+
+&lt;code&gt;&lt;strong&gt;abbr&lt;/strong&gt;&lt;/code&gt;
+&lt;p&gt;The &lt;code&gt;abbr&lt;/code&gt; element represents an abbreviation or acronym. The explanation of the abbreviation/aconym is optional and is done with the title attribute. Doing this results in the explanation appearing the use hovers their mouse over the word. For example,&lt;/p&gt;
+
+&lt;img src="/images/html-images/abbr-example.png" alt="abbr-example" /&gt;
+
+&lt;p&gt;Results in a small box with the words “World Health Organization” appearing when the user hovers over “WHO”. (Unfortuantely, this was impossible to get a screenshot of, but run this through on your machine to see exactly what happens.)&lt;/p&gt;
+
+&lt;code&gt;&lt;strong&gt;ruby&lt;/strong&gt;&lt;/code&gt;, &lt;code&gt;&lt;strong&gt;rt&lt;/strong&gt;&lt;/code&gt; and &lt;code&gt;&lt;strong&gt;rp&lt;/strong&gt;&lt;/code&gt;
+
+&lt;p&gt;The &lt;code&gt;ruby&lt;/code&gt; tag specifies a ruby annotation. A ruby annotation is a small extra text that’s attached to the main text to explain its pronunciation or meaning. The &lt;code&gt;rt&lt;/code&gt; element gives the information and &lt;code&gt;rp&lt;/code&gt; (which is optional) defines what to show for browsers that don’t support ruby annotations. It’s common in Japanese text.&lt;/p&gt;
+
+&lt;p&gt;In this example, the character needs and explanation, so it is put in the &lt;code&gt;rt&lt;/code&gt; tags.&lt;/p&gt;
+
+&lt;img src="/images/html-images/ruby-example.png" alt="ruby example" /&gt;
+
+&lt;p&gt;When rendered, it looks like this:&lt;/p&gt;
+
+&lt;img src="/images/html-images/ruby-rendered.png" alt="ruby rendered" /&gt;
+
+&lt;p&gt;There are lots of rules about how to handle things like compound words, nesting, ancestry, and other things, so if you’re going to use this, be sure to look at its HTML spec.&lt;/p&gt;
+
+&lt;code&gt;&lt;strong&gt;data&lt;/strong&gt;&lt;/code&gt;
+&lt;p&gt;The &lt;code&gt;data&lt;/code&gt; element represents its contents, along with a form of those contents in the value attribute that is machine-readable. The value attribute must be present and must be a representation of the element’s contents in a machine-readable format.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;data&lt;/code&gt; element is used when the computer needs some information but the user doesn’t. For example:&lt;/p&gt;
+
+&lt;img src="/images/html-images/data-example.png" alt="data example" /&gt;
+
+&lt;p&gt;In this example, the computer can understand the value given (which is the CPU code of the products). The user doesn’t necessarily want to see this, but it needs to be there so that the computer can do other things with it.&lt;/p&gt;
+
+&lt;code&gt;&lt;strong&gt;time&lt;/strong&gt;&lt;/code&gt;
+&lt;p&gt;The &lt;code&gt;time&lt;/code&gt; element is used to mark a time in the browser. It doesn’t show up as anything special to users (but that doesn’t mean it’s not still important!) The content in a &lt;code&gt;time&lt;/code&gt; element can include dates, times, time zones and durations. We use the “datetime” attribute then specifying a date.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;img src="/images/html-images/time-example.png" alt="time example" /&gt;
+
+&lt;p&gt;&lt;code&gt;&lt;strong&gt;code&lt;/strong&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;code&lt;/code&gt; element changes the way a word looks to indicate that it’s code and not normal text. It represents a fragment of computer code. (Note that there is no formal way to specify which language the code is written in.)&lt;/p&gt;
+
+&lt;p&gt;For example, writing:&lt;/p&gt;
+
+&lt;img src="/images/html-images/code-example.png" alt="code example" /&gt;
+
+&lt;p&gt;Creates this result:&lt;/p&gt;
+
+&lt;img src="/images/html-images/code-rendered.png" alt="code rendered" /&gt;
+
+&lt;p&gt;The “time” word looks different because it was in the &lt;code&gt;code&lt;/code&gt; element, and this difference signifies to the user that this is fragment from a programming language.&lt;/p&gt;
+
+&lt;code&gt;&lt;strong&gt;var&lt;/strong&gt;&lt;/code&gt;
+&lt;p&gt;The &lt;code&gt;var&lt;/code&gt; element represents a variable. It could be a variable in a mathematical expression or programming language, or an identifier representing a constant, a symbol for a physical quantity, a function parameter or just a placeholder for a variable. Text inside &lt;code&gt;var&lt;/code&gt; tags appear italicized to the user.&lt;/p&gt; 
+
+&lt;code&gt;&lt;strong&gt;samp&lt;/strong&gt;&lt;/code&gt;
+&lt;p&gt;The &lt;code&gt;samp&lt;/code&gt; element represents sample output from a computer program.
+For example:&lt;/p&gt;
+
+&lt;img src="/images/html-images/samp-example.png" alt="samp example" /&gt;
+
+&lt;p&gt;Results in:&lt;/p&gt;
+
+&lt;img src="/images/html-images/samp-rendered.png" alt="samp rendered" /&gt;
+
+&lt;p&gt;&lt;code&gt;&lt;strong&gt;kbd&lt;/strong&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;kbd&lt;/code&gt; variable is short for “keyboard” and represents keyboard input. This is useful when giving directions. The HTML spec gives the following example:&lt;/p&gt;
+
+&lt;img src="/images/html-images/kbd-example.png" alt="kbd example" /&gt;
+
+&lt;p&gt;Just like with the &lt;code&gt;code&lt;/code&gt; element, the text inside of &lt;code&gt;kbd&lt;/code&gt; has a different style when rendered:&lt;/p&gt;
+
+&lt;img src="/images/html-images/kbd-rendered.png" alt="kdb rendered" /&gt;
+
+&lt;p&gt;&lt;code&gt;&lt;strong&gt;sub&lt;/strong&gt;&lt;/code&gt; and &lt;code&gt;&lt;strong&gt;sup&lt;/strong&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;sub&lt;/code&gt; element represents a subscript and the &lt;code&gt;sup&lt;/code&gt; element represents a superscript.&lt;/p&gt;
+
+&lt;p&gt;For example,&lt;/p&gt;
+
+&lt;img src="/images/html-images/sub-and-sup-example.png" alt="sub and sup example" /&gt;
+
+&lt;p&gt;renders to:&lt;/p&gt;
+&lt;img src="/images/html-images/sub-and-sup-rendered.png" alt="sup and sub rendered" /&gt;
+
+&lt;code&gt;&lt;strong&gt;u&lt;/strong&gt;&lt;/code&gt;
+&lt;p&gt;The &lt;code&gt;u&lt;/code&gt; element represents text with non-textual annotation. This could include labeling a piece of text as a proper nam in Chinese or labeling the text as misspelt. The &lt;code&gt;u&lt;/code&gt; element makes text underlined. It’s important to not use this when a user might think that the underlined text is a link, as links are often underlined to show that they are clickable. Also, there’s usually some other markup element that’s more appropriate to use than &lt;code&gt;u&lt;/code&gt;, such as &lt;code&gt;em&lt;/code&gt; for emphasis. The &lt;code&gt;u&lt;/code&gt; element is rarely used.&lt;/p&gt;
+
+&lt;code&gt;&lt;strong&gt;mark&lt;/strong&gt;&lt;/code&gt;
+&lt;p&gt;The &lt;code&gt;mark&lt;/code&gt; element represents text that is marked (highlighted) for reference purposes. It results in the text having a yellow background. 
+For example,&lt;/p&gt;
+
+&lt;img src="/images/html-images/mark-example.png" alt="mark example" /&gt;
+
+&lt;p&gt;Renders as:&lt;/p&gt;
+
+&lt;img src="/images/html-images/code-rendered.png" alt="code rendered" /&gt;
+
+&lt;p&gt;&lt;code&gt;&lt;strong&gt;bdi&lt;/strong&gt;&lt;/code&gt; and &lt;code&gt;&lt;strong&gt;bdo&lt;/strong&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;bdi&lt;/code&gt; element represents text that needs to be isolated from its surroundings for the purposes of bidirectional text formatting. This is useful when working with user-generated content where we can’t be sure of the directionality, perhaps because it could be written in a language with a different character set. The example from the HTML spec uses a name written in Arabic:&lt;/p&gt;
+
+&lt;img src="/images/html-images/bdi-example.png" alt="bdi example" /&gt;
+
+&lt;p&gt;Because the &lt;code&gt;bdi&lt;/code&gt; element was used, these names and post numbers output to an unordered list with bullet points as expected. But if the &lt;code&gt;bdi&lt;/code&gt; tags weren’t there, the number “3” would jump to be next to the word “User.” This happens in the code, before anything is rendered to the user’s screen.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;bdo&lt;/code&gt; element allows the author to override the Unicode bidirectional algorithm by explicitly specifying a direction override for its children. This is done by specifying the “dir” attribute to equal “ltr” for left-to-right or “rtl” for right to left.&lt;/p&gt;
+
+&lt;code&gt;&lt;strong&gt;br&lt;/strong&gt;&lt;/code&gt;
+&lt;p&gt;A &lt;code&gt;br&lt;/code&gt; element represents a line break. It should only be used then the text actually calls for a line break, such as poems and addresses. It’s often used to create more space in styles, but the correct way to do this would be to use CSS to specify things like margin and padding. It should not be used for separating thematic groups in a paragraph.&lt;/p&gt;
+
+&lt;code&gt;&lt;strong&gt;wbr&lt;/strong&gt;&lt;/code&gt;
+&lt;p&gt;The &lt;code&gt;wbr&lt;/code&gt; represents a line break opportunity, as opposed to an actual line break. If you wanted to have a bunch of words all be together without spacing but still wanted them to be able to wrap in a readable fashion, you would use this.&lt;/p&gt;
+
+&lt;p&gt;For example,&lt;/p&gt;
+
+&lt;img src="/images/html-images/wbr-example.png" alt="wbr example" /&gt;
+
+&lt;p&gt;renders as&lt;/p&gt;
+
+&lt;img src="/images/html-images/wbr-rendered.png" alt="wbr rendered" /&gt;
+
+&lt;p&gt;but leaves the opportunities for line breaks to occur if the screen size is small enough to need it.&lt;/p&gt;
+
+
+
+&lt;h3&gt;Links and Link Types&lt;/h3&gt;
+&lt;p&gt;In HTML, link types indicate the relationship between two documents. One links to the other using a &lt;code&gt;link&lt;/code&gt; element, and &lt;code&gt;a&lt;/code&gt; element or an &lt;code&gt;area&lt;/code&gt; element.&lt;/p&gt; 
+
+&lt;code&gt;&lt;strong&gt;link&lt;/strong&gt;&lt;/code&gt;
+&lt;p&gt;The &lt;code&gt;link&lt;/code&gt; element specifies the relationship between the current document and external one. One of the most popular ways to use this is to import a CSS stylesheet to an index.html page. For example:&lt;/p&gt;
+
+&lt;p&gt;link rel="stylesheet" href=“CSS/style.css"&lt;/p&gt;
+
+&lt;p&gt;The “rel” (relationship) value in this case is “stylesheet” but it can be set to a lot of different values. For example, a real of “help” would indicate that the link is leading to a resource about the whole page. A value of “author” indicated that the page leads to information about the author or how to contact her and “license” leads to licensing information.&lt;/p&gt; 
+
+&lt;code&gt;&lt;strong&gt;a&lt;/strong&gt;&lt;/code&gt;
+&lt;p&gt;The &lt;code&gt;a&lt;/code&gt; element is the anchor element, and defines a hyperlink to a location on any other page on the web or to a location on the same page. It can also be used to create an anchor point at various spots in a page so that links aren’t limited to connecting only to the top of the page. The HTML specs say this is obsolete, but with the current trend of “endless scroll” style pages, they’ve made a resurgence.&lt;/p&gt;
+
+&lt;p&gt;There are several attributes that can be given to the &lt;code&gt;a&lt;/code&gt; element. The “href” attribute is required for linking to external pages. The “target” attribute is commonly used and dictates where to display the linked source. When “target” is set to “_blank” the link will open in a new tab.&lt;/p&gt;
+
+&lt;code&gt;&lt;strong&gt;area&lt;/strong&gt;&lt;/code&gt;
+&lt;p&gt;The &lt;code&gt;area&lt;/code&gt; element is less commonly used than &lt;code&gt;link&lt;/code&gt; and &lt;code&gt;a&lt;/code&gt; but still worth knowing about. It creates a clickable “hotspot” on an image. This must be done within the &lt;code&gt;map&lt;/code&gt; element. On an image, an attribute called “usemap” creates an ID, and that ID is set with the coordinates of where in the image will be clickable. W3Schools has a &lt;a href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_areamap"&gt;great example&lt;/a&gt; of this with an image of a planet in space. The planet is clickable while the black space around it is not. This is done by setting the “usemap” attribute to an ID name, and then giving the ID a specific area of the image using the &lt;code&gt;area&lt;/code&gt; element.&lt;/p&gt;
+
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;At the end of the day, learning all the nitty gritty of semantic HTML is dull, but extremely important. First because it’s key to screen readers and accessibility for people who are low-vision/blind, second because of factors like SEO, and third because if you want to write quality, sustainable code, you have to do things by the book. After spending a few days pouring over the HTML specs, I have a piece of advice: aid your understanding of some of the weirder elements with W3Schools. Towards the end of writing this post I had one of their “Try it!” windows open and was dumping the example from the specs into it to see what happened. A shortcoming of the specs is that they don’t actually show you what en example results in. The &lt;code&gt;mark&lt;/code&gt; element is examplained as “marked or highlighted” but I didn’t realize until I actually rendered the example that the marked area literally has a bright yellow background. A detailed and technical explanation is all good and well, but be sure to actually run their examples or you might not actually understand what’s going on. Also, watch for some strangely political examples. There was a pro-atheism thread through the spec examples, as well as one that seems to be throwing shade at W3Schools. Regardless of all of this, understanding that HTML is a lot more than just headers and &lt;code&gt;p&lt;/code&gt; tags is important, and spending a day reading the specs and testing out the examples will make you a much more solid front end developer.&lt;/p&gt; 
+&lt;/p&gt;&lt;/p&gt;&amp;lt;/p&amp;gt;
+&lt;/section&gt;
+</content>
+  </entry>
+  <entry>
+    <title>using-bourbon-and-neat</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2016/09/29/using-bourbon-and-neat/"/>
+    <id>http://blog.url.com/blog/2016/09/29/using-bourbon-and-neat/</id>
+    <published>2016-09-29T18:18:00-05:00</published>
+    <updated>2016-09-30T10:05:25-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;section class="article-container"&gt;
+&lt;h1&gt;Using Bourbon &amp;amp; Neat&lt;/h1&gt;
+
+&lt;p&gt;Bourbon is a mixin library for Sass.&lt;/p&gt;
+
+&lt;p&gt;Sass gives us the ability to keep our styles in cleanly separated files and write those styles with the help of variables that we define in yet another file. We use @import to import the files to each other and build on top of them. They are all imported into a single file made up of nothing but imports - this is our main Sass file. Sass uses it’s magic (the watch command, which is explained later) to compile the contents of this main Sass file (which are the contents of all the other files it’s lined to) to a single CSS file that the browser uses to get styles from. Sass saves us from the messiness of a long CSS file. It does all the work for us.&lt;/p&gt;
+
+&lt;p&gt;Sass mixing are blocks of code that we define once and then re-use in other places. If you’ve ever learned a programming language, you can think of these the same as functions or methods. Mixing can take multiple parameters/arguments.&lt;/p&gt;
+
+&lt;p&gt;For example, in my project I am going to have a few different headlines with different styles for color and font size. So I create a mixin called “headline” and give it the arguments of $color and$size:&lt;/p&gt;
+
+&lt;code&gt;
+@mixin headline ($color, $size) {
+&lt;/code&gt;
+&lt;code&gt;
+  color: $color;
+&lt;/code&gt;
+&lt;code&gt;
+  font-size: $size;
+&lt;/code&gt;
+}
+&amp;lt;/code&amp;gt;
+
+&lt;p&gt; With this mixin, we are preparing whatever we apply it to to be ready to catch a color and font-size, which we will define as arguments when we need to. When I want to use this for one of my headline styles, for example an h2 that I want to be 18px and red, I would write:&lt;/p&gt;
+
+&lt;code&gt;
+h2 {
+  @include headline(red, 18px);
+}
+&lt;/code&gt;
+
+&lt;p&gt;Now my h2 will have color: red and font-size: 18px. Sass will compile this to:&lt;/p&gt;
+
+&lt;code&gt;
+h1 {
+  color: green;   
+  font-size: 12px;
+}
+&lt;/code&gt;
+
+&lt;p&gt;You can also pass a variable as an argument. If you defined a variable $base-color: pink; then you could have written:&lt;/p&gt;
+
+&lt;code&gt;
+h2 {
+  @include headline ($base-color, 18px)
+}
+&lt;/code&gt;
+
+&lt;p&gt;Let’s get back to Bourbon. Like I said earlier, Bourbon is a mixin library for Sass. Some people at thoughtbot decided it would be a good idea to centralize some of the most useful mixins so that we’re not all reinventing the wheel in slightly different ways all the time. The actual mixins are really useful, and once you’re finished setting it all up, go through each item to check out what it does.&lt;/p&gt;
+
+&lt;p&gt;Once you have Bourbon you can get Neat. Neat is a cool little grid framework that makes layout and positioning - the cause most designers’ eternal headache - much easier. It’s super responsive, clean and lightweight.&lt;/p&gt;
+
+&lt;p&gt;Here’s how to get it all up and running:&lt;/p&gt;
+
+&lt;p&gt;If you’ve never used Sass before, you'll have to install that first. If you’re not sure, run the following command in your terminal:&lt;/p&gt;
+&lt;code&gt;$ sass -v&lt;/code&gt;
+
+&lt;p&gt;If you have Sass, you’ll get “Sass 3.4.22 (Selective Steve)” or something similar. 
+If you don’t have Sass, install by going to your home directory and entering:&lt;/p&gt;
+&lt;code&gt;$ gem install sass&lt;/code&gt;
+
+&lt;p&gt;Sass has a handy feature that allows it to be constantly watching for changes in your sass files and compiling them to your css file. You’ll want to use your main Sass file for this, which you will use to import all the other styles you’ve written with Sass, as well as your variables file. This file is essentially one long list of @import “_variables” and so on. To set up the watch for changes, cd into your stylesheets directory and run:&lt;/p&gt;
+&lt;code&gt;$sass - - watch input.scss:output.css&lt;/code&gt;
+
+&lt;p&gt;Replacing “input” and “output” with your own file names. This is telling Sass to watch your scss file (where you are inputting styles) and output it your css file.&lt;/p&gt;
+
+&lt;p&gt;In the project’s directory, install Bourbon using RubyGems:&lt;/p&gt;
+&lt;code&gt;$ gem install bourbon&lt;/code&gt;
+
+&lt;p&gt;2. Change directories into the project’s stylesheets directory and use the following command to generate the bourbon folder full of cool things:&lt;/p&gt;
+&lt;code&gt;$ bourbon install&lt;/code&gt;
+
+&lt;p&gt;3. Open up your main stylesheet. If you’ve used Sass before, you know this as the main stylesheet that has all of your @import code where you’re important your various styles. At the very top of this document add @import “bourbon/bourbon” . It will have to be at the very top, before all the other @import s. &lt;/p&gt;
+
+&lt;p&gt;Now you can install Neat. Back in your project directory in terminal, write:&lt;/p&gt;
+&lt;code&gt;$ gem install neat&lt;/code&gt;
+
+&lt;p&gt;cd into your Sass stylesheets directory. Now write:&lt;/p&gt;
+&lt;code&gt;$ neat install&lt;/code&gt;
+
+&lt;p&gt;Now you’re up and running with Bourbon and Neat! There are tons of things in those directories that you can use to structure your project. Don't forget that the main SCSS file that SASS compiles to the main CSS file is nothing but &lt;code&gt;@import&lt;/code&gt; tags. Go through them and figure out what you want to use, and delete things you definitely don’t.&lt;/p&gt;
+
+&lt;/section&gt;
+</content>
+  </entry>
 </feed>

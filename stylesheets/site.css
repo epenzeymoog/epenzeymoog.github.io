@@ -422,7 +422,8 @@ p a {
   color: grey; }
 
 h1 {
-  color: #F7F7FF; }
+  color: #F7F7FF;
+  font-family: "Josefin Slab", serif; }
 
 h2, h3, h3 a {
   color: grey;
@@ -436,9 +437,15 @@ a {
     transition: all 0.15s linear; }
 
 .article-container {
-  margin-top: 5em;
-  padding: 0;
-  text-align: left; }
+  text-align: left;
+  max-width: 1200px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  margin-left: 17.05961%; }
+  .article-container:last-child {
+    margin-right: 0; }
   .article-container, .article-container a:hover {
     color: #F7F7FF; }
 
