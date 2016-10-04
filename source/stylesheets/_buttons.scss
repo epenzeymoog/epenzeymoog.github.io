@@ -5,12 +5,6 @@
 .submit-button {
   border: 1px solid white;
   border-radius: 5px;
-  color: $white;
-  font-family: $open;
-  font-weight: 300;
-  font-size: 1.1em;
-  font-weight: 300;
-  letter-spacing: 5px;
   margin: .5em 0;
   padding: 15px 0;
   @include span-columns (9);

@@ -1,11 +1,31 @@
+//nav typography
+
+.logo {
+  color: $grey;
+  font-family: $quicksand, sans-serif;
+  font-size: 1.6em;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.nav-links {
+  color: $grey;
+  font-family: $quicksand, sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+//
+
 h1{
   color: $white;
   font-family: $josefin;
 }
 
-h2, h3, h3 a{
+a {
   color: grey;
-  font-family: 'Open Sans Condensed';
+  font-family: 'Quicksand';
   font-weight: 300;
   letter-spacing: 2px;
 }
@@ -15,4 +35,69 @@ a {
   &:hover {
       transition: all 0.15s linear;
     }
+}
+
+.title {
+  font-family: $josefin;
+}
+
+.title__position {
+  font-family: $quicksand;
+}
+
+.article-container h4 {
+  color: $light-grey;
+  font-family: $quicksand;
+  font-weight: 400;
+  margin: 0;
+}
+
+.article-container h3 a {
+  color: $light-grey;
+  font-family: $quicksand;
+  font-weight: 400;
+}
+
+.article-container__link a {
+  color: $light-grey;
+  font-family: $quicksand;
+  font-size: .9em;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.title h2 {
+  color: $white;
+  font-family: $quicksand;
+  font-size: 4.5em;
+}
+
+.submit-button {
+  color: $white;
+  font-family: $open;
+  font-weight: 300;
+  font-size: 1.1em;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+
+ol, ul, li, p,{
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+p a{
+  text-decoration: none;
+  color: grey;
+}
+
+.title--bold {
+  font-weight: 600;
+}
+
+.title--thin {
+  font-weight: 100;
 }

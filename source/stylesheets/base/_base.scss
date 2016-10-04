@@ -1,6 +1,5 @@
 body{
   background: $light-blue;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   text-align: center;
 }
@@ -15,7 +14,6 @@ body{
   top: 10%;
   width: 100%;
 
-
   @media (min-width: $lg-screen) {
     height: 100px;
     left: 20px;
@@ -24,10 +22,6 @@ body{
     right: 20px;
     top: 50%;
   }
-}
-
-.title {
-  font-family: $josefin;
 }
 
 .title__main {
@@ -40,26 +34,4 @@ body{
   }
 }
 
-.title--bold {
-  font-weight: 600;
-}
-
-.title--thin {
-  font-weight: 100;
-}
-
-
-
-ol, ul, li, p,{
-  color: black;
-  font-family: 'Open Sans Condensed';
-  font-weight: 300;
-  letter-spacing: 1px;
-  line-height: 25px;
-}
-
-p a{
-  text-decoration: none;
-  color: grey;
-}
 
