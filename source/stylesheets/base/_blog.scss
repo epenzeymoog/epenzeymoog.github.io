@@ -1,9 +1,10 @@
 .article-container {
+  padding-left: 16px;
   text-align: left;
   max-width: 1200px;
 
   @include span-columns(8);
-  @include shift(2);
+  // @include shift(2);
 
   &, a:hover {
   	color: $white;
