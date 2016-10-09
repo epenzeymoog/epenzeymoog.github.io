@@ -10,7 +10,7 @@ tags:
 
 <strong>Typography: the style, arrangement, or appearance of printed letters on a page.</strong>
 
-<h2>Serif & sans serif</h2>
+<h2>Serif &amp; sans serif</h2>
 <p>Back when all text was printed with ink, the first typography designers created serifs, or little “feet,” at the end of the letters to give the ink a place to pool and not run all over the page.</p>
 
 <p>Sans serif, or “without feet” refers to typography that does not have those little details at the end of letters.</p>
@@ -84,7 +84,7 @@ Roman - (aka the “plain” or “regular”) upright version of a typeface is 
 <h2>Character vs glyph</h2>
 <p>A character is a symbol with a unique function, like the letter a. It can be embodied with several glyphs, like a, a and A.</p>
 
-<h2>Kerning ;amp$ letter spacing</h2>
+<h2>Kerning &amp; letter spacing</h2>
 <p>Kerning refers to adjusting the spacing between a pair of letters, numerals, or punctuation so that their spacing looks correct. (For example, the letters AV need to be pushed closer together to look right). Letter spacing (or “tracking”) adjusts the spacing between all the characters in a piece of text. This is often done to headlines and logos to make them look more open and airy.</p>
 
 <h2>Line height</h2>
