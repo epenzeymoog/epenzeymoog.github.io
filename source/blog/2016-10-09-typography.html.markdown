@@ -3,12 +3,13 @@ title: typography
 date: 2016-10-09 17:45 UTC
 tags:
 ---
+<section class="article-container">
 
 <h1>Typography</h1>
 
 <p>Typography is an essential part of design. While people may not notice a pleasant font that’s easy on the eyes, they definitely notice a poorly constructed or misused font. Typography is a huge area of study with hundreds of years behind it, and the modern designer has thousands of choices when choosing a typeface for a project. Knowing the basics of typography can help us making the right choice as designers.</p>
 
-<strong>Typography: the style, arrangement, or appearance of printed letters on a page.</strong>
+<p>Typography: the style, arrangement, or appearance of printed letters on a page.</p>
 
 <h2>Serif &amp; sans serif</h2>
 <p>Back when all text was printed with ink, the first typography designers created serifs, or little “feet,” at the end of the letters to give the ink a place to pool and not run all over the page.</p>
@@ -32,7 +33,7 @@ tags:
 <p>Very abstract and have thin, straight serif characters. There is a lot of contrast between thin and thick strokes. 
 (example: Abril)</p>
 
-<h3>Egyptian / slab serif
+<h3>Egyptian / slab serif</h3>
 <p>Bold, heavy and decorative. These typefaces were popular for advertising in the nineteenth century. 
 (example: Domine)</p>
 
@@ -99,3 +100,5 @@ Roman - (aka the “plain” or “regular”) upright version of a typeface is 
 
 <h2>Wrapping it all up</h2>
 <p>Choosing the perfect typeface for a project is never easy, but knowing these basics can help. Even when you do choose a typeface, you may want to open it up a little with letter spacing or line height, and make use of the various fonts of that typeface to create hierarchy and visual interest. If there’s one thing I’ve learned from studying typography, it’s that you should never, ever use comic sans or papyrus, no matter what your project is.</p>
+
+</section>
