@@ -7,8 +7,10 @@
   @include shift(1);
   padding: 2em 1em;
 
-  &, a:hover {
-  	color: $white;
+  & a:hover {
+  	color: $grey-blue;
+    border-bottom: 1px solid $grey-blue;
+    padding-bottom: 5px;
   }
 
   p {

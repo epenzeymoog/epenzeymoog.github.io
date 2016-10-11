@@ -1,5 +1,7 @@
 .container {
   @include outer-container;
+
+  height: 5.5em;
   padding: 20px;
 }
 

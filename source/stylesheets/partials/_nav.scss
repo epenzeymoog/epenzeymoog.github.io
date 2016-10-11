@@ -21,7 +21,9 @@ nav {
   }
 
   a:hover {
-    color: $grey;
+    border-bottom: 1px solid $grey-blue;
+    color: $grey-blue;
+    padding-bottom: 5px;
   }
 
   @media (max-width: 550px) {
@@ -40,15 +42,18 @@ nav {
 
 .nav--right {
   float: right;
+  margin-top: 1.2em;
   padding-left: 0;
 }
 
 .logo {
+  line-height: 1;
   text-align: center;
   text-transform: uppercase;
 }
 
 .nav-links {
-  padding: 0 1em;
+  line-height: 1;
+  margin: 0 1em;
   text-align: center;
 }
