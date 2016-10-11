@@ -16,8 +16,6 @@
   letter-spacing: 0;
 }
 
-//
-
 h1{
   color: $white;
   font-family: $josefin;
@@ -101,4 +99,9 @@ p a{
 
 .title--thin {
   font-weight: 100;
+}
+
+//Blog typography
+.article-container h1 {
+  color: $grey;
 }

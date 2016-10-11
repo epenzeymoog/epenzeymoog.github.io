@@ -4,7 +4,8 @@
   max-width: 1200px;
 
   @include span-columns(8);
-  // @include shift(2);
+  @include shift(1);
+  padding: 2em 1em;
 
   &, a:hover {
   	color: $white;
