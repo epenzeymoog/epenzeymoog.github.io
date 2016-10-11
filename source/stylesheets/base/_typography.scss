@@ -1,7 +1,7 @@
 //nav typography
 
 .logo {
-  color: $grey;
+  color: $white;
   font-family: $quicksand, sans-serif;
   font-size: 1.6em;
   font-weight: 700;
@@ -9,7 +9,7 @@
 }
 
 .nav-links {
-  color: $grey;
+  color: $white;
   font-family: $quicksand, sans-serif;
   font-size: 1em;
   font-weight: 500;
@@ -70,6 +70,7 @@ a {
   color: $white;
   font-family: $quicksand;
   font-size: 4.5em;
+  font-weight: 300;
 }
 
 .submit-button {

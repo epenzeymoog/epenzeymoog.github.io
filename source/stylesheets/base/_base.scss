@@ -1,7 +1,12 @@
 body{
-  background: $light-blue;
+  background: $white;
   font-size: 1em;
   text-align: center;
+}
+
+.background-secondary {
+  background-color: $light-blue;
+  height: 100vh;
 }
 
 .clean-list {

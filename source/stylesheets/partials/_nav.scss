@@ -1,5 +1,5 @@
 nav {
-  background-color: $white;
+  background-color: $light-blue;
   border-bottom: 1px solid #eee;
   min-height: 75px;
   width: 100%;
@@ -21,7 +21,7 @@ nav {
   }
 
   a:hover {
-    color: $light_blue;
+    color: $grey;
   }
 
   @media (max-width: 550px) {
