@@ -3,14 +3,19 @@
   text-align: left;
   max-width: 1200px;
 
-  @include span-columns(8);
+  @include span-columns(10);
   @include shift(1);
-  padding: 2em 1em;
+  padding: 2em 0;
+
+  @media (min-width: $lg-screen) {
+    @include span-columns(8);
+    @include shift(2);
+    padding: 2em 1em;
+  }
 
   & a:hover {
   	color: $grey-blue;
     border-bottom: 1px solid $grey-blue;
-    padding-bottom: 5px;
   }
 
   p {
@@ -23,3 +28,6 @@
   text-align: right;
 }
 
+.article-container img {
+  width: 100%
+}

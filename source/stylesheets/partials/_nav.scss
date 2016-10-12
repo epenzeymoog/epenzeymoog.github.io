@@ -1,6 +1,7 @@
 nav {
   background-color: $light-blue;
   border-bottom: 1px solid #eee;
+  font-family: $quicksand;
   min-height: 75px;
   width: 100%;
 
@@ -54,6 +55,12 @@ nav {
 
 .nav-links {
   line-height: 1;
-  margin: 0 1em;
+  margin-right: .5em;
   text-align: center;
+  text-transform: uppercase;
+  
+  @media (min-width: $md-screen) {
+    letter-spacing: 2px;
+    margin: 0 1em;
+  }
 }

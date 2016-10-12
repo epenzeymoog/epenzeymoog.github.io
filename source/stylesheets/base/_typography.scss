@@ -21,6 +21,15 @@ h1{
   font-family: $josefin;
 }
 
+.submit-button {
+  color: $white;
+  font-family: $open;
+  font-weight: 300;
+  font-size: 1.1em;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+
 a {
   color: grey;
   font-family: 'Quicksand';
@@ -42,6 +51,8 @@ a {
 .title__position {
   font-family: $quicksand;
 }
+
+//blog typography
 
 .article-container h4 {
   color: $light-grey;
@@ -69,15 +80,6 @@ a {
   font-family: $quicksand;
   font-size: 4.5em;
   font-weight: 300;
-}
-
-.submit-button {
-  color: $white;
-  font-family: $open;
-  font-weight: 300;
-  font-size: 1.1em;
-  font-weight: 300;
-  letter-spacing: 5px;
 }
 
 ol, ul, li, p,{
