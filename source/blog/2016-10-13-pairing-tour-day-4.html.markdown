@@ -1,4 +1,4 @@
-  		---
+---
 title: paring-tour-day-4
 date: 2016-10-13 13:57 UTC
 tags: pairing
