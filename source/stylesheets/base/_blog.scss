@@ -29,5 +29,12 @@
 }
 
 .article-container img {
-  width: 100%
+  border: 1px solid red;
+  width: 70%;
+  height: auto;
+  margin-top: 1em;
+  @media (min-width: $lg-screen) {
+    width: 50%;
+    border: 1px solid green;
+  }
 }
