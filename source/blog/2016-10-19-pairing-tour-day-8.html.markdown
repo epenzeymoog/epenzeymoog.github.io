@@ -1,0 +1,21 @@
+---
+title: pairing-tour-day-8
+date: 2016-10-19 22:37 UTC
+tags:
+---
+
+<section class="article-container">
+
+<h1>Pairing Tour Day 7: Doug</h1>
+
+<p>My pairing tour wrapped up with a really interesting day spent with Doug, the Director of Software Services. I knew that he manages a group of client teams, works on sales and is heavily involved in the AXUS team, but seeing just how much he handles in an average day was pretty impressive. We jumped from data visualization to check-in with a crafter to a meeting with the CEO to a sales call to figuring out brining on one of the CTOs to a new project and talking to him about it, and ended the day with the same data visualization we started with.</p>
+
+<p>Doug has a role in a lot of high-level work, including staffing and figuring out how many apprentices the company needs to hire based on clients in the pipeline. It’s trickier than average hiring because of the apprenticeship program, which can last anywhere from 2 to 9 months and doesn’t involve any billable client work. Something that could help with this is being able to see all the data from the past few years laid out in a meaningful way, and so Doug is working on a massive excel sheet with all the data of positions, hires, departures, and types of departures. We spent some time finishing it off and then put the data into something called QuickSight, a cool Amazon product that visualizes data really nicely. Doug figured out how to use it pretty quickly and started creating charts that showed what he wanted.</p>
+
+<p>Throughout the morning I got to sit in on two high-level meetings he had, one with the CEO about the direction of a client project and one with Kevin, who has a CTO role and is going to be helping Doug on some of his projects. Sitting in on both of these conversations hit home two different things for me: first, this is a company with a lot of transparency - I’m pretty sure that anywhere else I’ve ever worked would have asked me to leave the room while these conversations were going on. Second, it’s easy to see how crafters here often end up acting as business consultants and not just software/design consultants. It’s something I didn’t really understand at first, but I’ve seen nearly every crafter I’ve paired with helping their client make decisions about the direction of the product. Everyone here is smart, understands the product they’re creating, and knows enough about the environment software exists within to help their client make good decisions.</p> 
+
+<p>The rest of the day was spent on a short sales call with a local start-up, a weekly check-in that Doug has with the crafter dedicated to the Design Studio, and more data visualization, along with some time where I got to pepper Doug with all my questions. Some of the best things I learned were how he organizes his work life with a trello board that has the categories “gain” for things that will add value to the company but no one has a pressing need for, and “pain avoidance,” which are items that will cause someone else trouble if he doesn’t do them. I also got to learn about his path from crafter to management and hear his general advice. Essentially, he emphasized that 8th Light is not a place with heavy-handed management; crafters need to self-manage. He also talked about the need to see the opportunity to further our UX work, especially user research, and take the initiative to make it happen. It’s definitely an exciting opportunity to be at the forefront of user research here, since it’s something I love doing and really believe in. I know it matters to good design (and of course, good design matters to good development), and that it can make a huge difference in a product, but much of the rest of the world sees it as the first thing to get cut when the budget gets tight. I’m excited to work at a place where a senior level employee like Doug values user research as much as he does.</p> 
+
+<p>Getting a big-picture look at 8th Light with Doug was a great way to end my pairing tour. I’ve learned so much about how the organization functions in the last week, as well as the types of challenges crafters face on a day-to-day basis. I feel a lot more informed about what it’ll be like to be a crafter myself.</p>
+
+</section>
