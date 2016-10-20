@@ -22,3 +22,4 @@ gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
 gem 'bourbon'
 gem 'neat'
 gem "middleman-blog"
+gem "nokogiri"

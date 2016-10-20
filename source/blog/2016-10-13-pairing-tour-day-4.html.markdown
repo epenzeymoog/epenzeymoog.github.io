@@ -1,12 +1,10 @@
 ---
-title: paring-tour-day-4
+title: Pairing Tour Day 4 - Kyle
 date: 2016-10-13 13:57 UTC
-tags: pairing
+tags: Pairing, Reflection
 ---
 
 <section class="article-container">
-
-<h1>Pairing Tour Day 4: Kyle</h1>
 
 <p>Kyle, 8th Light’s writer and fellow diehard Wisconsinite, seems to be involved with everything going on in the company, so I was excited to get to get to see his day-to-day work during my pairing tour. My impression was definitely right - he plays a role in a variety of things and it was good to see just how much goes on outside of the work of the crafters. Aside from writing proposals, he also has a hand in the strategy around generating new leads, which includes handling our site’s SEO (involving some really complex charts and a spreadsheet of thousands of search words), helping with planning the upcoming software craftsmanship conference, aiding other employees in writing blogs, and guiding the creation of new pages for the website.</p>
 

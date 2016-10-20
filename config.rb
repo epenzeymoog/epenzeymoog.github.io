@@ -20,6 +20,13 @@ page '/*.txt', layout: false
 # Helpers
 ###
 
+helpers do
+  def tag_links(article)
+    links = article.tags.map { |tag| link_to(tag, tag_path(tag)) }
+    links.join(", ")
+  end
+end
+
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
   # blog.prefix = "blog"
@@ -37,9 +44,11 @@ activate :blog do |blog|
   # blog.month_link = "{year}/{month}.html"
   # blog.day_link = "{year}/{month}/{day}.html"
   # blog.default_extension = ".markdown"
-
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
+  blog.layout = "article_layout"
+  # blog.summary_length = 250
+  blog.summary_separator = /READMORE/
 
   # Enable pagination
   # blog.paginate = true

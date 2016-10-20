@@ -1,11 +1,9 @@
 ---
-title: pairing-tour-day-6
+title: Pairing Tour Day 6 - Kristin
 date: 2016-10-18 01:39 UTC
-tags:
+tags: Pairing, Reflection
 ---
 <section class="article-container">
-
-<h1>Pairing Tour Day 6: Kristin</h1>
 
 <p>Week 2 of my pairing tour started off with a day spent back on AXUS with Kristin, a software crafter. She used the day as an opportunity to tackle an issue that’s been going on for a while and hasn’t been fully solved despite a few attempts by others on the team: formatting PDFs.</p>
 
@@ -24,9 +22,9 @@ tags:
 <p>Before today, I had never thought about how PDFs are created and styled. There’s clearly a lot that goes into it, and I had trouble finding resources that gave this information, possibly because both PDF and printing pages are becoming a thing of the past. Nevertheless, I’m glad I have a better handle on it now. In the future, if I ever get to help my team choose the resources for things like a PDF generator, I’m going to try to investigate the support it has around styling. I’m continuing to learn that crafters are always learning about new things that they probably never thought they’d have to study. It’s not about knowing everything but rather honing your skills at research and learning new things quickly.</p>
 
 <p>Main takeaways of the day:</p>
-<ol>
+<ul>
 	<li>Make sure you spend time researching before diving into a problem. If I had started off by researching PDF generation more thoroughly than I did, I could have asked Kristin about how they are generated earlier on and not wasted time wondering why our page-break styles refused to work.</li>
 	<li>There’s not an elegant solution for every problem. Sometimes you have to find the best solution for the given constraints and accept that you’ve left the project better than you found it.</li>
-</ol>
+</ul>
 
 </section>

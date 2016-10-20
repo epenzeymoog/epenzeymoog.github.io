@@ -1,12 +1,10 @@
 ---
-title: pairing-day-1-erica
+title: Pairing Tour Day 1 - Erica
 date: 2016-10-11 01:49 UTC
-tags: pairing
+tags: Pairing, Reflection
 ---
 
 <section class="article-container">
-
-<h1>Pairing Tour Day 1: Erica</h1>
 
 <p>Today I kicked off my pairing tour with my mentor Erica. It was her first day being back on with the AXUS project, which is a travel app that 8th Light built from scratch (as opposed to working on a legacy project of code written by someone else). I quickly realized that although I understood the basics of the service that AXUS provides, there is a lot that I don’t know about the travel industry. The ecosystem of travel agents, tour operators and the people who hire them for their vacations is pretty foreign to me, and about half way though the day I paused to read some articles about how these industries work, as well as look up some unfamiliar terms and acronyms.</p>
 

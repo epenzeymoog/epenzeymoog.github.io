@@ -1,12 +1,10 @@
 ---
-title: css-architecture
+title: CSS Architecture
 date: 2016-09-30 14:29 UTC
-tags:
+tags: CSS, BEM, OOCSS, SMACSS, Front-end devlopment
 ---
 
 <section class="article-container">
-<h1>CSS Architecture: An Overview of the Options</h1>
-
 <p>Writing styles for a simple webpage with CSS is easy, but with larger projects comes a lot more CSS, with the result that we need a way to organize it all. CSS by itself doesn’t tell us how to structure our work, and the pit of specificity is bottomless. If you’re like me, you’ve hit the point of feeling overwhelmed with how much CSS you have, and searched for best practices to organize it, only to have the various blogs and help forums tell you “it depends.” The way you should do a lot of things with CSS depends on the project. It’s something that you’ll figure out with experience on diverse projects and lots of research and trial and error. But if you’re a newer designer looking for help with project you have to do right now, this answer is far from helpful. This article will give an overview of a few ways to organize your CSS, and try to give some direction around the sorts of projects the methods work for. But at the end of the day, you’re going to have to just choose the one that seems best and start working. Maybe you’ll realize a different way will be better, and completely rewrite your styles, but more than likely you’ll get something up and out the door and know better for next time. First, this article will describe a way to organize your design elements before you even get into code (atomic design). Next comes three ways you can go about organizing your CSS:</p>
 
 <ul>

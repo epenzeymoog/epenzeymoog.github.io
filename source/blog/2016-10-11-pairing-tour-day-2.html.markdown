@@ -1,11 +1,9 @@
 ---
-title: pairing-tour-day-2
+title: Pairing Tour Day 2 - Erica Again
 date: 2016-10-11 22:28 UTC
-tags: pairing
+tags: Pairing, Reflection
 ---
 <section class="article-container">
-
-<h1>Pairing Tour Day 2: Erica again</h1>
 
 <p>My second day of pairing started off with IPM, followed by a brainstorming session with the entire team spent thinking through how to handle data around subscribers. There was a lot to consider - what are all the things that need to be considered when a subscriber to the service signs up for the first time, cancels, or upgrades or downgrades their account? Some subscribers are individuals while some are groups of people - what if an organization needs to remove one person? Downgrade another? Upgrade just half the group? How can we track trials who convert to a paid plan? How is that different from someone who signed up with a voucher and then converted? The software needs to be a able to do this while updating the database that shows how many current subscribers exist and how many are in each plan, while remembering their organization ID and other data about each user. The conversation resulted in a complex chart mapping it all out. There was a lot to consider and the four software crafters in the room all had different ideas that would work, and had to talk through them to figure out the best solution.</p>
 

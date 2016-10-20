@@ -1,11 +1,9 @@
 ---
-title: typography
+title: Overview of Typography
 date: 2016-10-09 17:45 UTC
-tags:
+tags: Design, Typography
 ---
 <section class="article-container">
-
-<h1>Typography</h1>
 
 <p>Typography is an essential part of design. While people may not notice a pleasant font that’s easy on the eyes, they definitely notice a poorly constructed or misused font. Typography is a huge area of study with hundreds of years behind it, and the modern designer has thousands of choices when choosing a typeface for a project. Knowing the basics of typography can help us making the right choice as designers.</p>
 

@@ -1,11 +1,10 @@
 ---
-title: fun-with-html-forms
+title: Fun with HTML Forms
 date: 2016-09-30 14:20 UTC
-tags:
+tags: HTML, Forms, Front-end development
 ---
 
 <section class="article-container">
-<h1>Fun with HTML forms</h1>
 <p>Forms are important for capturing user information and are found everywhere around the internet, from sign up forms for apps to posting Facebook status to inputting your birthday to show that you’re over 21 before entering a brewery’s website. They’re essential and they’re everywhere. And yet they’re often a huge barrier to a user friendly experience, and while there are many reasons for this, one is that designers often don’t know about the wide variety of options available to them. Knowing how forms are built can help designers make them more user friendly. This is yet another reason for designers to be versed in the technical side of what they’re designing. By the way, the topic of designing forms is a <a href="https://www.gravitatedesign.com/blog/best-form-ever/">whole separate</a> <a href="http://www.lukew.com/ff/entry.asp?1502">(and huge)</a> issue that every designer should explore from a UX standpoint.</p>
 
 <p>There are a lot of options for creating forms, and people have recently been doing some really exciting things with making forms easier and more fun to fill out. Yes, forms can be exciting!!! I’ll cover that part towards the end, as a reward for getting through this admittedly dull topic. In the meantime, there’s been a lot of action lately around forms, with HTML5 releasing 13 new input fields in 2013. Many of them have no reached a solid browser support to start to be used in every day websites. Let’s start with the old standards and then move onto the exciting stuff. Note that lots of these input types can accept “attributes,” which give more information about how the form should look and function. There are lots of attributes and tons of possibilities for using them within input types. I’ve noted where values are the most useful or essential when necessary within the explanation of the various input types.</p>

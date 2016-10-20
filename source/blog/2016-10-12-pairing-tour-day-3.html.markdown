@@ -1,12 +1,10 @@
 ---
-title: pairing-tour-day-3
+title: Pairing Tour Day 3 - Diana
 date: 2016-10-12 22:44 UTC
-tags:
+tags: Pairing, Reflection
 ---
 
 <section class="article-container">
-
-<h1>Pairing Tour Day 3: Diana</h1>
 
 <p>I started off day 3 of my pairing tour excited and curious to work with a software crafter and get a view outside of the design team. My pair for the day, Diana, is working on a project that involves presenting the information associated with a thousands of items, and we spent the day styling the main presentation screen to be cleaner and easier to read.</p>
 

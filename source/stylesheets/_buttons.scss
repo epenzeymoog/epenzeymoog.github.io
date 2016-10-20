@@ -1,9 +1,4 @@
-.main-button {
-  @include outer-container(500px);
-}
-
 .submit-button {
-  border: 1px solid white;
   border-radius: 5px;
   margin: .5em 0;
   padding: 15px 0;
@@ -14,9 +9,42 @@
    @include span-columns (4);
    @include shift(0); 
   }
-  
-    &:hover {
-      background: rgba(10,20,200,0.1);
-      transition: all 0.15s linear;
-    }
+}
+
+.button--primary {
+  border: 1px solid white;
+
+  &:hover {
+    background: rgba(0,122,225,0.2);
+    transition: all 0.15s linear;
+  }
+}
+
+.button--secondary {
+  background-color: $light-blue;
+  font-family: "Open Sans Condensed", serif;
+  font-size: 1em;
+  letter-spacing: 1px;
+
+  @media (min-width: $md-screen) {
+   @include span-columns (3);
+   @include shift(0); 
+  }
+
+  &:hover {
+    background: rgba(0,122,225,0.4);
+    transition: all 0.15s linear;
+  }
+}
+
+.right {
+  @media (min-width: $md-screen) {
+    float: right;
+  }
+}
+
+.left {
+  @media (min-width: $md-screen) {
+    float: left;
+  }
 }

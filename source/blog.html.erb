@@ -1,131 +1,21 @@
-<!doctype html>
-<html>
-  <head>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta charset="utf-8">
-    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
-    <link type="image/ico" href="images/favicon.ico" rel="icon" />   
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700|Open+Sans+Condensed:300,300i,700" rel="stylesheet">
-    <link href="/stylesheets/site.css" rel="stylesheet" />
-    <script src="/javascripts/all.js"></script>
-  </head>
 <%= partial "partials/nav" %>
-<body>
+<div class="content-container">
+  <ul>
+    <% page_articles.each_with_index do |article, i| %>
+      <li class="article">
+        <h3 class="article-title"><%= link_to article.title, article %></h3>
 
-<div class="container">
-	<section class="article-container">
+          <%= article.summary%>
 
-		<h3><a href="/blog/2016/10/19/pairing-tour-day-8">Pairing Tour Day 8: Doug</a></h3>
-		<h4>October 19th, 2016</h4>
+          <span class="meta__date">
+            <%= article.date.strftime('%b %e %Y') %>
+          </span>
+          <span class="meta__tag">
+            <%= tag_links(article) %>
+          </span>
 
-		<p>My pairing tour wrapped up with a really interesting day spent with Doug, the Director of Software Services. I knew that he manages a group of client teams, works on sales and is heavily involved in the AXUS team, but seeing just how much he handles in an average day was pretty impressive. We jumped from data visualization to check-in with a crafter to a meeting with the CEO to a sales call to figuring out brining on one of the CTOs to a new project and talking to him about it, and ended the day with the same data visualization we started with. </p>
-
-		<p class="article-container__link"><a href="/blog/2016/10/19/pairing-tour-day-8">Read more...</a></p>
-
-		<h3><a href="https://epenzeymoog.github.io/animations">Animations</a></h3>
-		<h4>October 18th, 2016</h4>
-
-		<p>Animations are a great way to add meaning and delight to any web experience (so long as they are done right). Because our brains are wired to notice movement, creating moving pieces immediately grabs users' attention. It's important to use animations wisely, as they can easily distract a user from the task you want them to complete.Done right, animations evoke visual interest, personality and delight.</p>
-
-		<p class="article-container__link"><a href="https://epenzeymoog.github.io/animations">Read more...</a></p>
-
-		<h3><a href="/blog/2016/10/18/pairing-tour-day-7">Pairing Tour Day 7: Chris</a></h3>
-		<h4>October 18th, 2016</h4>
-
-		<p>Chris is an awesome senior designer here at 8th Light, and I was really excited to pair with him today. He had something come up that made him have to leave for home at lunch, but the morning was a fast-paced blend of quick meetings, work for the upcoming Software Craftsmanship North America (SCNA) conference that 8th Light puts on every year, and fixes for his client project.</p>
-
-		<p class="article-container__link"><a href="/blog/2016/10/18/pairing-tour-day-7">Read more...</a></p>
-
-		<h3><a href="/blog/2016/10/18/pairing-tour-day-6">Pairing Tour Day 6: Kristin</a></h3>
-		<h4>October 17th, 2016</h4>
-
-		<p>Week 2 of my pairing tour started off with a day spent back on AXUS with Kristin, a software crafter. She used the day as an opportunity to tackle an issue that’s been going on for a while and hasn’t been fully solved despite a few attempts by others on the team: formatting PDFs. In the travel industry, PDFs remain a popular way to share information, and it’s important they look good. The team wanted to make sure that images weren’t being split across multiple pages of PDFs, as well as make sure that the image’s header stick with the image and make sure the two elements couldn’t be split across two pages, with the header at the very bottom and its image at the very top of the next page.</p>
-
-		<p class="article-container__link"><a href="/blog/2016/10/18/pairing-tour-day-6">Read more...</a></p>
-
-		<h3><a href="/blog/2016/10/14/pairing-tour-day-five">Pairing Tour Day 5: Emmanuel</a></h3>
-		<h4>October 14th, 2016</h4>
-
-		<p>Pairing with Emmanuel was one of the most challenging days I’ve had in a while, due to the sheer amount of things we worked on that I didn’t understand at all. While I’m familiar with Ruby, and spent a few months studying it over a year ago, the majority of code we worked with was beyond me. Thankfully, Emmanuel is a great teacher and good at providing the context for what he’s doing. At the end of the day my brain was fried but I understood a lot more about what it’s like to work on the back-end part of software.</p>
-		<p class="article-container__link"><a href="/blog/2016/10/14/pairing-tour-day-five">Read more...</a></p>
-		
-		<h3><a href="/blog/2016/10/13/pairing-tour-day-4">Pairing Tour Day 4: Kyle</a></h3>
-		<h4>October 13th, 2016</h4>
-
-		<p>Kyle, 8th Light’s writer and fellow diehard Wisconsinite, seems to be involved with everything going on in the company, so I was excited to get to get to see his day-to-day work during my pairing tour. My impression was definitely right - he plays a role in a variety of things and it was good to see just how much goes on outside of the work of the crafters. Aside from writing proposals, he also has a hand in the strategy around generating new leads, which includes handling our site’s SEO (involving some really complex charts and a spreadsheet of thousands of search words), helping with planning the upcoming software craftsmanship conference, aiding other employees in writing blogs, and guiding the creation of new pages for the website.</p>
-		<p class="article-container__link"><a href="/blog/2016/10/13/pairing-tour-day-4">Read more...</a></p>
-
-		<h3><a href="/blog/2016/10/12/pairing-tour-day-3">Pairing Tour Day 3: Diana</a></h3>
-		<h4>October 12th, 2016</h4>
-
-		<p>I started off day 3 of my pairing tour excited and curious to work with a software crafter and get a view outside of the design team. My pair for the day, Diana, is working on a project that involves presenting the information associated with a thousands of items, and we spent the day styling the main presentation screen to be cleaner and easier to read. I was looking forward to all the new, strange things that a software crafter does, and Diana did not disappoint.</p>
-		<p class="article-container__link"><a href="/blog/2016/10/12/pairing-tour-day-3">Read more...</a></p>
-
-		<h3><a href="/blog/2016/10/11/pairing-tour-day-2">Pairing Tour Day 2: Erica</a></h3>
-		<h4>October 11th, 2016</h4>
-
-		<p>My second day of pairing started off with IPM, followed by a brainstorming session with the entire team spent thinking through how to handle data around subscribers. There was a lot to consider - what are all the things that need to be considered when a subscriber to the service signs up for the first time, cancels, or upgrades or downgrades their account? Some subscribers are individuals while some are groups of people - what if an organization needs to remove one person? Downgrade another? Upgrade just half the group? How can we track trials who convert to a paid plan? How is that different from someone who signed up with a voucher and then converted? The software needs to be a able to do this while updating the database that shows how many current subscribers exist and how many are in each plan, while remembering their organization ID and other data about each user. The conversation resulted in a complex chart mapping it all out. There was a lot to consider and the four software crafters in the room all had different ideas that would work, and had to talk through them to figure out the best solution.</p>
-		<p class="article-container__link"><a href="/blog/2016/10/11/pairing-tour-day-2">Read more...</a></p>
-
-		<h3><a href="/blog/2016/10/11/pairing-day-1-erica">Pairing Tour Day 1: Erica</a></h3>
-		<h4>October 10th, 2016</h4>
-
-		<p>Today I kicked off my pairing tour with my mentor Erica. It was her first day being back on with the AXUS project, which is a travel app that 8th Light built from scratch (as opposed to working on a legacy project of code written by someone else). I quickly realized that although I understood the basics of the service that AXUS provides, there is a lot that I don’t know about the travel industry. The ecosystem of travel agents, tour operators and the people who hire them for their vacations is pretty foreign to me, and about half way though the day I paused to read some articles about how these industries work, as well as look up some unfamiliar terms and acronyms.</p>
-		<p class="article-container__link"><a href="/blog/2016/10/11/pairing-day-1-erica">Read more...</a></p>
-
-		<h3><a href="/blog/2016/10/09/typography">Typography</a></h3>
-		<h4>October 7th, 2016</h4>
-
-		<p>Typography is an essential part of design. While people may not notice a pleasant font that’s easy on the eyes, they definitely notice a poorly constructed or misused font. Typography is a huge area of study with hundreds of years behind it, and the modern designer has thousands of choices when choosing a typeface for a project. Knowing the basics of typography can help us making the right choice as designers.</p>
-		<p class="article-container__link"><a href="/blog/2016/10/09/typography">Read more...</a></p>
-
-		<h3><a href="/blog/2016/09/29/using-bourbon-and-neat">Using Bourbon &amp; Neat</a></h3>
-		<h4>September 2nd, 2016</h4>
-
-		<p>Bourbon is a mixin library for Sass. Some people at thoughtbot decided it would be a good idea to centralize some of the most useful mixins so that we’re not all reinventing the wheel in slightly different ways all the time. Neat is a cool little grid framework that makes layout and positioning - the cause most designers’ eternal headache - much easier. It’s super responsive, clean and lightweight.</p>
-		<p class="article-container__link"><a href="/blog/2016/09/29/using-bourbon-and-neat">Read more...</a></p>
-
-		<h3><a href="/blog/2016/09/30/css-architecture">CSS Architecture</a></h3>
-		<h4>August 1st, 2016</h4>
-		<p>Writing styles for a simple webpage with CSS is easy, but with larger projects comes a lot more CSS, with the result that we need a way to organize it all. CSS by itself doesn’t tell us how to structure our work, and the pit of specificity is bottomless. If you’re like me, you’ve hit the point of feeling overwhelmed with how much CSS you have, and searched for best practices to organize it, only to have the various blogs and help forums tell you “it depends.” The way you should do a lot of things with CSS depends on the project. It’s something that you’ll figure out with experience on diverse projects and lots of research and trial and error. But if you’re a newer designer looking for help with project you have to do right now, this answer is far from helpful. This article will give an overview of a few ways to organize your CSS, and try to give some direction around the sorts of projects the methods work for. But at the end of the day, you’re going to have to just choose the one that seems best and start working. Maybe you’ll realize a different way will be better, and completely rewrite your styles, but more than likely you’ll get something up and out the door and know better for next time. First, this article will describe a way to organize your design elements before you even get into code (atomic design). Next comes three ways you can go about organizing your CSS. </p>
-		<p class="article-container__link"><a href="/blog/2016/09/30/css-architecture">Read more...</a></p>
-
-		<h3><a href="/blog/2016/09/30/fun-with-html-forms">Fun with HTML5 Forms</a></h3>
-		<h4>July 18th, 2016</h4>
-		<p>Forms are important for capturing user information and are found everywhere around the internet, from sign up forms for apps to posting Facebook status to inputting your birthday to show that you’re over 21 before entering a brewery’s website. They’re essential and they’re everywhere. And yet they’re often a huge barrier to a user friendly experience, and while there are many reasons for this, one is that designers often don’t know about the wide variety of options available to them. Knowing how forms are built can help designers make them more user friendly. This is yet another reason for designers to be versed in the technical side of what they’re designing. </p>
-		<p class="article-container__link"><a href="/blog/2016/09/30/fun-with-html-forms">Read more...</a></p>
-
-		<h3><a href="/blog/2016/09/30/semantic-html-matters">Semantic HTML Matters</a></h3>
-		<h4>July 14th, 2016</h4>
-		<p>The basics of HTML and CSS are often the very first lessons in “teach yourself to code” tutorials. This makes sense, as these two languages build the basic visuals of a website and are much easier for a beginner to wrap their head around than, say, creating an array in ruby. They teach just enough to get yourself up and running so that you can move onto the fund stuff, but rarely move beyond the simplest of elements, much less teach us why semantic HTML is important. It makes sense to start here, but the fact that these tutorials typically only teach very basic HTML, combined with the fact that many developers never return to these “basics,” means that our knowledge stays, well, basic. I hate to admit that I’m one of these people - I’d rather dedicate my time to learning cool things like flex box (with my favorite <a href="http://flexboxfroggy.com/">frog-based game</a>) and <a href="https://css-tricks.com/css3-gradients/">beautiful CSS gradients</a> than learn about all the elements HTML5 gives us beyond <code>header</code>, <code>footer</code> and <code>section</code>. But alas, my mentor here at 8th Light has (I suspect) caught me using one too many <code>div</code> elements, and it’s high time I went back and augmented my HTML knowledge, which at this point has been the very minimum needed to hand-code a website. This might fly at some companies, but 8th Light is all about doing things right and not cutting corners, meaning it’s time for me to give up my constant use of <code>div</code>s and learn to do things properly now as an apprentice, before I ever have the chance to subject a client to an abundance of <code>div</code> tags. </p>
-		<p class="article-container__link"><a href="/blog/2016/09/30/semantic-html-matters">Read more...</a></p>
-
-		<h3><a href="/blog/2016/09/30/mobile-first-and-responsive-design">The Technical Designer: Cross-platform Design &amp; Mobile First</a></h3>
-		<h4>July 11th, 2016</h4>
-		<p>This post is broken down into two sections: design and development/technical. I highly suggest my designer colleagues muddle their way through the technical half and use the links to explore the topics. I’ve <a href="https://github.com/epenzeymoog/my_blog/blob/master/source/2016-06-24-first_post.html.markdown">made the case before</a> for designers to be familiar with code and how things work. Designing for mobile first is yet another excellent example of a case where having a full understanding of how it all works makes you able to create better designs than if you only understand how the design half works. And developers, you too should have a working knowledge of the basics of web design (a full post on why is coming later), so I encourage you to read the design portion. Basically, designers and developers alike, read the entire post and choose a topic or two to dig into that are on the other side of your expertise.</p>
-		<p class="article-container__link"><a href="/blog/2016/09/30/mobile-first-and-responsive-design">Read more...</a></p>
-
-		<h3><a href="/blog/2016/09/29/dont-make-me-think">Don't Make Me Think: A Classic Read and a Nostalgic Trip</a></h3>
-		<h4>July 1st, 2016</h4>
-		<p>Don’t Make Me Think, Steven Krug’s guide for website usability, is considered a classic in the design field, and for good reason. It was first written in 2000, when websites looked
-		<a href="http://www.3riversstadium.com/index2.html">like this</a>
-		and using the internet caused your parents to miss calls on the land line. Despite the book being ancient in terms of the short life of modern web use, all of the main points remain solidly relevant. Few books that have to do with technology of the day can say the same, a fact I confirmed during a recent visit to the large programming section of the Harold Washington Library. Books much newer are completely archaic and obsolete within the constantly-evolving world of what makes the internet run. But not Don’t Make Me Think. This book remains a treasure trove of useful information, with the author’s wisdom packaged in a time capsule from the year 2000. Not only is the book readable, funny, and quick, it’s also fascinating to see how things worked back then, and nothing beats the warm feeling of nostalgia for the experience of using the giant family apple desktop computer as a kid.</p>
-		<p class="article-container__link"><a href="/blog/2016/09/29/dont-make-me-think">Read more...</a></p>
-
-		<h3><a href="/blog/2016/09/30/the-technical-designer">How Technical Should Designers Be?</a></h3>
-		<h4>June 20th, 2016</h4>
-		<p>I see these questions come up again and again in articles and talks within the tech community. Recently I've seen a lot of articles with headlines like "UX Designers: Forget Learning to Code. Study Business Instead." These really bother me - designers have the capicity to learn more than one ancillary skill. We should obviously be choosing what to learn outside of pure design skills based on what we need to do our jobs well, what our companies want, and what we personally find interesting.</p>
-
-		<p>For the most part, web designers don’t need to know how to code per se. But here’s the thing: what you *do* want is control over you work and a seat at the table. You’re also not just any designer; you’re smart, and hard-working, and talented, and you want to be able to keep up with the developers and more technical people at your company.</p>
-
-		<p>As part of my writing during my 8th Light Design Apprenticeship, I will be exploring development and more technical pieces of how the internet works from a designer’s perspective, and writing about it so that you, the ambitious designer, can better understand what’s going on.</p>
-
-		<p class="article-container__link"><a href="/blog/2016/09/30/the-technical-designer">Read more...</a></p>
-
-	</section>
-
+        <span class="divider"></span>
+      </li>
+    <% end %>
+  </ul>
 </div>
-
-</body>
-</html>
-

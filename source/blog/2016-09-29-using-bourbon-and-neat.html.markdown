@@ -1,11 +1,9 @@
 ---
-title: using-bourbon-and-neat
+title: Using Bourbon and Neat
 date: 2016-09-29 23:18 UTC
-tags:
+tags: Design, Front-end development, Layout, Mobile Design, Responsiveness
 ---
 <section class="article-container">
-<h1>Using Bourbon & Neat</h1>
-
 <p>Bourbon is a mixin library for Sass.</p>
 
 <p>Sass gives us the ability to keep our styles in cleanly separated files and write those styles with the help of variables that we define in yet another file. We use @import to import the files to each other and build on top of them. They are all imported into a single file made up of nothing but imports - this is our main Sass file. Sass uses it’s magic (the watch command, which is explained later) to compile the contents of this main Sass file (which are the contents of all the other files it’s lined to) to a single CSS file that the browser uses to get styles from. Sass saves us from the messiness of a long CSS file. It does all the work for us.</p>

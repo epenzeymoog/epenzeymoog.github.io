@@ -1,12 +1,10 @@
 ---
-title: the-technical-designer
+title: The Technical Designer
 date: 2016-09-30 15:20 UTC
-tags:
+tags: Goals, Reflection, Design
 ---
 
 <section class="article-container">
-<h1>How Technical Should Designers Be?</h1>
-
 <p>I see these questions come up again and again in articles and talks within the tech community. Recently I've seen a lot of articles with headlines like "UX Designers: Forget Learning to Code. Study Business Instead." These really bother me - designers have the capicity to learn more than one ancillary skill. We should obviously be choosing what to learn outside of pure design skills based on what we need to do our jobs well, what our companies want, and what we personally find interesting.</p>
 
 <p>For the most part, web designers don’t need to know how to code per se. But here’s the thing: what you *do* want is control over you work and a seat at the table. You’re also not just any designer; you’re smart, and hard-working, and talented, and you want to be able to keep up with the developers and more technical people at your company.</p>

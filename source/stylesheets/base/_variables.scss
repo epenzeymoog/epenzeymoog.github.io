@@ -7,6 +7,7 @@ $grey-blue: #5f7b9a;
 $white: #F7F7FF;
 $grey: #424651;
 $light-grey: #67686b;
+$dark-grey: #5A5A5A;
 
 //Typography
 $josefin: 'Josefin Slab', serif;
@@ -17,3 +18,18 @@ $quicksand: 'Quicksand', sans-serif;
 $sm-screen: '375px';
 $md-screen: '520px';
 $lg-screen: '900px';
+
+
+@mixin hover {
+	line-height: 2;
+
+	a:hover {
+		border-bottom: 1px solid $grey-blue;
+  	color: $grey-blue;
+		padding-bottom: 5px;
+
+  	@media (min-width: 550px) {
+   		line-height: 0;		
+  	}
+	}
+} 

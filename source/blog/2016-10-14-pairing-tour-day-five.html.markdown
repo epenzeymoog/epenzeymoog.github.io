@@ -1,12 +1,10 @@
 ---
-title: pairing-tour-day-five
+title: Pairing Tour Day 5 - Emmanuel
 date: 2016-10-14 13:54 UTC
-tags: pairing
+tags: Pairing, Reflection
 ---
 
 <section class="article-container">
-
-<h1>Pairing Tour Day 5: Emmanuel</h1>
 
 <p>Pairing with Emmanuel was one of the most challenging days I’ve had in a while, due to the sheer amount of things we worked on that I didn’t understand at all. While I’m familiar with Ruby, and spent a few months studying it over a year ago, the majority of code we worked with was beyond me. Thankfully, Emmanuel is a great teacher and good at providing the context for what he’s doing. At the end of the day my brain was fried but I understood a lot more about what it’s like to work on the back-end part of software.</p>
 
@@ -25,8 +23,8 @@ tags: pairing
 <p>Even thought I was writing pretty simple Ruby, my brain was completely fried by the end of our time together, but in a good way. It was awesome to do more work on my own project, the CSC website, and to learn exactly how my code could get used to do something like this. Also, I felt solid about the fact that my classes were named well and everything was organized - we never had to guess about what we were doing or where we were in my html code. I’d love to do more work like around seeing what specifically goes on after I had off a design with front-end implementation to a back-end developer.</p>
 
 <p>Main takeaways of the day</p>
-<ol>
+<ul>
 	<li>Even super smart software crafters get stuck up in the complexity of what we do, and I’ll probably be working through weird environment issues and other blockers my whole career. This is actually kind of reassuring, since it means that it’s just something I have to plan for and something I can avoid by just being really good at what I do.</li>
 	<li>Ruby is a fun language, and I remember now why I spent so much energy learning the basics over a year ago. I’d really like to dig more into Ruby and JavaScript in the future.</li>
-</ol>
+</ul>
 </section>

@@ -1,14 +1,10 @@
 ---
-title: semantic-html-matters
+title: Using Semantic HTML
 date: 2016-09-30 14:13 UTC
-tags:
+tags: HTML, Semantics, Front-end development
 ---
 
 <section class="article-container">
-<h1>Semantic HTML Matters</h1>
-
-<h2>The Basics of HTML</h2>
-
 <p>The basics of HTML and CSS are often the very first lessons in “teach yourself to code” tutorials. This makes sense, as these two languages build the basic visuals of a website and are much easier for a beginner to wrap their head around than, say, creating an array in ruby. They teach just enough to get yourself up and running so that you can move onto the fund stuff, but rarely move beyond the simplest of elements, much less teach us why semantic HTML is important. It makes sense to start here, but the fact that these tutorials typically only teach very basic HTML, combined with the fact that many developers never return to these “basics,” means that our knowledge stays, well, basic. I hate to admit that I’m one of these people - I’d rather dedicate my time to learning cool things like flex box (with my favorite <a href="http://flexboxfroggy.com/">frog-based game</a>) and <a href="https://css-tricks.com/css3-gradients/">beautiful CSS gradients</a> than learn about all the elements HTML5 gives us beyond <code>header</code>, <code>footer</code> and <code>section</code>. But alas, my mentor here at 8th Light has (I suspect) caught me using one too many <code>div</code> elements, and it’s high time I went back and augmented my HTML knowledge, which at this point has been the very minimum needed to hand-code a website. This might fly at some companies, but 8th Light is all about doing things right and not cutting corners, meaning it’s time for me to give up my constant use of <code>div</code>s and learn to do things properly now as an apprentice, before I ever have the chance to subject a client to an abundance of <code>div</code> tags. </p>
 
 <h2>Semantic HTML</h2>

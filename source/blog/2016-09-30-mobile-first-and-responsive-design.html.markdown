@@ -1,11 +1,10 @@
 ---
-title: mobile-first-and-responsive-design
+title: Mobile First & Responsiveness
 date: 2016-09-30 14:30 UTC
-tags:
+tags: Design, Front-end development, Mobile first, Mobile Design, Responsiveness
 ---
 
 <section class="article-container">
-<h1>The Technical Designer: Cross-platform Design & Mobile First</h1>
 
 <p>This post is broken down into two sections: design and development/technical. I highly suggest my designer colleagues muddle their way through the technical half and use the links to explore the topics. I’ve <a href="https://github.com/epenzeymoog/my_blog/blob/master/source/2016-06-24-first_post.html.markdown">made the case before</a> for designers to be familiar with code and how things work. Designing for mobile first is yet another excellent example of a case where having a full understanding of how it all works makes you able to create better designs than if you only understand how the design half works. And developers, you too should have a working knowledge of the basics of web design (a full post on why is coming later), so I encourage you to read the design portion. Basically, designers and developers alike, read the entire post and choose a topic or two to dig into that are on the other side of your expertise.</p>
 

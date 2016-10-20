@@ -1,12 +1,10 @@
 ---
-title: pairing-tour-day-7
+title: Pairing Tour Day 7 - Chris
 date: 2016-10-18 19:18 UTC
-tags:
+tags: Pairing, Reflection
 ---
 
 <section class="article-container">
-
-<h1>Pairing Tour Day 7: Chris</h1>
 
 <p>Chris is an awesome senior designer here at 8th Light, and I was really excited to pair with him today. He had something come up that made him have to leave for home at lunch, but the morning was a fast-paced blend of quick meetings, work for the upcoming Software Craftsmanship North America (SCNA) conference that 8th Light puts on every year, and fixes for his client project.</p>
 
@@ -19,9 +17,9 @@ tags:
 <p>Chris showed me where he had set the focus state with outline: <code>-webkit-focus-ring-color auto 5px</code>. Unfortunately, it was only working for OS X. Firefox and Internet Explorer weren’t supporting the <code>focus-ring-color</code>, and so we remade the styles to simply be a border. Chris created a Sass mixin so that he used all over the place to write less code - by using the mixin, he was able to write the few lines he needed once, and everywhere else keep it to one short line of code.</p>
 
 <p>Main takeaways of the day:</p>
-<ol>
+<ul>
 	<li>Sass mixins can save you ton of room when it comes to your code. I’ve never made my own, but it’s time to start!</li>
 	<li>Be wary when overriding a browser’s defaults styles - always research the impact and make sure to add in new styles when it’s something people depend on.</li>
-</ol>
+</ul>
 
 </section>
