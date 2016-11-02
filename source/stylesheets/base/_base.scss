@@ -60,3 +60,15 @@ ul {
 .center {
   text-align: center;
 } 
+
+.gist {
+  display: block;
+  width: 16em;
+
+  @media (min-width: 400px) {
+    width: 20em;
+  }
+}
+.gist .gist-meta {
+  display: none;
+}
