@@ -3,7 +3,7 @@ title: BEM-for-Beginners
 date: 2016-11-02 02:31 UTC
 tags: BEM, CSS, Front-end devlopment
 ---
-
+<section class="article-container">
 <h2>BEM for Beginners</h2>
 
 When I was first learning HTML and CSS, I was too busy trying to make heads or tails of how it all worked to worry much about things like code maintainability or how quickly someone else would be able to figure out what my code was doing. It was a while before I learned about the various methodologies out there to keep things maintainable, and I had enough experience by the to know my code was messy and confusing. It doesn’t matter if you’re working on a project solo or on a team with dozens of people - keeping your code readable and maintainable is essential.
@@ -73,3 +73,4 @@ No nesting, no hassle later on when I want to reuse a style. I have the option t
 
 <strong>BEM for new developers</strong>
 As someone who’s still on the newer end of writing code for the front-end, I find BEM’s simplicity and strictness appealing. When you’re still getting your bearings on how things work, anything that will make it easier to understand what’s going on is a necessity, and BEM does just that. It feels to write with its rules at first, but it quickly becomes second nature, and you’ll thank yourself the first time you have to make a change to a project you haven’t touched for a few months are are able to quickly find what you’re looking for. At the end of the day, there are lots of options out there, and it’s most important that you find one that suits the needs of you and your team. But if you’re just starting out and looking for a naming methodology that will bring some structure to chaotic code, BEM is a great option.
+</section>
