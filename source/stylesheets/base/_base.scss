@@ -63,12 +63,9 @@ ul {
 
 .gist {
   display: block;
-  width: 16em;
-
-  @media (min-width: 400px) {
-    width: 20em;
-  }
+  width: 100%;
 }
+
 .gist .gist-meta {
   display: none;
 }
