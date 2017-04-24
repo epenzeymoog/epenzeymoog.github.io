@@ -1,9 +1,13 @@
-nav {
-  background-color: $light-blue;
-  border-bottom: 1px solid #eee;
-  font-family: $quicksand;
-  min-height: 75px;
-  width: 100%;
+.nav-wrapper {
+  background-color: #0070ff;
+  background-image: linear-gradient(#0070ff, #55a0ff);
+}
+
+.nav {
+  @include outer-container(900px);
+  height: 85px;
+  position: relative;
+  z-index: 5;
 
   ul {
     display: inline-block;
@@ -18,13 +22,6 @@ nav {
 
   a {
     display: block;
-    line-height: 45px;
-  }
-
-  a:hover {
-    border-bottom: 1px solid $grey-blue;
-    color: $grey-blue;
-    padding-bottom: 5px;
   }
 
   @media (max-width: 550px) {
@@ -32,35 +29,45 @@ nav {
   }
 }
 
-.nav-wrapper {
-  width: 90%;
-}
-
-.logo--left {
+.nav__logo {
   float: left;
-  padding-left: 1em;
+  margin-top: 2em;
+  padding-left: 0;
 }
 
-.nav--right {
+.nav__items {
   float: right;
-  margin-top: 1.2em;
+  margin-top: 2em;
   padding-left: 0;
 }
 
 .logo {
+  color: $white;
+  font-family: "rooney-sans";
+  letter-spacing: 1px;
   line-height: 1;
   text-align: center;
-  text-transform: uppercase;
 }
 
 .nav-links {
+  color: $white;
+  font-family: "rooney-sans";
+  font-size: 1em;
+  font-weight: 100;
+  letter-spacing: 0;
   line-height: 1;
   margin-right: .5em;
   text-align: center;
-  text-transform: uppercase;
-  
+  text-transform: lowercase;
+
+  &:hover {
+    border-bottom: 1px solid $grey-blue;
+    color: $grey-blue;
+    padding-bottom: 3px;
+  }
+
   @media (min-width: $md-screen) {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin: 0 1em;
   }
 }

@@ -1,7 +1,15 @@
-body{
-  background: $white;
+body .home {
+  background-color: #0070ff;
+  background-image: linear-gradient(#0070ff, #55a0ff);
+  background-repeat: no-repeat;
   font-size: 1em;
+  height: auto;
+  left: 0;
+  min-height: 100%;
+  position: fixed;
   text-align: center;
+  top: 0;
+  width: 100%;
 }
 
 .container {
@@ -22,44 +30,61 @@ ul {
   @include outer-container(500px);
 }
 
-.background-secondary {
-  background-color: $light-blue;
-  height: 100vh;
-}
-
 .clean-list {
   text-decoration: none;
 }
 
-.center-vertical {
-  margin: auto 0;
-  position: absolute;
-  top: 10%;
-  width: 100%;
+.title-container {
+  @include span-columns(8);
+  @include shift(2);
+  color: white;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: 1.2em;
+  margin-top: 8em;
+  position: relative;
+  text-align: center;
+  z-index: 5;
+}
+
+.title {
+  font-family: "rooney-sans";
+  font-size: 2em;
+  line-height: 1;
+  text-shadow: 4px 4px #4b00ff;
+  text-transform: uppercase;
 
   @media (min-width: $lg-screen) {
-    height: 100px;
-    left: 20px;
-    margin-top: -200px;
-    position: absolute;
-    right: 20px;
-    top: 50%;
+    font-size: 6em;
   }
 }
 
-.title__main {
-  display: inline;
-  font-size: 2em;
-  width: 100%;
+.subtitle {
+  font-family: "rooney-sans";
+  font-size: 1.1em;
+  margin: 0 auto;
+  line-height: 1.7em;
+  letter-spacing: .7px;
+  width: 97%;
 
-  @media (min-width: $md-screen) {
-    font-size: 6em; 
+  a {
+    color: $white;
+    text-decoration: underline;
+
+    &:hover {
+      color: $grey-blue;
+      cursor: pointer;
+    }
+  }
+
+  @media (min-width: $lg-screen) {
+    width: 87%;
   }
 }
 
 .center {
   text-align: center;
-} 
+}
 
 .gist {
   display: block;
@@ -69,3 +94,103 @@ ul {
 .gist .gist-meta {
   display: none;
 }
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
+}
+
+.sun-container {
+  @include outer-container(900px);
+}
+
+.sun {
+  background: url('../../images/sun.svg') no-repeat;
+  display: block;
+  height: 100%;
+  left: 69%;
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  z-index: 1;
+}
+
+.cloud {
+  background: transparent url('../../images/cloud.svg') no-repeat;
+  background-repeat: repeat-x;
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  animation:move-clouds-back 800s linear infinite;
+  -moz-animation:move-clouds-back 800s linear infinite;
+  -ms-animation:move-clouds-back 800s linear infinite;
+  -o-animation:move-clouds-back 800s linear infinite;
+  -webkit-animation:move-clouds-back 800s linear infinite;
+  z-index: 2;
+}
+
+.tie-fighters {
+  background: url('../../images/tie-fighters.svg') no-repeat;
+  background-repeat: repeat-x;
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  animation:move-clouds-back 200s linear infinite;
+  -moz-animation:move-clouds-back 200s linear infinite;
+  -ms-animation:move-clouds-back 200s linear infinite;
+  -o-animation:move-clouds-back 200s linear infinite;
+  -webkit-animation:move-clouds-back 200s linear infinite;
+  z-index: 4;
+}
+
+////about page styles
+
+.module {
+  @include outer-container(900px);
+}
+
+.module__text {
+  color: $dark-grey;
+  font-family: "jubilat";
+  font-size: 1.375em;
+  line-height: 46px;
+}
+
+.module__text--emphasized {
+  font-weight: 400;
+}
+
+.module__header {
+  color: $dark-grey;
+  font-family: "jubilat";
+  font-size: 3em;
+  font-weight: 600;
+  line-height: 46px;
+}
+
+.emphasized {
+  font-family: "jubilat";
+  font-size: 1.375em;
+  font-weight: 400;
+  line-height: 46px;
+}
+
+

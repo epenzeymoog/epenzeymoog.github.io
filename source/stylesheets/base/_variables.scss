@@ -1,18 +1,16 @@
 //Colors
 $blue: #007AFF;
 $light-blue: #C1D7EF;
-$grey-blue: #5f7b9a;
+$grey-blue: #bfd1e4;
 
 //Font Color
 $white: #F7F7FF;
 $grey: #424651;
 $light-grey: #67686b;
-$dark-grey: #5A5A5A;
+$dark-grey: #353535;
 
 //Typography
-$josefin: 'Josefin Slab', serif;
-$open: 'Open Sans Condensed', serif;
-$quicksand: 'Quicksand', sans-serif;
+
 
 //Mobile breakpoints
 $sm-screen: '375px';
@@ -24,12 +22,12 @@ $lg-screen: '900px';
 	line-height: 2;
 
 	a:hover {
-		border-bottom: 1px solid $grey-blue;
-  	color: $grey-blue;
-		padding-bottom: 5px;
+		border-bottom: 1px solid $blue;
+  	color: $blue;
+		padding-bottom: 3px;
 
   	@media (min-width: 550px) {
-   		line-height: 0;		
+   		line-height: 0;
   	}
 	}
-} 
+}

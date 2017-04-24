@@ -1,20 +1,26 @@
 ---
-layout: layout
+layout: projects
 title: Eva PenzeyMoog
 ---
 
-<section class="background-secondary">
-	<header class="title center-vertical">
-		<h1 class="title__main title--bold"> Eva </h1>
-		<h1 class="title__main title--thin"> PenzeyMoog</h1>
-		<h2>UX DESIGNER</h2>
+<head>
+<link type="image/ico" href="images/favicon.ico" rel="icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://use.typekit.net/yha5wrx.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+</head>
 
-	  <section class="container--small">
-	    <%= link_to "work", "/work.html", :class => 'submit-button button--primary' %>
-	  
-	    <%= link_to "writing", "/blog.html", :class => 'submit-button button--primary' %>
+<%= stylesheet_link_tag :site %>
+<div class="home">
+	<div class="sun-container">
+		<div class="sun"></div>
+	</div>
+	<div class="cloud"></div>
+	<div class="tie-fighters"></div>
+	<%= partial "partials/nav" %>
 
-	    <%= link_to "projects", "/projects.html", :class => 'submit-button button--primary' %>
-	  </section>
-	</header>
-</section>
+	  <div class="title-container">
+	  	<h1 class="title">Eva PenzeyMoog</h1>
+	    <p class="subtitle">I do UX, visual design, and implementation at <a href="http://www.8thlight.com" target="_blank">8th Light</a>. When not designing, I'm exploring Chicago by bike, volunteering for feminist causes, and trying to meet every dog I see.</p>
+	  </div>
+</div>

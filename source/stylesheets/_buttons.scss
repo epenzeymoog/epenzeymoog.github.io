@@ -7,8 +7,21 @@
 
   @media (min-width: $md-screen) {
    @include span-columns (4);
-   @include shift(0); 
+   @include shift(0);
   }
+}
+
+.nav-item {
+  color: white;
+  font-family: 'Open Sans Condensed';
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
 }
 
 .button--primary {
@@ -28,7 +41,7 @@
 
   @media (min-width: $md-screen) {
    @include span-columns (3);
-   @include shift(0); 
+   @include shift(0);
   }
 
   &:hover {

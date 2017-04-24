@@ -9,6 +9,7 @@
 }
 
 .article {
+  font-family: "jubilat";
   font-size: 1rem;
   line-height: 1.5em;
   margin-bottom: 3em;
@@ -16,13 +17,14 @@
 }
 
 .article-title {
+  font-family: "jubilat";
   font-weight: 100;
   font-size: 1.5em;
   margin-top: 2em;
   text-transform: uppercase;
 
   &, a{
-    color: $grey-blue;
+    color: $dark-grey;
     @include hover;
   }
 }
@@ -35,11 +37,13 @@
   padding: 3em 0 2em 0;
 
   h1, h2, h3, h4, h5, h6 {
+    font-family: "jubilat";
     font-weight: 500;
   }
 
   p {
     color: $dark-grey;
+    font-family: "jubilat";
   }
 
   a {
@@ -81,7 +85,7 @@ code {
 }
 
 .meta__date {
-  color: $grey-blue;
+  color: $dark-grey;
   font-size: .8rem;
 
   &:after {

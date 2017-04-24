@@ -1,6 +1,6 @@
 .card {
     background-color: $white;
-    border: 1px solid #b3b6b7;
+    border: 1px solid grey;
     border-radius: 5px;
     margin-bottom: 1em;
     width: 100%;
@@ -10,7 +10,7 @@
 
     @media (min-width: 1000px) {
     @include span-columns(4);
-    @include omega(4n);
+    @include shift(1);
     }
 }
 
