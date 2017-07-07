@@ -1,0 +1,66 @@
+//TIE Fighter and Millennium Falcon Animation
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
+}
+
+.sun-container {
+  @include outer-container(900px);
+}
+
+.sun {
+  background: url('../../images/sun.svg') no-repeat;
+  display: block;
+  height: 100%;
+  left: 69%;
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  z-index: 1;
+}
+
+.cloud {
+  background: transparent url('../../images/cloud.svg') no-repeat;
+  background-repeat: repeat-x;
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  animation:move-clouds-back 800s linear infinite;
+  -moz-animation:move-clouds-back 800s linear infinite;
+  -ms-animation:move-clouds-back 800s linear infinite;
+  -o-animation:move-clouds-back 800s linear infinite;
+  -webkit-animation:move-clouds-back 800s linear infinite;
+  z-index: 2;
+}
+
+.tie-fighters {
+  background: url('../../images/tie-fighters.svg') no-repeat;
+  background-repeat: repeat-x;
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  animation:move-clouds-back 200s linear infinite;
+  -moz-animation:move-clouds-back 200s linear infinite;
+  -ms-animation:move-clouds-back 200s linear infinite;
+  -o-animation:move-clouds-back 200s linear infinite;
+  -webkit-animation:move-clouds-back 200s linear infinite;
+  z-index: 4;
+}

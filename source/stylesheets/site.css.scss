@@ -2,7 +2,6 @@
 @import "normalize";
 @import "base/variables";
 
-
 @import "bourbon/bourbon";
 @import "neat/neat";
 
@@ -10,8 +9,8 @@
 @import "base/typography";
 @import "base/blog";
 
-@import "buttons.scss";
-
 @import "partials/nav";
+@import "partials/footer";
 
 @import "cards";
+@import "images";

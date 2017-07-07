@@ -14,10 +14,10 @@ body .home {
 
 .container {
   @include outer-container;
-  height: 5.5em;
   padding: 20px 5px;
 
   @media (min-width: $sm-screen) {
+    display: block;
     padding: 20px;
   }
 }
@@ -95,102 +95,23 @@ ul {
   display: none;
 }
 
-@keyframes move-clouds-back {
-    from {background-position:0 0;}
-    to {background-position:10000px 0;}
-}
-@-webkit-keyframes move-clouds-back {
-    from {background-position:0 0;}
-    to {background-position:10000px 0;}
-}
-@-moz-keyframes move-clouds-back {
-    from {background-position:0 0;}
-    to {background-position:10000px 0;}
-}
-@-ms-keyframes move-clouds-back {
-    from {background-position: 0;}
-    to {background-position:10000px 0;}
-}
-
-.sun-container {
-  @include outer-container(900px);
-}
-
-.sun {
-  background: url('../../images/sun.svg') no-repeat;
-  display: block;
-  height: 100%;
-  left: 69%;
-  position: absolute;
-  top: 80px;
-  width: 100%;
-  z-index: 1;
-}
-
-.cloud {
-  background: transparent url('../../images/cloud.svg') no-repeat;
-  background-repeat: repeat-x;
-  display: block;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 60px;
-  width: 100%;
-  animation:move-clouds-back 800s linear infinite;
-  -moz-animation:move-clouds-back 800s linear infinite;
-  -ms-animation:move-clouds-back 800s linear infinite;
-  -o-animation:move-clouds-back 800s linear infinite;
-  -webkit-animation:move-clouds-back 800s linear infinite;
-  z-index: 2;
-}
-
-.tie-fighters {
-  background: url('../../images/tie-fighters.svg') no-repeat;
-  background-repeat: repeat-x;
-  display: block;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 60px;
-  width: 100%;
-  animation:move-clouds-back 200s linear infinite;
-  -moz-animation:move-clouds-back 200s linear infinite;
-  -ms-animation:move-clouds-back 200s linear infinite;
-  -o-animation:move-clouds-back 200s linear infinite;
-  -webkit-animation:move-clouds-back 200s linear infinite;
-  z-index: 4;
-}
-
-////about page styles
-
 .module {
   @include outer-container(900px);
 }
 
-.module__text {
-  color: $dark-grey;
-  font-family: "jubilat";
-  font-size: 1.375em;
-  line-height: 46px;
+.color-wrapper {
+  background-color: $light-blue;
+  width: 100%;
 }
 
-.module__text--emphasized {
-  font-weight: 400;
+.horatio {
+  background: transparent url('../../images/Horatio.svg') no-repeat;
+  display: block;
+  height: 45%;
+  margin: 0 auto;
+  position: relative;
+  top: 1em;
+  width: 39%;
+  z-index: 2;
 }
-
-.module__header {
-  color: $dark-grey;
-  font-family: "jubilat";
-  font-size: 3em;
-  font-weight: 600;
-  line-height: 46px;
-}
-
-.emphasized {
-  font-family: "jubilat";
-  font-size: 1.375em;
-  font-weight: 400;
-  line-height: 46px;
-}
-
 
