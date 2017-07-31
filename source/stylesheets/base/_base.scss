@@ -22,6 +22,10 @@ body .home {
   }
 }
 
+.module {
+  @include outer-container(900px);
+}
+
 ul {
   list-style: none;
 }
@@ -95,23 +99,34 @@ ul {
   display: none;
 }
 
-.module {
-  @include outer-container(900px);
-}
-
-.color-wrapper {
-  background-color: $light-blue;
+.dog {
+  display: block;
+  height: 43%;
+  margin: 0 auto;
+  position: relative;
+  top: 1em;
   width: 100%;
+  z-index: 2;
+
+  @media (min-width: 900px) {
+    width: 41%;
+  }
 }
 
 .horatio {
   background: transparent url('../../images/Horatio.svg') no-repeat;
-  display: block;
-  height: 45%;
-  margin: 0 auto;
-  position: relative;
-  top: 1em;
-  width: 39%;
-  z-index: 2;
+  @media (min-width: 900px) {
+    float: right;
+    margin-left: 2em;
+    top: 1em;
+  }
+}
+
+.hamlet {
+  background: transparent url('../../images/Hamlet.svg') no-repeat;
+  @media (min-width: 900px) {
+    float: left;
+    top: 1em;
+  }
 }
 
