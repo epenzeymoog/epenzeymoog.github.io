@@ -64,3 +64,34 @@
   -webkit-animation:move-clouds-back 200s linear infinite;
   z-index: 4;
 }
+
+.dog {
+  display: block;
+  height: 336px;
+  margin: 0 auto;
+  position: relative;
+  top: 1em;
+  width: 100%;
+  z-index: 2;
+
+  @media (min-width: 900px) {
+    width: 40%;
+  }
+}
+
+.horatio {
+  background: transparent url('../../images/Horatio.svg') no-repeat;
+  @media (min-width: 900px) {
+    float: right;
+    margin-left: 2em;
+    top: 1em;
+  }
+}
+
+.hamlet {
+  background: transparent url('../../images/Hamlet.svg') no-repeat;
+  @media (min-width: 900px) {
+    float: left;
+    top: 1em;
+  }
+}
