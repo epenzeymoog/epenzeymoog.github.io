@@ -5,6 +5,7 @@
 
 .nav {
   @include outer-container(900px);
+  height: 52px;
   position: relative;
   z-index: 5;
 
