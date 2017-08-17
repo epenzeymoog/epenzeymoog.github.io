@@ -24,10 +24,16 @@ body .home {
 
 .module {
   @include outer-container(900px);
+  padding: 0 20px;
+
+  @media (min-width: $lg-screen) {
+    padding: 0;
+  }
 }
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 .container--small {
@@ -98,4 +104,3 @@ ul {
 .gist .gist-meta {
   display: none;
 }
-

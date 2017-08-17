@@ -3,26 +3,39 @@
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 
-<!-- <div class="nav-wrapper"> -->
-  <div class="sky">
-    <nav class="nav">
-      <ul class="nav__logo">
-        <li>
-          <%= link_to "Home", "/index.html", :class => 'logo clean-list' %>
-        </li>
-      </ul>
+<div class="container">
+<div class="sky">
+  <nav class="nav">
+    <ul class="nav__logo">
+      <li>
+        <%= link_to "Home", "/index.html", :class => 'logo clean-list' %>
+      </li>
+    </ul>
 
-      <ul class="nav__items">
-        <li>
-          <%= link_to "Work", "/work.html", :class => 'nav-links clean-list' %>
-        </li>
-        <li>
-          <%= link_to "Writing", "/blog.html", :class => 'nav-links clean-list' %>
-        </li>
-        <li>
-          <%= link_to "About", "/about.html", :class => 'nav-links clean-list' %>
-        </li>
-      </ul>
-    </nav>
-  </div>
-<!-- </div> -->
+    <ul class="nav__items" id="nav">
+      <li>
+        <%= link_to "Work", "/work.html", :class => 'nav-links clean-list' %>
+      </li>
+      <li>
+        <%= link_to "Writing", "/blog.html", :class => 'nav-links clean-list' %>
+      </li>
+      <li>
+        <%= link_to "About", "/about.html", :class => 'nav-links clean-list' %>
+      </li>
+    </ul>
+  </nav>
+</div>
+</div>
+
+<script>
+function setActive() {
+  aObj = document.getElementById('nav').getElementsByTagName('a');
+  for(i=0;i<aObj.length;i++) {
+    if(document.location.href.indexOf(aObj[i].href)>=0) {
+      aObj[i].className='active';
+    }
+  }
+}
+
+window.onload = setActive;
+</script>

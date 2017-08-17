@@ -5,7 +5,6 @@
 
 .nav {
   @include outer-container(900px);
-  height: 85px;
   position: relative;
   z-index: 5;
 
@@ -23,21 +22,15 @@
   a {
     display: block;
   }
-
-  @media (max-width: 550px) {
-    text-align: center;
-  }
 }
 
 .nav__logo {
   float: left;
-  margin-top: 2em;
   padding-left: 0;
 }
 
 .nav__items {
   float: right;
-  margin-top: 2em;
   padding-left: 0;
 }
 
@@ -54,20 +47,33 @@
   font-family: "rooney-sans";
   font-size: 1em;
   font-weight: 100;
-  letter-spacing: 0;
+  letter-spacing: 1px;
   line-height: 1;
-  margin-right: .5em;
+  margin-right: 1em;
   text-align: center;
   text-transform: lowercase;
 
   &:hover {
-    border-bottom: 1px solid $grey-blue;
-    color: $grey-blue;
+    border-bottom: 1px solid $white;
     padding-bottom: 3px;
   }
+}
 
-  @media (min-width: $md-screen) {
-    letter-spacing: 1px;
-    margin: 0 1em;
+.active {
+  border-bottom: 1px solid white;
+  color: $white;
+  font-family: "rooney-sans";
+  font-size: 1em;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 1;
+  padding-bottom: 2px;
+  margin-right: 1em;
+  text-align: center;
+  text-transform: lowercase;
+
+  &:hover {
+    border-bottom: 1px solid $white;
+    padding-bottom: 3px;
   }
 }
