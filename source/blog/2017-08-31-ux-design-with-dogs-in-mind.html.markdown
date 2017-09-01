@@ -1,9 +1,8 @@
 ---
-title: Designing with Pets in Mind: The UX of Dog Walking
+title: Designing for Pets & The UX of Dog Walking
 date: 2017-08-31 21:39 UTC
 tags: UX, Design, Dogs
 ---
-
 <section class="article-container">
 
 <p>Urban Leash is a Chicago start-up that provides on-demand dog walking and cat sitting. Their flexible offerings are built around an understanding of busy pet owners that is lacking among other dog walking companies, making their service unique and much-appreciated by Chicago’s pet-loving professionals.</p>
