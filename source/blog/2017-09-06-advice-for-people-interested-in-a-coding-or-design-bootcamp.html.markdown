@@ -1,10 +1,8 @@
 ---
-title: advice-for-people-interested-in-a-coding-or-design-bootcamp
+title: Advice for People Interested in a Coding/Design Bootcamp
 date: 2017-09-06 01:23 UTC
 tags: Design, Development, UX
 ---
-
-<h1>Advice for People Interested in a Coding/Design Bootcamp</h1>
 
 <p>This is for anyone who is thinking about applying to a coding/design bootcamp or has recently been accepted. After I graduated from General Assembly’s (GA) User Experience Design Immersive, as well as completed their part-time course in front end web development, I got a lot of people asking me if it had been worth it, looking for advice on a specific program, and worrying that they wouldn’t be able to do it. I decided to do a proper write-up of my answers, as well as dive a little deeper into the ways people can be successful at bootcamps. I also received input from people who had done different programs. And no, this article isn’t being sponsored by any of the programs mentioned.</p>
 

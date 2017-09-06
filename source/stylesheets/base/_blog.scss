@@ -23,7 +23,7 @@
   margin-top: 2em;
   text-transform: uppercase;
 
-  &, a{
+  &, a {
     color: $dark-grey;
     @include hover;
   }
@@ -47,7 +47,8 @@
   }
 
   a {
-    color: $grey-blue;
+    color: $dark-grey;
+    text-decoration: underline;
   }
 
   img {
@@ -110,7 +111,6 @@ code {
   text-align: left;
 
   h1 {
-    color: $grey-blue;
     font-size: 2em;
   }
 
@@ -161,17 +161,17 @@ code {
   }
 
   @keyframes bounce {
-    0% { 
+    0% {
       background: white;
-      margin-top: 9em;   
+      margin-top: 9em;
     }
-    50% { 
+    50% {
       background: #52D5F5;
-      margin-top: 0em; 
+      margin-top: 0em;
     }
-    100% { 
+    100% {
       background: white;
-      margin-top: 9em; 
+      margin-top: 9em;
     }
   }
 
