@@ -60,6 +60,17 @@ p a {
   font-family: "jubilat";
   font-size: 1.375em;
   line-height: 46px;
+  margin: 2em 0;
+
+  a {
+    color: $dark-grey;
+    letter-spacing: 1px;
+    text-decoration: underline;
+
+    &:hover {
+      color: #007AFF;
+    }
+  }
 }
 
 .module__text--emphasized {
@@ -72,7 +83,7 @@ p a {
   font-size: 3em;
   font-weight: 600;
   line-height: 46px;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .emphasized {
