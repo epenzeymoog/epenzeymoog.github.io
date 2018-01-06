@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2017-09-05T20:23:00-05:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>Advice for People Interested in a Coding/Design Bootcamp</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2017/09/06/advice-for-people-interested-in-a-coding-or-design-bootcamp/"/>
+    <id>http://blog.url.com/blog/2017/09/06/advice-for-people-interested-in-a-coding-or-design-bootcamp/</id>
+    <published>2017-09-05T20:23:00-05:00</published>
+    <updated>2017-11-10T14:16:25-06:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;This is for anyone who is thinking about applying to a coding/design bootcamp or has recently been accepted. After I graduated from General Assembly’s (GA) User Experience Design Immersive, as well as completed their part-time course in front end web development, I got a lot of people asking me if it had been worth it, looking for advice on a specific program, and worrying that they wouldn’t be able to do it. I decided to do a proper write-up of my answers, as well as dive a little deeper into the ways people can be successful at bootcamps. I also received input from people who had done different programs. And no, this article isn’t being sponsored by any of the programs mentioned.&lt;/p&gt;
+
+&lt;p&gt;First, a few terms for people who are brand new to this whole thing: I use “bootcamp” and “immersive” interchangeably, since different programs use one or the other, but they mean the same thing: an intensive, accelerated program meant to give you the skills to get an entry level job in a new field that usually lasts 10–18 week.&lt;/p&gt;
+
+&lt;p&gt;Programming = development = coding. These are all terms to describe the act of writing the code that makes websites, apps and software function.&lt;/p&gt;
+
+&lt;p&gt;“Design” refers to web design. Most design bootcamps are teaching User Experience (UX) Design, visual design, or “full stack” design, which involves UX, visual, User Interface (UI) and front-end development. (Front end development refers to the programming languages HTML, CSS and JavaScript, which are typically the three languages used to construct the visual part of any website, app, or software. These languages are often very useful for designers to know or at least be familiar with.)&lt;/p&gt;
+
+&lt;p&gt;Designers and developers are not the same, and there are lots of misconceptions about what they entail — if you’re confused about this, &lt;a href="https://skillcrush.com/2015/07/07/decide-between-web-designer-or-developer/"&gt;here’s a great article&lt;/a&gt; that breaks it all down. To put in a nutshell that won’t do it justice, designers typically do research, create mockups, do user testing, and modify their designs based on user feedback. Some designers only do one part of the process, some do it all — it just depends on the company. In essence, there’s no agreed-upon definition. After the design is complete, they give it to a developer, who writes code to make the website a reality. People usually don’t do both, but high quality people will have a firm familiarity with the one they aren’t working in. Design and development are both huge, complex fields, and they are constantly evolving, so being able to truly learn and keep up with both would be impossible. Get ready to explain this over and over again if you go into either of these fields, since the general population doesn’t understand the difference.&lt;/p&gt;
+
+&lt;p&gt;Onto the good stuff. Here are my answers to some of the most commonly asked questions I receive. (Thanks to &lt;a href="http://www.anna-brenner.com/"&gt;Anna Brenner&lt;/a&gt; and &lt;a href="https://github.com/gmmowry"&gt;Glenna Mowry&lt;/a&gt; for input with these answers.)&lt;/p&gt;
+
+&lt;h3&gt;“Coding seems cool, I wish I could do it. But I’m not good with computers, there’s no way I could write code for a living.”&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Being “good with computers” isn’t a gift that people are born with, it’s a skill people learn.&lt;/strong&gt; The world is filled with people (mainly white dudes) who grew up being encouraged to explore any small interest with computers, and by the time they’re adults it seems like they just have this amazing inborn ability that of course you would need to be successful for a career in tech. This is false. The reason you aren’t “good with computers” is because you have never sat down and actually learned anything about computers. Not because there’s something lacking in you. It’s just a skill you haven’t learned yet. This is the whole point of a bootcamp — to give you a structured way to sit down and learn it. If bootcamps only accepted people who were already good with computers, they wouldn’t stay in business.&lt;/p&gt;
+
+&lt;h3&gt;“I’m not artistic, there’s no way I could ever be a designer.”&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;First things first: art and design are not the same thing.&lt;/strong&gt; Art is what an artist does to communicate something to the world. Design is a process that ends with a solution to a problem. And just like the coding-is-a-learned-skill-not-inborn-talent thing above, design is a process made up of a bunch of components that you need to sit down and learn. No one is born knowing how to design a better toaster, or shopping experience, or app. You learn, you practice, you do it a bunch and then you get good at it. It’s also important to know that while we often think of “web design” as purely visual — colors and fonts and shapes — the field of web design involves so much more. For example, I’m a User Experience (UX) Designer. I too was a bit worried about my lack of artistic skills, but UX is just what it sounds like: I specialize in designing experiences that are intuitive and user-friendly. This does of course involve some visual knowledge (no one will click a button to sign up if that button is tiny and the same color as the background) but mostly it involves human understanding, doing lots of research, empathy, creative problem solving, and user testing. These are all things I had to learn (minus the empathy) and did learn in my bootcamp. The visual part is just a component that comes at the end, and during my class I would get input from my teacher and a more visually-experienced friend to create a pleasant looks for my projects. You do NOT need to be an accomplished artist to be a great designer. You just need to have empathy towards other humans and be able to work your ass off during your program to learn the rest.&lt;/p&gt;
+
+&lt;h3&gt;“OK so coding and design are learned skills. But I‘m still scared I might suck at it.”&lt;/h3&gt;
+
+&lt;p&gt;You’re right, doing something like a bootcamp is scary and yes, there probably will be parts you struggle with. There will also be people who shake your confidence because of how good they are. Plenty of people in development bootcamps have been teaching themselves code for a long time before they get there. In my UX Design cohort, a classmate had already been employed as a visual designer and seeing his work never failed to knock my confidence down a few pegs. But at the end of the day, everyone is there because they need the skills the program has to offer. If they didn’t, they wouldn’t be paying thousands of dollars to do it. By the end of the program, you’ll all have more or less the same skills — it’ll be things like the quality of your portfolio, previous experience and personality that set you apart. And again, if bootcamps only let in people who had extensive previous coding/design experience, they would go out of business. &lt;strong&gt;Bootcamps are for people like you, with no previous experience. That’s what they do; they take &lt;em&gt;total beginners&lt;/em&gt; and make them into employable junior developers or designers.&lt;/strong&gt; And if you get into one, they’ve assessed you and determined you can do it. So try to push aside the voice in your head saying you could never do it and start an application.&lt;/p&gt;
+
+&lt;h3&gt;"I’m worried my previous work experience in non-profit/sales/education/administration/whatever won’t be relevant. I never did anything related to computers or technology.”&lt;/h3&gt;
+
+&lt;p&gt;You’re right that your random work experience probably won’t apply directly to development/design, but it absolutely will be relevant to actually doing a job in these fields. You’ve likely had to manage your time, meet deadlines, work with difficult people, and build relationships with clients or stakeholders. These skills will translate to any job you take later on. Also, &lt;strong&gt;the tech community can be an extremely homogenous place, which is bad for business. They need people with varying life and work experiences.&lt;/strong&gt; My previous career was in non-profit, and I was surprised to learn that my ability to mediate a group’s conflicts and give a solid presentation were assets that many people struggle with. Whatever you’ve done before, you will definitely be able to apply it to a new career in the tech world.&lt;/p&gt;
+
+&lt;h3&gt;“Isn’t it true that the tech world is run by lots of straight white men and it’s a hard place for women/people of color?”&lt;/h3&gt;
+
+&lt;p&gt;Yup, that’s true. But luckily for all of us, it’s slowly changing and getting better. And nothing will propel the tech world out of it’s shitty practices like the entry of more people who are queer, women, and/or of color. &lt;strong&gt;You will absolutely face trials if you identify within any of these groups, but the rewards of the field make it desirable nonetheless.&lt;/strong&gt; As a woman, I faced some spectacularly terrible behavior from men in my cohort, before I’d even entered the workforce. But the fact is, &lt;strong&gt;the field is too amazing for minority groups not to join.&lt;/strong&gt; The work is creative, interesting and intellectual, the community is thriving, the field is growing, and the perks and opportunities for growth and financial security are huge. And if you’re one of the many white men who is considering entering a bootcamp reading this, you have a responsibility to not be a terrible person to your classmates and future coworkers. You have the responsibility to use your power and privilege to increase opportunities for minorities and advocate for things like diversity training and the creation of respectful workplaces where everyone is paid equally and gets the same opportunities for advancement. At the very least, you need to not make your classmates/colleagues feel uncomfortable with things like rape jokes or racist accents. You can (and have the responsibility to) educate yourself &lt;a href="https://medium.com/girls-who-code/hey-men-just-wanting-more-women-in-tech-does-not-make-you-their-ally-307a3078893b"&gt;more&lt;/a&gt; &lt;a href="https://medium.com/@marksluckie/what-it-s-actually-like-to-be-a-black-employee-at-a-tech-company-e32bb222818b"&gt;about&lt;/a&gt; &lt;a href="http://www.complex.com/life/2015/12/tech-guys-allies/"&gt;this&lt;/a&gt; &lt;a href="https://www.wired.com/story/why-men-dont-believe-the-data-on-gender-bias-in-science/amp"&gt;issue.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;“Are bootcamps actually worth it? I’m nervous I’m going to throw away a ton of time and money for nothing.”&lt;/h3&gt;
+
+&lt;p&gt;Bootcamps are absolutely worth it, but only if you’re there because you want to be and are willing to put in a LOT of effort. &lt;strong&gt;You can’t take any shortcuts when you’re learning a new skill in 3 or 4 months.&lt;/strong&gt; Don’t learn design or coding just because you’ve heard it can lead to a cool job. Do you homework, and, as much as possible, try to figure out if you’re actually going to like working in this field. Try a free coding course on codeacedemy, and read about what both jobs entail. To test out design, go to a website you like and spend a few hours trying to recreate it in a free mockup tool. Bootcamps are a lot of of work, and you’ll be miserable (an unsuccessful) if you don’t enjoy learning about the subject matter. You have to be all in, and not only should you be working long, intense hours to create high-quality classwork, you should be working hard to learn even when your whole class isn’t staying late to finish a project. &lt;strong&gt;If you actually enjoy design or development, the excitement of really learning it will make the long hours manageable.&lt;/strong&gt; But if you’re not actually interested in the work and aren’t willing to put in the time and energy, don’t do a bootcamp.&lt;/p&gt;
+
+&lt;h3&gt;“I’ve heard these bootcamps are really competitive — what are my chances of even getting in?”&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Any bootcamp worth its salt is going to have an application process to weed out people who won’t be successful in an intense, fast-paced environment.&lt;/strong&gt; Some are much more competitive than others, and it often has to do with the pay structure. Some, like App Academy, don’t require upfront payment and instead takes a percentage of graduate’s first year salaries. Obviously this is a great model for the students lucky enough to get in, and it makes it incredibly competitive. General Assembly, where I went, is more traditional in that it requires a down payment and regular payments before and throughout the course, with students paying the entire amount before they graduate. This doesn’t mean anything about the curriculum, though — you’re still going to get a great experience with bootcamps that have traditional payment models.&lt;/p&gt;
+
+&lt;p&gt;My advice is to &lt;strong&gt;do your research on bootcamps&lt;/strong&gt; in the city you want to attend one in and apply to a few. (There are &lt;a href="https://www.switchup.org/research/best-coding-bootcamps"&gt;lots&lt;/a&gt; &lt;a href="https://tech.co/top-33-coding-bootcamps-2015-02"&gt;of&lt;/a&gt; &lt;a href="https://www.thefirehoseproject.com/definitive-guide"&gt;articles&lt;/a&gt; out there comparing the various options.) It’s likely you’ll find one that seems like the best fit for you based on the content, cohort start date and culture. Take the application seriously. For coding bootcamps, the next step is typically an interview where you’ll complete some logic puzzles and a coding challenge. &lt;strong&gt;Complete some free online courses for the development language your challenge will be with, and focus on mastering the basics&lt;/strong&gt; — go deep in the beginner content rather than broad with trying to learn everything, since the challenge will probably be a basic little program. For a design bootcamp, you’ll likely complete a design challenge, and possibly have to find a poorly designed site and explain specifically why it’s bad design. Learn some basic design concepts and don’t go into your interview saying “it’s just ugly and doesn’t work” — &lt;strong&gt;make sure you can explain WHY&lt;/strong&gt; it’s ugly and doesn’t work. And this should go without saying, but at your interview, be it in person or over Skype, dress and act professionally.&lt;/p&gt;
+
+&lt;h3&gt;“How much of a loan will I have to take out?”&lt;/h3&gt;
+
+&lt;p&gt;Take out a loan for the amount program, plus your rent and other living expense for the number of months of the program PLUS 3 months afterwards. It often takes this long to get a job, or you might be in my situation — accept an amazing offer within a month of graduation but it doesn’t start for another five weeks. You’re going to need to survive — and hopefully even enjoy! — that time between school and your new job, so plan accordingly. And I know loans are scary, especially as someone who finished paying off her college debt and then immediately went back in for a bootcamp. But I’ve got a great job an I’m confident I’ll pay it back quickly — it’s very different from my situation when taking out college loans. Don’t let the idea of taking a loan scare you off from doing a bootcamp.&lt;/p&gt;
+
+&lt;h3&gt;“They say bootcamps are intense but are they really THAT intense?”&lt;/h3&gt;
+&lt;p&gt;Yes, they are really that intense. &lt;strong&gt;Absolutely do not plan on working a part-time job or really doing much of anything else.&lt;/strong&gt; I had a super easy job writing product descriptions a few hours per week and couldn’t keep up with it by the second week of class. My close friend in the program was trying to date and meet new people but consistently cancelled her outings under the strain of our workload. I even had to hire a dog walker to help out when I had to stay late and couldn’t get home to my pups at the normal time, which, especially towards the end, was nearly every day of the bootcamp. Plan accordingly (and work things like a dog walker into your budget/loan amount).&lt;/p&gt;
+
+&lt;h3&gt;“In general, how can I be successful in my bootcamp?”&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Once again: GO ALL IN.&lt;/strong&gt; During my UX Design Immersive, I read design books and listened to design blogs on the train. I signed up for workshops and events that GA offered and even though I didn’t make it to all of them when project deadlines got close, I went to plenty, and it really increased my overall experience. Other examples of going all in include making time to meet with any type of mentor that your program hooks you up with (and if this is optional, you should of course opt in) as well as going to networking events (more on this later) and workshops, especially ones that deal with software you’re learning. Towards the end of my program, the last thing I wanted to do was give up an evening of precious work time to attend a 3 hour workshop on Sketch, but I went, and the tricks I learned were incredibly valuable and helped speed along my work for the rest of the program. &lt;strong&gt;Unless you’re physically ill or on the verge of a mental breakdown, suck it up and do the extra enrichment work. Remember, it’s only 10–18 weeks of this ridiculous schedule. You can do it!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Be open and humble.&lt;/strong&gt; You need to be able to say “I don’t know this — how can I learn it?” Be honest about what isn’t clicking and work hard to figure it out. Even after graduation, you won’t know everything and you’re never done learning. Be proud of the knowledge you’ve gained but humble enough to admit what you don’t know.&lt;/p&gt;
+
+&lt;h3&gt;“Will I really be able to get a job? Really though?”&lt;/h3&gt;
+
+&lt;p&gt;Yes.&lt;/p&gt;
+
+&lt;p&gt;This answer has a lot going on and is broken into sections:&lt;/p&gt;
+
+&lt;h4&gt;Your job hunt starts on Day 1.&lt;/h4&gt;
+
+&lt;p&gt;From the moment you step into your classroom, you’re already applying to your next job. Your fellow classmates are going to be the ones vouching for your technical skills and amiableness in group settings on LinkedIn, and will maybe even help you get a job somewhere they get hired on. Your teachers are seasoned professionals with tons of connections to the people you want to work for, and those colleagues &lt;em&gt;will&lt;/em&gt; reach out to them to ask for the names of students they thought might be good for their open junior developer / designer / whatever role.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Don’t blow off your career coach and &lt;em&gt;don’t&lt;/em&gt; leave your career work/portfolio till the last minute.&lt;/strong&gt; Different bootcamps handle this differently — GA sprinkles their career sessions throughout the program while Dev Bootcamp is an example of a program with a “career week,” a week where students do it all at once. Whatever the program, you’ll doubtless be told to do certain things throughout the bootcamp, like going to networking events, meeting with your mentor and figuring out what your want your portfolio to look like. And when your career coach is talking to the class, pay attention. It can be hard to break away from the pressure of getting a project done, but step away for a bit and participate. A few people in my cohort consistently blew off the career-focused work and found themselves incredibly stressed when we had to hand in our final project to our real-life clients and hand in our portfolios to the career coach during the last week of the immersive. Don’t do this to yourself.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Be present in whatever it is that’s going on that day.&lt;/strong&gt; Mock interviews with seasoned professionals in week 4 might seem like something you can do halfway in favor of working on a big project, but don’t. Like I said earlier, &lt;strong&gt;your job hunt is already on, even if you’re not actually applying to jobs yet,&lt;/strong&gt; and you never know who you might connect with that could help you out later. A classmate of mine actually got hired by the person who did her mock interview, and it never would have happened if she hadn’t shown up for that hour totally prepared and present in the moment.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Networking. You just have to do it, but it doesn’t have to be all bad.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In the beginning and middle of your program, the job hunt can seem so far away that you don’t have to worry about it now. This is not true, and if you wait to start networking until after you graduate you risk being unemployed for longer than necessary. Aim for one event per week and get some of your new friends from your cohort to go with you. Choose events that sound interesting so that you’ll have some incentive to go despite the fact that you’ve just had long day of classwork. Once you’re there, try to collect a few business cards from people who might have job leads later on. Connect with them on LinkedIn. &lt;strong&gt;Essentially, do whatever your career coach is recommending in terms of networking.&lt;/strong&gt; It does suck, but by targeting events where you will learn something interesting and relevant and going with a few friends, it can be less miserable and even fun. And if you have any acquaintances, friends or friends-of-friends in the field you’re going into, offer to get them a coffee and meet for half and hour to get advice on breaking into the field and learn about how they got to where they are.&lt;/p&gt;
+
+&lt;h4&gt;“I’d rather just really focus on the technical things I’m learning. Developing those solid skills is better than spending time networking, don’t you think?”&lt;/h4&gt;
+
+&lt;p&gt;Nope. Some people come to a bootcamp and think that if they focus really hard on the technical parts they’ll be good when it comes to a job because they’ll be so amazing at UI/Ruby/whatever. But that’s not enough; you need both. There will be people who justify not attending networking events this way, but don’t get sucked in my their rational. &lt;strong&gt;It’s a false choice. You don’t have decide between mastering what you’re learning in class or going to an event. You need to do both.&lt;/strong&gt; It’s hard to manage and you’ll have plenty of late nights, but you knew that going into this.&lt;/p&gt;
+
+&lt;h4&gt;Start tweeting.&lt;/h4&gt;
+
+&lt;p&gt;People in tech often look at your twitter. Most events have a hashtag, and it’s nice to tweet a thank you to the organizer and the company that donated the space along with the hashtag — it’s not asking much when these events are usually free and often include free food and drink! Also start tweeting about your projects, what you’re reading, anything at all related to your new field. It shows future employers that you’re serious and have been for a while. Also, put your Facebook profile on a restricted setting for a while. Recruiters don’t hold Facebook to the same level as twitter, but might as well play it safe.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;/h4&amp;gt;Build strong relationships with your teachers and your career coach.&amp;lt;/h4&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;These will be some of your best resources coming out of the program. The few weeks after I graduated included five interviews, three of which I landed because one of my teachers had recommended me to someone they knew who were looking for junior UX designers. One was because the career coach had recommended me to someone who reached out with the intent of hiring someone from my cohort. When a teacher or career coach get asked by a colleague to recommend a few of their students for an open position, do you think they’re going to send the names of the people who were on Facebook during lecture and did the bare minimum for their projects? &lt;strong&gt;No, they’re going to pass along the students who they saw staying late, attending extra events and, most importantly, presenting thoughtful, beautiful projects on presentation day.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4&gt;It comes down to this: the people who go in 100% and work their asses off to have a great portfolio get good jobs coming out of bootcamps.&lt;/h4&gt;
+
+&lt;p&gt;It can take a month or two, but this is more due to the way hiring processes work than anything else. The people who slack off usually get jobs too, but it takes longer and the jobs aren’t as good. They’re the ones using temp agencies to get contracts that will help build up their portfolios to the point that cool companies will want them. Other people leave the program with these strong portfolios already in hand. There’s nothing wrong with working contract to contract — plenty of people want to do this for the flexibility — but if you want a normal job with full benefits and a growth trajectory, don’t fall back on this. &lt;strong&gt;Get your portfolio to a good place right off the bat by working hard during your program. There are no shortcuts here. You have to work hard to make a strong portfolio during the bootcamp to get a good job afterwards.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;“I know someone who finished a bootcamp months ago and is still unemployed.”&lt;/h3&gt;
+
+&lt;p&gt;I think every program has these people. No admissions team can avoid accepting people who are actually a terrible fit. There are people who slack off during the program and have a terrible portfolio, people who only apply to one job a week, and people who try to get great jobs they aren’t qualified for. One person in a previous cohort complained to me about not being able to get a job, but then told me he was only applying to the limited places in the suburb he lived in, and wasn’t willing to take the train into Chicago where lots of jobs are. And then there are also people who are generally sort of awful and can’t do an interview without it showing. My program has one of these, a guy who graduated a few cohorts before mine and shows up at some workshops. During the question portion of a panel, he and another graduate used the forum as a way to vent their frustration about being unemployed, and this guy described how humiliating it was to be being supported by his wife. After it was over, I heard him talking to one of the panelists about his application at his company. I can only imagine what the panelist thought about him after that. This person is still unemployed. &lt;strong&gt;It’s likely the person online complaining that their bootcamp was a ripoff and lamenting the lack of jobs pouring into his lap has one of these issues. If 95% of graduates are satisfied with a bootcamp, don’t let the angry 5% detract you from what common sense says likely a good program.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;“This all sounds really stressful and I’m worried I won’t be able to handle it.”&lt;/h3&gt;
+
+&lt;p&gt;Did you manage the stress of exams during college? Of starting a new job? Of some other intense experience, like studying abroad or planning your wedding or even a sudden tragedy? You’re always going to have that voice telling you that you can’t do it, but chances are you can.&lt;/p&gt;
+
+&lt;p&gt;This is not to say that you should take on a bootcamp if the time isn’t right for you. I personally spent a while working on my mental health before I took on the intensity of a bootcamp. If you’re already to the point of a mental breakdown, or already feel constantly overwhelmed, or sad, or empty, start seeing a therapist to work on these things before you start your bootcamp, and make time to continue seeing them during it. This is actually just life advice. Therapy — once you find the right person — is amazing and can change your life for the better. Listen to yourself and &lt;strong&gt;don’t sign up for an experience you know will be too stressful if you already struggle to manage your stress in healthy ways.&lt;/strong&gt; If you are in a decent place with your mental health, go ahead and apply. You will never know if you don’t try, and thousands of people who aren’t geniuses have already successfully completed bootcamps and gone on to great jobs. &lt;strong&gt;Imposter syndrome is real, but if you like coding/design and are ready for an awesome career in either of these fields, it’s time to tell the little voice saying you’ll fail that you’re doing it anyway and are going to kill it.&lt;/strong&gt; All you need is a laptop, the right attitude, and a strong work ethic.&lt;/p&gt;
+
+&lt;h3&gt;A bit of info on life after a bootcamp:&lt;/h3&gt;
+
+&lt;p&gt;Be prepared for a long hiring process — the process in tech takes a long time. For most full stack developers, it’s: apply, interview (for cultural feel) OR you get a coding challenge to do before the interview. Then they might ask you to come in and pair, and then you might have a second interview with a VP, then you might get an offer. Designers typically have a similar process with a design challenge instead of a coding challenge. Plan for this, and don’t be daunted by the drawn-out timeline.&lt;/p&gt;
+
+&lt;h3&gt;Don’t stop learning and working once you graduate.&lt;/h3&gt;
+
+&lt;p&gt;People will ask “what are you working on now?” You need to show that you’re dedicated to learning beyond what you just learned in your program. Teach yourself a new language or make a mockup of a website you’d like to redesign. If you can, take on a small freelance project that lets you practice your skills while earning a bit of money to get you through that long hiring process.&lt;/p&gt;
+
+&lt;p&gt;For me, the decision to attend a bootcamp has turned out to be well-worth it. Best of luck as you start your journey.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Designing for Pets &amp; The UX of Dog Walking</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2017/08/31/ux-design-with-dogs-in-mind/"/>
+    <id>http://blog.url.com/blog/2017/08/31/ux-design-with-dogs-in-mind/</id>
+    <published>2017-08-31T16:39:00-05:00</published>
+    <updated>2017-11-10T14:16:25-06:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;section class="article-container"&gt;
+
+&lt;p&gt;Urban Leash is a Chicago start-up that provides on-demand dog walking and cat sitting. Their flexible offerings are built around an understanding of busy pet owners that is lacking among other dog walking companies, making their service unique and much-appreciated by Chicago’s pet-loving professionals.&lt;/p&gt;
+
+&lt;h3&gt;Challenge&lt;/h3&gt;
+
+&lt;p&gt;My team and I were challenged to improve the overall usability of the current app as well as to explore a new feature: allowing dog walkers to create their own pages and market themselves to new clients, as well as letting clients view and select their walkers. Our client was interested in this possibility but needed the proper research to make sure it was a valid need of the users.&lt;/p&gt;
+
+&lt;h3&gt;Opportunity&lt;/h3&gt;
+
+&lt;p&gt;Urban Leash is doing more than just dog walking and cat sitting — they’re providing their customers with trust that the animals of their lives are truly being taken care of. They’re a little start-up with a lot of love for their furry clients, and take the notion of trust to a deeper level than other similar companies.&lt;/p&gt;
+
+&lt;p&gt;My team and I needed to make sure that all the work the Urban Leash team puts into the transparency and accountability of their service translates to potential users. We needed to create a research-based design solution that would help users understand this new kind of service.&lt;/p&gt;
+
+&lt;h3&gt;My Role&lt;/h3&gt;
+&lt;p&gt;UX Research, iOS app design &amp;amp; form design&lt;/p&gt;
+
+&lt;h3&gt;Constraints&lt;/h3&gt;
+&lt;p&gt;21 Days&lt;/p&gt;
+
+&lt;h3&gt;Process&lt;/h3&gt;
+&lt;img src="/images/urban-leash/urbanleash-process.png" alt="process chart" /&gt;
+
+&lt;h3&gt;Introduction&lt;/h3&gt;
+
+&lt;p&gt;The founders of Urban Leash, Demetri Maltsiniotis and Lina Pakrosnyte, had done some research when they launched the start-up nearly two years ago, and knew it was time to take their service to the next level, with an emphasis on user experience. My team and I wanted to uncover more about their clients and pet owners in general, as well as research the competition. We would use this data to inform our design direction.&lt;/p&gt;
+
+&lt;h2&gt;Discover&lt;/h2&gt;
+
+&lt;p&gt;My team and I scheduled out our first week to research and learn as much as possible about the landscape of dog walking in Chicago, the mindset of pet owners, and where Urban Leash fit into the ecosystem in general.&lt;/p&gt;
+&lt;img src="/images/urban-leash/urbanleash-discover.png" alt="discover chart" /&gt;
+
+&lt;h3&gt;Stakeholder Interview&lt;/h3&gt;
+
+&lt;p&gt;We kicked off the research portion of our work by meeting with Urban Leash founder Demetri Maltsiniotis, and attempted to learn everything there was about his company. I wanted to get a clear understanding of the company’s history and about where he felt the service’s strengths and pain points were to be found.&lt;/p&gt;
+
+&lt;p&gt;We asked questions and listened for our full three hours of meeting time. It was clear that Demetri already had a running list of issues and changes he wanted to make to the website, app, and service, and had some big ideas for ways the business could pivot into new markets, but hadn’t done thorough research or testing to validate these problems or ideas. We kept a list of notes of things that we would test for — did Urban Leash walkers really want the ability to manage their own clients? Was the recurring order feature as much of a pain point for customers as the Urban Leash staff thought it was? We would be including this sort of information gathering in our research in order to help our client gain a full understanding from the perspective of dog walkers and customers.&lt;/p&gt;
+
+&lt;h3&gt;Research Groups&lt;/h3&gt;
+&lt;p&gt;My team and I quickly realized that our research would be ambitious; there were multiple user groups to learn about, including pet owners who could be considered potential customers, current customers, and current Urban Leash dog walkers. My team made a plan to divide and conquer in order to find out everything there was to know about all of our research groups.&lt;/p&gt;
+
+&lt;h3&gt;Contextual Inquiry&lt;/h3&gt;
+&lt;p&gt;I wanted to get a full understanding of the service from both a customer and dog walker perspective, so after I had sent out a survey and was waiting for results to come back, I set up an interview with Carrie, Urban Leash’s operations manager, and learned from her the process of receiving orders and assigning walkers, as well as how she follows up with dissatisfied customers and works through walker issues.&lt;/p&gt;
+
+&lt;p&gt;Now that I understood how the process worked internally, I set up an interview and shadowing appointment with a walker named Jonathan. I met him in the lobby of his building and he took me through what it looked like in his version of the app to receive a walk request and accept it. As we walked to the customer’s home, we discussed some of his pain points as a walker, which mostly focused on access issues and customers scheduling a 15 minute walk service but live in a building where it takes at least 5 minutes to get to the dog. This became a consistent pain point for both walkers and customers, and it was clear that there was a big misunderstanding going on: customers thought a 15 minute walk service meant a 15 minute walk, but the service actually starts the moment a walker gets to a building, and includes the walk, putting the dog back in the home, and filling out the post-walk report that dog owners see. Walkers consistently took more time than 15 minutes to complete services and customers were frustrated when their post-walk report map showed a short walk that clearly was less than 15 minutes.&lt;/p&gt;
+
+&lt;p&gt;Shadowing Jonathan revealed something to me that I had begun to see from talking with the Urban Leash corporate team: the walkers are incredibly dedicated to their doggie clients. The walk I observed Jonathan perform was for a very elderly setter with cancer. She wore a special harness with handles, and Jonathan explained to me that she had lost the use of her back legs for a few days recently, and before she recovered he had held up her back end with the handle harnesses so that she could still walk around with her front legs. He told me how her owners had told him they would understand if he wasn’t comfortable walking anymore, and how they had nearly cried when he told them “of course I’m going to keep walking her, it would take more than this to stop me.” I was beginning to see something that didn’t come through in Urban Leash’s current website communication: their walkers are extremely dedicated to the dogs they walk.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Insight: Urban Leash misses opportunities to communicate to potential customers that their walkers regularly go above and beyond what is expected.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Insight: Customers don’t understand that 15 minute services aren’t 15 minute walks, which causes frustration for both walkers and customers.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3&gt;Surveys&lt;/h3&gt;
+&lt;p&gt;My team and I set out to gather quantitative data that would inform us about the various user groups. We created surveys for pet owners, current Urban Leash customers, Urban Leash dog walkers, freelance dog walkers not associated with Urban Leash, and users who had signed up but never ordered a walk. I used my writing skills and grammar know-how to make sure the questions made sense and weren’t leading in any way.&lt;/p&gt;
+
+&lt;p&gt;From the large amount of data we gathered from our multiple surveys, some themes began to emerge and we made several insights.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Insight: walkers face multiple pain points on a regular basis, the most significant of which are home access, finding the leash, and dog behavior-related issues.&lt;/em&gt;&lt;/p&gt;
+
+&lt;img src="/images/urban-leash/survey-walker.png" alt="walker survey results" /&gt;
+
+&lt;p&gt;&amp;lt;/em&amp;gt;Insight: Urban Leash’s most well-known feature is their on-demand walking.&amp;lt;/em&amp;gt;&lt;/p&gt;
+
+&lt;img src="/images/urban-leash/survey-customer.png" alt="customer survey results" /&gt;
+
+&lt;h3&gt;Interviews&lt;/h3&gt;
+
+&lt;p&gt;I scheduled interviews with 5 pet owners, 3 current customers, 2 dog walkers and 1 freelance dog walker who had indicated they would do a short interview on the survey. All told, my team interviewed 19 people.&lt;/p&gt;
+
+&lt;p&gt;I spent a lot of time talking to pet owners about what they wanted out of a dog walking and cat sitting service, and tried to get at what trust meant to them in terms of their pets. I approached this first by asking people about a recent time a stranger, such as a plumber or electrician, had been in their home, and how they felt. I found that things like wearing clothing with the company’s logo, the stranger introducing themselves, and the company the person worked for being a large, well-known company all made people feel more at ease about having strangers in their home. An interesting trend I noticed among pet owners who allowed strangers into their homes to walk their dogs or sit their cats was that they had much more fear about something happening to their home than to their pet. As one person told me, “I don’t really think that people are looking to hurt my dog. That’s just not something that happens. What I do worry about is someone nabbing some of my valuables or leaving the door unlocked. This sentiment came up over and over again in my team’s interviews.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Insight: When it comes to at-home pet services, people worry more about theft and something happening to their home than they worry about something bad happening to their pet.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A second theme that appeared among the Urban Leash customers and walkers we interviewed was that trust is of the utmost importance when it comes to this sort of business. We heard it from both ends: trust matters immensely, and the walkers work hard to establish that trust. Regular users of the service reported feeling much more trust for Urban Leash than the did for other similar services; clearly, once people gave Urban Leash a chance, trust was established and they became loyal customers. A question to answer later was: how can we help people who have never used the service understand that it’s extremely trustworthy?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Insight: Trust is vital to a good owner-walker relationship.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;My team and I uncovered multiple pain points from the various groups we interviewed, many of which were supported by the results from our surveys. Pain points ranged from customers booking recurring orders to walkers often being unable to access the home. We also found that Urban Leash has many strengths, but that they weren’t highlighted to potential customers using the website. Finally, we found that Urban Leash does a good job trust building but misses certain opportunities to earn the trust of potential and current customers. A summary of the pain points, strengths, and opportunities for trust is below.&lt;/p&gt;
+
+&lt;img src="/images/urban-leash/painpoints.png" alt="chart of pain points, strengths, and opportunities for building trust" /&gt;
+
+&lt;h2&gt;Define&lt;/h2&gt;
+
+&lt;p&gt;My team and I had done our research and had gained a thorough understanding of the landscape of dog walking service in Chicago as well as the joys and pain points of the various groups involved. We came together to share our learnings, organize the information, and synthesize it all to pull out the most important insights and move forward.&lt;/p&gt;
+
+&lt;h3&gt;Personas&lt;/h3&gt;
+&lt;p&gt;We created 6 personas in order to cover the types of people we had identified from our various user groups. The most important became Eliza, a persona I created for a potential customer who needed a service like Urban Leash but was wary about having strangers in her home and unsure about how walkers would handle her pitbull. She embodied the fears and goals of the majority of pet owners we had surveyed and interviewed, as well as represented an important group for Urban Leash: dog owners who want a walker but are wary of dog walking services.&lt;/p&gt;
+
+&lt;img src="/images/urban-leash/persona.png" alt="persona description" /&gt;
+
+&lt;h3&gt;Analysis&lt;/h3&gt;
+&lt;p&gt;My team and I brainstormed solutions for each of our personas. We wrote out what we had learned on dozens of post-its and affinity mapped them into groups to identify themes. We boiled down our huge amount of post its into just a few essentials, and organized those essentials in various ways to make sense of them. We ended up drawing heavily on a chart of pain points grouped by before service, during service and after service.&lt;/p&gt;
+
+&lt;p&gt;At the end of a day of analysis, we settled on the following design directions:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Highlighting Urban Leash’s strengths&lt;/li&gt;
+	&lt;li&gt;Eliminating customer and walker pain points&lt;/li&gt;
+	&lt;li&gt;Capitalize on the various opportunities to build trust not currently being utilized&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Feature Prioritization&lt;/h3&gt;
+&lt;p&gt;When deciding who would lead out on the various aspects of our solution, I was exciting to take on the challenge of redesigning the customer-side app’s registration and booking process. Done right, this redesign would eliminate many of the customer and walker pain points as well as build trust among new users.&lt;/p&gt;
+
+&lt;p&gt;Since the priority was on a quick registration that properly gathering the necessary information from the customer and forms that were intuitive and simple, and I wasn’t doing a full app redesign, I kept my wireframes in greyscale. There are parts of the existing app that work beautifully and don’t need to be touched; my new and improved forms can be included with Urban Leash’s app design and easily worked into their existing process.&lt;/p&gt;
+
+&lt;h2&gt;Develop&lt;/h2&gt;
+
+&lt;p&gt;I began to design natively for iOS. Creating forms that were simple, intuitive, and didn’t require too many screens or clicks proved to be a difficult challenge that I enjoyed solving. The part of my brain that enjoys puzzles and writing code kicked into gear, I designed, tested, and iterated my forms until they satisfied my high standards.&lt;/p&gt;
+
+&lt;h3&gt;Recurring Orders&lt;/h3&gt;
+&lt;p&gt;The largest pain point among regular customers was booking recurring orders. When designing a form for recurring orders, I studied the way that other services handle recurring orders, as well as how calendar features on platforms such as Outlook and Google handle recurring events. Below is an annotated look at my final form design for recurring orders, which I created using research and iterated on through multiple rounds of user testing.&lt;/p&gt;
+
+&lt;img src="/images/urban-leash/recurring1.png" alt="mockup of phone screen shoing how recurring orders work" /&gt;
+&lt;img src="/images/urban-leash/recurring2.png" alt="mockup of phone screen shoing how recurring orders work" /&gt;
+
+&lt;h3&gt;Deliver&lt;/h3&gt;
+
+&lt;p&gt;After three weeks, we delivered our research report, validated testing and design solutions to our very satisfied clients.
+This video shows a walkthrough of my redesign of the registration process and includes the redesigned forms for tricky processes like gathering users’ home access information and setting up multiple and recurring orders.&lt;/p&gt;
+
+&lt;h2&gt;Learnings&lt;/h2&gt;
+&lt;p&gt;Nothing will make working in teams 100% seamless, but open communication and honest feedback goes a long way. My team and I agreed on day 1 to be honest about our working styles and any frustrations we would face in the coming weeks. Rather than pretending we would never have conflicts, we openly discussed our personal strengths and areas of growth before we started working, and doing this right off the bat rather than waiting until there was conflict helped our team immensely.&lt;/p&gt;
+
+&lt;/section&gt;
+</content>
+  </entry>
+  <entry>
+    <title>BEM for Beginners</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2016/11/02/bem-for-beginners/"/>
+    <id>http://blog.url.com/blog/2016/11/02/bem-for-beginners/</id>
+    <published>2016-11-01T21:31:00-05:00</published>
+    <updated>2017-11-10T14:16:25-06:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;section class="article-container"&gt;
+
+&lt;p&gt;Having a naming methodology is important for scalability, reusability and readability. A while ago I studied up on three of the most popular conventions: OOCSS, SMACSS, and BEM. I felt that the first two left too much up to the personal style of the person writing the code, and as a young developer, I didn’t have much confidence that they would work for me, as I don't have years of experience experimenting and trying different naming styles to draw upon. BEM, on the other hand, appealed to me because it is both simple and strict. There are only three types of styles, and figuring out the correct option is very straight-forward. After a few months of adhering to the BEM philosophy, I have come to love how simple and maintainable it makes my CSS. I believe that BEM is the perfect method for other front-end beginners.&lt;/p&gt;
+
+&lt;p&gt;BEM touts itself as being a good practice for large projects, especially when working with a team and when creating a site that will be maintained by others later, but it also works well for small or individual projects. BEM is immediately recognizable, making maintainability easier than some of the other options, which often require a developer to sift through new code for a while to figure out the naming conventions.&lt;/p&gt;
+
+&lt;p&gt;BEM stands for Block, Element, and Modifier. Websites can be broken down into meaningful blocks, which are made up of their elements. Modifiers are used to manipulate their states.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Blocks&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Blocks are chunks that can stand alone  and are meaningful by themselves, such as headers, footers and sidebars. Each block contains its own set of elements. For example, let’s take a navigation bar that has a few links to different pages. To create a block we would simply give it a class name:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;nav&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Block syntax only allows for a single dash, meaning that if we had two different navigations and were doing all of this twice, we would make two blocks: one called &lt;code&gt;main-nav&lt;/code&gt; and one called &lt;code&gt;secondary-nav&lt;/code&gt;. So far this is just a regular class - it doesn’t really become BEM until we fill up this block with elements.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Elements&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Elements, unlike blocks, don’t have meaning on their own. They are semantically tied to their blocks. To better understand this, let’s go back to the example of a navigation bar. The various links inside of them are elements - let’s say they’re links to pages for “About,” “Team,” and “Blog.” If we saw those words on a page alone, they wouldn’t mean much to us. But once we stick them in their &lt;code&gt;nav&lt;/code&gt; block, with its elements side-by-side at the top of the page, we understand that they are links in a navigation. Each of the links in our navigation are an element and would get the class name:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;nav__item&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If there was something else in the navigation, like a logo icon, we would name it similarly:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;nav__icon&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Elements are always written by first using the name for the block it lives inside, followed by a double underscore and then the name of the element. Remember that BEM helps us make our classes modular, so you want to leave your names vague enough that the styles can be reused elsewhere but not so vague that you have no idea what’s going on. After all, another point of BEM is to be able to quickly figure out what’s going on. For example, I chose the name &lt;code&gt;nav__icon&lt;/code&gt; rather than &lt;code&gt;nav__logo&lt;/code&gt; because while the icon I add may be the company logo now, what if for some reason we swap it out for something else, like a pumpkin to celebrate Hallowe’en? Then it’s just an icon, and the word “logo” doesn’t fit. That’s a silly example, but the need to have flexible, reusable styles is very real, even with small projects.&lt;/p&gt;
+
+&lt;p&gt;This is a good time to mention that finding the perfect name for classes when writing HTML and CSS can be extremely difficult. When I was first trying to adhere to BEM naming, I used to sit at my laptop for long moments at a time, staring off into space trying to come up with the right name. I've since learned that it's better to not waste too much time trying to find the perfect name, since I usually end up changing it later on. Sometimes the perfect names are only clear in the context of the whole project, and are easy to figure out during a round of refactoring. All in all, you should struggle a bit with coming up with names, but don't let it derail you from the work at hand. Just make sure that you're refactoring later on - this is often when the perfect name becomes suddenly obvious.&lt;/p&gt;
+
+&lt;p&gt;The conventions may look a little strange, but it’s worth it to know quickly which category a class falls into. When you follow BEM naming, you’ll immediately understand that a class name like &lt;code&gt;form-table&lt;/code&gt; is a block, while &lt;code&gt;form-table__button&lt;/code&gt; is an element within that block.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Modifiers&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Modifiers do just what you’d think they do - they modify a block or element when you need to make just a slight change. For example:&lt;/p&gt;
+
+&lt;script src="https://gist.github.com/epenzeymoog/7b0c89ab927bb5818906057a73b227ce.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;The fourth line has the name of the element followed by two dashes and the word “current” to show that this is the current page. This is how BEM tells us to write modifiers It may get an additional style or two, but is otherwise the same as the other &lt;code&gt;nav__item&lt;/code&gt; elements.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;BEM for CSS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A common critique of BEM is that it bloats your HTML, and I have to admit that this is somewhat true. However, the clarity gained from this kind of naming is well worth it. Additionally, BEM helps us get away from nesting our CSS styles, which ultimately makes things much easier to change later, and allows us to reuse our styles.&lt;/p&gt;
+
+&lt;p&gt;Before I learned BEM, I might have styles my navigation like so:&lt;/p&gt;
+
+&lt;script src="https://gist.github.com/epenzeymoog/3e26b11233b389881cfd126187faa52e.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;This was ok, but what if I want to reuse the styles I applied to my navigation links to my footer, only I want to give them a different color? I’d have to either figure out how to override the previous styles or write it out all over again. Nesting is not allowed with BEM, as nesting makes it difficult to reuse styles. The BEM way makes it much easier to reuse styles. Here’s how I would write my BEM CSS:&lt;/p&gt;
+
+&lt;script src="https://gist.github.com/epenzeymoog/cd1bdaad1eabfb83c8676733018200a4.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;No nesting, no hassle later on when I want to reuse a style. I have the option to give all my footer links the same &lt;code&gt;.nav__link&lt;/code&gt; styles without having to use the &lt;code&gt;.nav__item&lt;/code&gt; styles. BEM's disallowance of dependencies makes it extremely reusable.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;BEM for New Developers&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As someone who’s still on the newer end of writing code for the front-end, I find BEM’s simplicity and strictness appealing. When you’re still getting your bearings on how things work, anything that will make it easier to understand what’s going on is a necessity, and BEM does just that. It feels strange to write code with its rules at first, but it quickly becomes second nature, and you’ll thank yourself the first time you have to make a change to a project you haven’t touched for a few months are are able to quickly find what you’re looking for. At the end of the day, there are lots of options out there, and it’s most important that you find one that suits the needs of you and your team. But if you’re just starting out and looking for a naming methodology that will bring some structure to chaotic code, BEM is a great option.&lt;/p&gt;
+&lt;/section&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Pairing Tour Day 8 - Doug</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2016/10/19/pairing-tour-day-8/"/>
+    <id>http://blog.url.com/blog/2016/10/19/pairing-tour-day-8/</id>
+    <published>2016-10-19T17:37:00-05:00</published>
+    <updated>2017-11-10T14:16:25-06:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;My pairing tour wrapped up with a really interesting day spent with Doug, the Director of Software Services. I knew that he manages a group of client teams, works on sales and is heavily involved in the AXUS team, but seeing just how much he handles in an average day was pretty impressive. We jumped from data visualization to check-in with a crafter to a meeting with the CEO to a sales call to figuring out brining on one of the CTOs to a new project and talking to him about it, and ended the day with the same data visualization we started with.&lt;/p&gt;
+
+&lt;p&gt;Doug has a role in a lot of high-level work, including staffing and figuring out how many apprentices the company needs to hire based on clients in the pipeline. It’s trickier than average hiring because of the apprenticeship program, which can last anywhere from 2 to 9 months and doesn’t involve any billable client work. Something that could help with this is being able to see all the data from the past few years laid out in a meaningful way, and so Doug is working on a massive excel sheet with all the data of positions, hires, departures, and types of departures. We spent some time finishing it off and then put the data into something called QuickSight, a cool Amazon product that visualizes data really nicely. Doug figured out how to use it pretty quickly and started creating charts that showed what he wanted.&lt;/p&gt;
+
+&lt;p&gt;Throughout the morning I got to sit in on two high-level meetings he had, one with the CEO about the direction of a client project and one with Kevin, who has a CTO role and is going to be helping Doug on some of his projects. Sitting in on both of these conversations hit home two different things for me: first, this is a company with a lot of transparency - I’m pretty sure that anywhere else I’ve ever worked would have asked me to leave the room while these conversations were going on. Second, it’s easy to see how crafters here often end up acting as business consultants and not just software/design consultants. It’s something I didn’t really understand at first, but I’ve seen nearly every crafter I’ve paired with helping their client make decisions about the direction of the product. Everyone here is smart, understands the product they’re creating, and knows enough about the environment software exists within to help their client make good decisions.&lt;/p&gt;
+
+&lt;p&gt;The rest of the day was spent on a short sales call with a local start-up, a weekly check-in that Doug has with the crafter dedicated to the Design Studio, and more data visualization, along with some time where I got to pepper Doug with all my questions. Some of the best things I learned were how he organizes his work life with a trello board that has the categories “gain” for things that will add value to the company but no one has a pressing need for, and “pain avoidance,” which are items that will cause someone else trouble if he doesn’t do them. I also got to learn about his path from crafter to management and hear his general advice. Essentially, he emphasized that 8th Light is not a place with heavy-handed management; crafters need to self-manage. He also talked about the need to see the opportunity to further our UX work, especially user research, and take the initiative to make it happen. It’s definitely an exciting opportunity to be at the forefront of user research here, since it’s something I love doing and really believe in. I know it matters to good design (and of course, good design matters to good development), and that it can make a huge difference in a product, but much of the rest of the world sees it as the first thing to get cut when the budget gets tight. I’m excited to work at a place where a senior level employee like Doug values user research as much as he does.&lt;/p&gt;
+
+&lt;p&gt;Getting a big-picture look at 8th Light with Doug was a great way to end my pairing tour. I’ve learned so much about how the organization functions in the last week, as well as the types of challenges crafters face on a day-to-day basis. I feel a lot more informed about what it’ll be like to be a crafter myself.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Pairing Tour Day 7 - Chris</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2016/10/18/pairing-tour-day-7/"/>
+    <id>http://blog.url.com/blog/2016/10/18/pairing-tour-day-7/</id>
+    <published>2016-10-18T14:18:00-05:00</published>
+    <updated>2017-11-10T14:16:25-06:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;section class="article-container"&gt;
+
+&lt;p&gt;Chris is an awesome senior designer here at 8th Light, and I was really excited to pair with him today. He had something come up that made him have to leave for home at lunch, but the morning was a fast-paced blend of quick meetings, work for the upcoming Software Craftsmanship North America (SCNA) conference that 8th Light puts on every year, and fixes for his client project.&lt;/p&gt;
+
+&lt;p&gt;We started the day right at 8:30 with a meeting with his client to discuss some of the new requirements for the story he’s working on, and as soon as it was over we switched gears to SCNA. Another employee working on the event had noticed that the parking information was outdated on one of the pages, so we quickly made the change and the employee merged it in. Chris built the site himself and  keeps his files very nicely organized, meaning he was able to find what he needed really fast.&lt;/p&gt;
+
+&lt;p&gt;Chris had designed all the speaker, volunteer, and attendee name tags in InDesign, which is a design software meant for creating books. He showed me how to export an excel doc to a CSV file (CSV stands for Comma Separated Values and is an old type of file that’s mostly just used currently by big financial institutions) and use that to do a data merge with InDesign. This populated all the first and last names of each person into the document so that we didn’t have to type them each out individually. We printed nearly 200 name tags and spent a while putting them in to their plastic holders while listening to his amazing 90’s playlist and talking about his favorite clients (The Royal Academy of Arts) and challenges in the past (designing for video games). It’s always fun to hear stories from people who have been in the industry for a while, and this was no different. The most valuable thing was learning about how he handles projects that have multiple stakeholders who have difficulty communicating with each other to give a cohesive vision for what they want him to design. (Basically, try to merge their visions if possible and elevate the issue to the 8th Light director on the project as soon as you’ve identified it.)&lt;/p&gt;
+
+&lt;p&gt;Next, we spent some time on a client story, which had to do with a bug where a form’s input field’s focus states weren’t working in any browsers outside of Chrome. A focus state tells the user where they are with some kind of visual cue (like when a field you’re typing into glows blue) and are important for screen readers. Every browser has a default focus state, but they’re often not very attractive and designers remove them and create their own. It’s important to always make some kind of focus state if you remove the default because there are plenty of users who navigate with the keyboard and need to know where they are on the page. Good focus states are also important for people with reduced vision who use the focus states to navigate the page.&lt;/p&gt;
+
+&lt;p&gt;Chris showed me where he had set the focus state with outline: &lt;code&gt;-webkit-focus-ring-color auto 5px&lt;/code&gt;. Unfortunately, it was only working for OS X. Firefox and Internet Explorer weren’t supporting the &lt;code&gt;focus-ring-color&lt;/code&gt;, and so we remade the styles to simply be a border. Chris created a Sass mixin so that he used all over the place to write less code - by using the mixin, he was able to write the few lines he needed once, and everywhere else keep it to one short line of code.&lt;/p&gt;
+
+&lt;p&gt;Main takeaways of the day:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sass mixins can save you ton of room when it comes to your code. I’ve never made my own, but it’s time to start!&lt;/li&gt;
+	&lt;li&gt;Be wary when overriding a browser’s defaults styles - always research the impact and make sure to add in new styles when it’s something people depend on.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/section&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Pairing Tour Day 6 - Kristin</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2016/10/18/pairing-tour-day-6/"/>
+    <id>http://blog.url.com/blog/2016/10/18/pairing-tour-day-6/</id>
+    <published>2016-10-17T20:39:00-05:00</published>
+    <updated>2017-11-10T14:16:25-06:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;section class="article-container"&gt;
+
+&lt;p&gt;Week 2 of my pairing tour started off with a day spent back on AXUS with Kristin, a software crafter. She used the day as an opportunity to tackle an issue that’s been going on for a while and hasn’t been fully solved despite a few attempts by others on the team: formatting PDFs.&lt;/p&gt;
+
+&lt;p&gt;In the travel industry, PDFs remain a popular way to share information, and it’s important they look good. The team wanted to make sure that images weren’t being split across multiple pages of PDFs, as well as make sure that the image’s header stick with the image and make sure the two elements couldn’t be split across two pages, with the header at the very bottom and its image at the very top of the next page.&lt;/p&gt;
+
+&lt;p&gt;Naturally, this task was far from simple. We spent most of the morning attempting to make it work with the &lt;code&gt;page-break-before&lt;/code&gt; and &lt;code&gt;page-break-after&lt;/code&gt; properties, setting them to both &lt;code&gt;always&lt;/code&gt; and &lt;code&gt;avoid&lt;/code&gt; in different places, but for some reason they just didn’t seem to take. The progress was a bit slow since every time we made a change we had to update the browser, generate the PDF and scroll to the bottom, where we had an example we’d managed to replicate, and see what it looked like. While we were looking at the code, we found a whole lot of &lt;code&gt;page-break-before&lt;/code&gt; and &lt;code&gt;page-break-after&lt;/code&gt;'s on different classes, sometimes in places where they didn’t matter and sometimes put together in such a way that they cancelled each other out. We cleaned things up as best we could, and I was reminded how important it is to make helper/utility classes in my CSS for properties like this that I can reuse again and again, rather than sticking the same properties onto a ton of different classes in a bunch of different files. Doing it that way can make changing things later much more difficult than is necessary.&lt;/p&gt;
+
+&lt;p&gt;I started to look more into the properties as well as how they’re typically handled. When you’re looking at a page, even something really long, on your computer, you don’t see any page breaks. Those only come when you either print off what’s on your screen or do something else, like export it to a PDF. I read about a media query that applies styles just when the web page is being printed (&lt;code&gt;@media print&lt;/code&gt;), and we tried applying it to our CSS classes. This didn’t fix the problem, but I wanted to see what would happen if we printed out our PDF. Sure enough, on our printed version, the images listened to our code and didn’t break across pages. So we had solved for actual printing, but the team knew that these PDFs are often created and then emailed, and possibly never printed off. We still had to figure it out for PDFs.&lt;/p&gt;
+
+&lt;p&gt;After lunch, I realized that we had to be missing something, and asked Kirstin to explain more about how the PDFs are generated. She helped us backtrack the process to a PDF generator library, and I spent a while reading its docs for anything that would help. Eventually I found it - a line that explained why we couldn’t get the header to stick to its image. It said that a &lt;code&gt;page-break&lt;/code&gt; style was applied to something too long, like an div that ranged three pages, it simply wouldn’t do anything. This was exactly our problem. Because of the way the content of each PDF was dynamically generated, it wasn’t a simple matter of wrapping what we wanted in a div and giving the wrapper our styles. We had to wrap more than we wanted, and because it was too long, the PDF generator simply ignored our styles.&lt;/p&gt;
+
+&lt;p&gt;We didn’t have a fix, but we did know a lot more than when we started. We updated our related stories with this new information and went about trying to find a work-around. We created a new rule that would put a page break before every header, starting every new section on its own page. This solution isn’t perfect, since it created some odd white space when the content didn’t work out to completely fill its last page, but it did result in headers sticking with their images and images always being at the top of the page, meaning they never got split across two pages. Unfortunately, it’s a situation where we might have to go with a solution that doesn’t make everyone happy - we learned that this used to be the way the PDFs were styled, but people using them didn’t like the extra white space. So they got rid of them, only to start getting tickets about the images being split. Kristin, who understands the code that dynamically generates the content really well, knows that if she had a lot of time she could redo it to make it possible to isolate the parts we want and put wrapper classes around them, but then it becomes a matter of deciding if its worth it to the client to pay that much to fix something that might not be a huge problem - after all, it’s a styling issue, nothing to do with functionality. I really wish we had been able to come up with an elegant solution by the end of the day, but it looks like Kristin and the rest of the team will have to discuss it with the client to figure out if its worth investing more time to fix.&lt;/p&gt;
+
+&lt;p&gt;This seems to be a somewhat common situation with client work - you know you can make something work eventually - you might even really &lt;em&gt;want&lt;/em&gt; to figure out the solution, like Kristin and I still do - but it may not be in the client’s best interest to pay you to do it.&lt;/p&gt;
+
+&lt;p&gt;Before today, I had never thought about how PDFs are created and styled. There’s clearly a lot that goes into it, and I had trouble finding resources that gave this information, possibly because both PDF and printing pages are becoming a thing of the past. Nevertheless, I’m glad I have a better handle on it now. In the future, if I ever get to help my team choose the resources for things like a PDF generator, I’m going to try to investigate the support it has around styling. I’m continuing to learn that crafters are always learning about new things that they probably never thought they’d have to study. It’s not about knowing everything but rather honing your skills at research and learning new things quickly.&lt;/p&gt;
+
+&lt;p&gt;Main takeaways of the day:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Make sure you spend time researching before diving into a problem. If I had started off by researching PDF generation more thoroughly than I did, I could have asked Kristin about how they are generated earlier on and not wasted time wondering why our page-break styles refused to work.&lt;/li&gt;
+	&lt;li&gt;There’s not an elegant solution for every problem. Sometimes you have to find the best solution for the given constraints and accept that you’ve left the project better than you found it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/section&gt;
+</content>
+  </entry>
+</feed>

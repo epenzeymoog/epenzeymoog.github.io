@@ -1,0 +1,103 @@
+<head>
+<script src="https://use.typekit.net/yha5wrx.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+</head>
+
+<div class="container">
+<div class="sky">
+  <nav class="nav">
+    <ul class="nav__logo">
+      <li>
+        <a href="/" class="logo clean-list">Home</a>
+      </li>
+    </ul>
+
+    <ul class="nav__items" id="nav">
+      <li>
+        <a href="/work/" class="nav-links clean-list">Work</a>
+      </li>
+      <li>
+        <a href="/blog/" class="nav-links clean-list">Writing</a>
+      </li>
+      <li>
+        <a href="/about/" class="nav-links clean-list">About</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+</div>
+
+<script>
+function setActive() {
+  aObj = document.getElementById('nav').getElementsByTagName('a');
+  for(i=0;i<aObj.length;i++) {
+    if(document.location.href.indexOf(aObj[i].href)>=0) {
+      aObj[i].className='active';
+    }
+  }
+}
+
+window.onload = setActive;
+</script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="image/ico" href="/images/favicon.ico" rel="icon" />
+		<script src="https://use.typekit.net/yha5wrx.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/all.js"></script>
+  </head>
+  <body>
+        <div class="content-container">
+    <div class="article">
+        <h3 class="article-title center">Pairing Tour Day 5 - Emmanuel</h3>
+        <div class="meta">
+          <time class="meta__date">
+            Oct 14 2016
+          </time>
+          <span class="meta__tag">
+            <a href="/tags/pairing/">Pairing</a>, <a href="/tags/reflection/">Reflection</a>
+          </span>
+        </div>
+
+        <div class="article-body"><section class="article-container">
+
+<p>Pairing with Emmanuel was one of the most challenging days I’ve had in a while, due to the sheer amount of things we worked on that I didn’t understand at all. While I’m familiar with Ruby, and spent a few months studying it over a year ago, the majority of code we worked with was beyond me. Thankfully, Emmanuel is a great teacher and good at providing the context for what he’s doing. At the end of the day my brain was fried but I understood a lot more about what it’s like to work on the back-end part of software.</p>
+
+<p>We spent the morning working on what should have been a somewhat simple problem for his client project. But if there’s one thing I’ve learned during my apprenticeship, it’s that things are rarely as simple as they seem, and often making one change requires a ton of work before you  can make the change, or changing one thing can break or disrupt everything else. This is why we use the PERT system to estimate - the work we do can be complex, and things almost always take longer than we first think they will.</p>
+
+<p>Emmanuel patiently took me through his process for trying to figure out why adding this one line of code was breaking everything else, and despite him saying the words “this is frustrating,” I never really got the sense that he was anything but logical and patient in his approach. He investigated the pieces of code that he didn’t already understand, that had been written by someone else a long time ago, and this turned into a long process. Fuzzy searching a method like “create_client” lead him to another class or method he didn’t fully understand, and to understand that one he had to look at another one, and so on. He showed me Pry, a very useful tool that has the ability to function as a developer console and a lightweight debugger. By adding it to a line of code, he was able to narrow in where the problem was within a method. He’d move pry to a different line within that chunk of code to narrow it down even further, until he could pinpoint where the problem is, which helped him get closer to answering why there was a problem. He explained a ton of things to me and had me work my way, with what I’m sure was painful slowness, through it all to write one line of Ruby code that fixed some of the problems.</p>
+
+<p>After lunch, during waza time, Emmanual and I worked on integrating the meetup.com API to the website that I had created for him. He runs the Chicago Software Craftsmanship (CSC) Meetup, and one of my apprenticeship projects involved creating a proper website for the group to use. I had created an “event” partial that held all the information about the group’s upcoming event, including things like the name, date, time, location, description, current number of attendees and and RSVP button. Obviously it would be a pain for Emmanuel to go into the code and update it every time he scheduled the next event; connecting Meetup’s API in the right places is a way around that. This way, when he creates the new event on Meetup, the details of the event shown on his website will automatically be updated with the new information.</p>
+
+<p>I had never done any API work before and was excited to see how it worked. Before I started, I made sure I understood what an API actually does, since I realized that while I thought I knew, I couldn’t actually articulate it. Basically, an API is a sort of contract between two pieces of software, and allows them to talk to each other directly. If Meetup didn’t have a public API, we could still sort of do what we did, but it would be a bit less optimized. We’d have to tell the CSC website to go to meetup.com and scrape it for the information we wanted. If meetup.com changed its styles or started storing that information on a different page, CSC might not be able to pull the information from it anymore. On the other hand, by connecting Meetup’s API directly to the CSC website, we’re able to have CSC send a message right to Meetup to get the information it wants, using a key-value pair to get exactly the right items, and use those to plug the info into the right spots of CSC.</p>
+
+<p>We set about connecting the API, but, like I said before, things that seem simple rarely are when it comes to code. Emmanuel explained the history of javascript to me, how it was created a long time ago (at least in web development history) and was created quickly and had a lot of problems that weren’t fixed, which can make it a bit of a paint to use now. The typical way to connect and API to a site involves JavaScript, but there are lots of tools that have come out that make working with JavaScript easier, including React. We began to work through the process using React, but came across multiple problems, including a security issue with Google Chrome. When that happened,  we switching to using an HMLHttpRequest, which Emmanuel called “the old fashioned way.” Unfortunately, that had its own set of problems. Emmanuel decided to go back to using React, but wrote a quick program that he used as a sort of middleman between React and the server that got around the security issue. He barely had to use references for all of this - I was pretty amazing at how advanced his skills are and how he’s able to remember all the code and command line commands that made this all happen.</p>
+
+<p>Once we were up and running, the actual work of using Meetup’s API was pretty simple, and Emmanuel wrote the necessary code to connect the name of the event and then challenged me to do the rest. By using his example and asking lots of questions, I was able to get through nearly all of it by the end of the day. Once the API is connected, you basically just find the part of the Meetup information you want (name, location, etc) and set a key-value pair at the top of your document. Then you reference it later on, where you want that word or phrase to actually appear.</p>
+
+<p>Even thought I was writing pretty simple Ruby, my brain was completely fried by the end of our time together, but in a good way. It was awesome to do more work on my own project, the CSC website, and to learn exactly how my code could get used to do something like this. Also, I felt solid about the fact that my classes were named well and everything was organized - we never had to guess about what we were doing or where we were in my html code. I’d love to do more work like around seeing what specifically goes on after I had off a design with front-end implementation to a back-end developer.</p>
+
+<p>Main takeaways of the day</p>
+<ul>
+	<li>Even super smart software crafters get stuck up in the complexity of what we do, and I’ll probably be working through weird environment issues and other blockers my whole career. This is actually kind of reassuring, since it means that it’s just something I have to plan for and something I can avoid by just being really good at what I do.</li>
+	<li>Ruby is a fun language, and I remember now why I spent so much energy learning the basics over a year ago. I’d really like to dig more into Ruby and JavaScript in the future.</li>
+</ul>
+</section>
+</div>
+      </div>
+
+      <div class= "read-more margin-top">
+          <a href="/blog/2016/10/13/pairing-tour-day-4/" class="left submit-button button--secondary">← Pairing Tour Day 4 - Kyle</a>
+
+          <a href="/blog/2016/10/18/pairing-tour-day-6/" class="submit-button button--secondary right">Pairing Tour Day 6 - Kristin →</a>
+      </div>
+      <div class="footer"></div>
+    </div>
+
+  </body>
+</html>

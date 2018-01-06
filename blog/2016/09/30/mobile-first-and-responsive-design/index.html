@@ -1,0 +1,211 @@
+<head>
+<script src="https://use.typekit.net/yha5wrx.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+</head>
+
+<div class="container">
+<div class="sky">
+  <nav class="nav">
+    <ul class="nav__logo">
+      <li>
+        <a href="/" class="logo clean-list">Home</a>
+      </li>
+    </ul>
+
+    <ul class="nav__items" id="nav">
+      <li>
+        <a href="/work/" class="nav-links clean-list">Work</a>
+      </li>
+      <li>
+        <a href="/blog/" class="nav-links clean-list">Writing</a>
+      </li>
+      <li>
+        <a href="/about/" class="nav-links clean-list">About</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+</div>
+
+<script>
+function setActive() {
+  aObj = document.getElementById('nav').getElementsByTagName('a');
+  for(i=0;i<aObj.length;i++) {
+    if(document.location.href.indexOf(aObj[i].href)>=0) {
+      aObj[i].className='active';
+    }
+  }
+}
+
+window.onload = setActive;
+</script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="image/ico" href="/images/favicon.ico" rel="icon" />
+		<script src="https://use.typekit.net/yha5wrx.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/all.js"></script>
+  </head>
+  <body>
+        <div class="content-container">
+    <div class="article">
+        <h3 class="article-title center">Mobile First & Responsiveness</h3>
+        <div class="meta">
+          <time class="meta__date">
+            Sep 30 2016
+          </time>
+          <span class="meta__tag">
+            <a href="/tags/design/">Design</a>, <a href="/tags/front-end-development/">Front-end development</a>, <a href="/tags/mobile-first/">Mobile first</a>, <a href="/tags/mobile-design/">Mobile Design</a>, <a href="/tags/responsiveness/">Responsiveness</a>
+          </span>
+        </div>
+
+        <div class="article-body"><section class="article-container">
+
+<p>This post is broken down into two sections: design and development/technical. I highly suggest my designer colleagues muddle their way through the technical half and use the links to explore the topics. I’ve <a href="https://github.com/epenzeymoog/my_blog/blob/master/source/2016-06-24-first_post.html.markdown">made the case before</a> for designers to be familiar with code and how things work. Designing for mobile first is yet another excellent example of a case where having a full understanding of how it all works makes you able to create better designs than if you only understand how the design half works. And developers, you too should have a working knowledge of the basics of web design (a full post on why is coming later), so I encourage you to read the design portion. Basically, designers and developers alike, read the entire post and choose a topic or two to dig into that are on the other side of your expertise.</p>
+
+<h2>The Basics</h2>
+<p>We can’t talk about mobile first without first discussing the basics of cross-platform design. Essentially, there are dozens of screen sizes out there, from small phones to large monitor displays (we’re not going to cover Apple watches here).</p>
+
+<p>UX designer Theresa Neil’s informative <a href="http://www.slideshare.net/theresaneil/all-the-screens-cross-platform-design-strategies/7-Responsive_Site_Native_App_Web">informative slide deck</a> uses this image to explain the options in a nutshell:</p>
+
+<img src="/images/responsive/cross-platform-design-options.png" alt="Cross platform design options" height="402" width="602" />
+
+<p>As the image shows, there are two options for getting to your mobile device: web or installed. Installed includes apps and hybrid apps (which allow a site to access some of your phone’s operating system so that it can behave like an app). This post isn’t going to talk about those two options. Obviously having an app is ideal, as you can access all sorts of things on the mobile device and control the experience, but getting users to download an app can be difficult. I for one consistently look at Yelp pages on my phone, and it always tells me download the app and I consistently say no and simply look at their mobile site, as I’m usually in a hurry and don’t want to bother with waiting for the app to download. For reasons like that, even services that do have an app should also have a solid mobile web experience.</p>
+
+<p>So that leaves the other two options: a responsive site vs an optimized site. A responsive site is just what it sounds like: a single site that has been created in such a way that its styles “respond” to different screen sizes and ensure that it looks good on every device imaginable. An optimized site, on the other hand, is a site that’s dedicated solely to mobile. These have an “m” before the url (for example, m.facebook.com) Optimized sites are rare. Giant companies that get a ton of traffic from mobile, like Facebook or ebay, have them, but the average company doesn’t need one. <a href="https://www.atilus.com/mobile-optimized-vs-responsive-websites/">This article</a> does a great job further breaking down the pros and cons of responsive vs. optimized sites.</p>
+
+<p>So, apps are a different beast and optimized sites are rare - that leaves us with responsive sites, which is what the rest of this post attempts to tackle. However, there’s something you should know first.</p>
+
+<img src="/images/responsive/one-does-not-simply.png" alt="Boromir" height="402" width="602" />
+
+<p>Designing a responsive site is a lot of work and actually implementing the styles in CSS can be a massive undertaking. There are dozens of things to consider and in the still new field of responsive design, best practices and standards are still getting sussed out. There are multiple ways to achieve the same thing, and choosing which one is best for your site takes a lot of thought. And finally, the implementation side gets pretty technical. At least a moderate understanding of CSS is necessary to make sense of some of how to actually write the code that makes sites responsive. The learning curve for basic CSS is pretty low, but it gets higher when you start to manipulate your CSS for responsiveness. But, if you’re among those designers who, like me, strive to have a solid technical understanding and write front-end code, don’t be daunted! This guide should serve as a solid first step, and I’ll provide tons of links to pages where things are explained more deeply. Just know that being able to create responsive websites is going to be a bit of a journey, but considering the immense importance of responsive and mobile first design in general, it’s one well worth taking.</p>
+
+<h2>Mobile First Design &amp; UX Constraints</h2>
+
+<p>Designing for mobile first first means buying into the idea that mobile-specific design matters. While this may have been an issue five years ago, there are fewer and fewer designers who would argue that ensuring that people accessing your website on their phones have a good experience doesn’t matter. People can and will look at every type of website on their mobile devices. In 2014, <a href="http://www.smartinsights.com/mobile-marketing/mobile-marketing-analytics/mobile-marketing-statistics/">mobile access overtook desktop access.</a> As of 2015, over half of all google searches <a href="http://www.inc.com/larry-kim/google-execs-share-10-incredible-new-mobile-web-stats.html">occur on mobile devices,</a> and mobile <a href="http://blog.woorank.com/2015/02/reasons-to-have-mobile-friendly-website/">surpasses desktop</a> when it comes to shopping.  Overall, <a href="http://blog.woorank.com/2015/02/reasons-to-have-mobile-friendly-website/">one third</a> of all online traffic is mobile.</p>
+
+<p>The issue has a deeper side as well - low income people often have smart phones but no laptop/desktop, meaning they’re <a href="http://www.pewinternet.org/2015/04/01/us-smartphone-use-in-2015/">performing important tasks,</a> like job hunting, on their phones. It’s important that websites translate nicely to mobile for people who don’t have any other option.</p>
+
+<p>In short, designing for mobile matters a lot, and it’s only going to get more important. But we are still designing for desktops first, with smaller screen sizes as an after thought (more specifics on this in the second section). The idea of designing for mobile first changes all that. It means that instead of opening Sketch and creating a new desktop artboard that’s 1024px wide, making our designs, and then figuring out how to translate those to an iPhone-sized artboard, we instead start with the iPhone-sized artboard and do the desktop one later. Mobile literally comes first (surprisingly, many people who use the term don’t understand this. It’s also comes first in the development process, which I’ll get to later).</p>
+
+<p>The great thing about designing for mobile first is that it forces you to focus on what matters. All the extra stuff gets cut out when you’re designing for the small screens of mobile devices. You’re forced to consider what your users really need and then present them with just that, since there isn’t room for anything else. This is something that designers should be doing anyway, but it’s a very easy step to skip when designing for desktop. If you’re debating putting three pieces of information on the home page, and you’re not sure about which one is the most important to your users, you can just put up all three, even through two may rarely be used and could even detract from the overall experience. Designing for mobile first fixes this problem by forcing us to figure out what’s most important.</p>
+
+<p>Designer and small screen enthusiast Luke Wroblewski, who literally wrote the book on mobile first (it’s also called <em>Mobile First</em>) has tons of great advice for designers. It was written in 2011, and in the rapid whirlwind of progress of this field, a mere 5 years can make something feel dated, but Wroblewski’s book holds up. While some of the statistics are dated and touch actions we think of as common today were only just beginning to become standardized, his advice for how to think about mobile design is exceedingly useful, and I’d recommend every designer read his work. What follows are some key pieces of advice gleaned from his writing that can help guide designers in their mobile first work.</p>
+
+<h3>Get Rid of the Fluff</h3>
+<p>Like I mentioned earlier, designing for mobile means you have to get rid of the fluff. All the extras and useless things that needed to be on a website’s home page don’t have a place on mobile websites. If something like an ad does make it, it had better be at the bottom because people will likely get confused about whether or not they’re on the right site if they see something unrelated to what they’re trying to be doing.</p>
+
+<p>Wroblewski points out <a href="kayak.com">kayak.com</a> as a great example, and five years later it still holds true. Their site on a desktop looks great, but there are numerous elements at the top that don’t make the cut to mobile. From my phone, I have three tabs: flights, hotels and cars. On my laptop, the options are: flights, hotels, cars, packages, activities, more, trips and sign up. On the mobile site, there are no highlighted deals, advertisements or attempts to get me to sign up for fare updates. If those things were on the mobile site, they’d have to be stacked in one long column and people would have to scroll endlessly to see what was there. From a UX standpoint, being able to see everything on one page, with no scrolling down, helps users feel at ease that they aren’t missing anything, and focus on the task at hand. With the extra junk gone, the result is a simple and easy to use website.</p>
+
+<h3>Navigation &amp; Organization</h3>
+<p>When it comes to mobile first design, content trumps navigation. If people go to your site from their phone and see nothing but navigation bars, they’re going to be frustrated. Navigation needs to be handled differently - either reduced in size (like kayak did) or moved all together behind a hamburger menu (though these <a href="http://jamesarcher.me/the-hamburger-menu/">aren’t really that great</a> from a usability standpoint and <a href="https://techcrunch.com/2014/05/24/before-the-hamburger-button-kills-you/">arguably shouldn’t be used at all)</a> or a button titled “menu" <a href="http://exisweb.net/menu-eats-hamburger">(which was recently shown to better.)</a> The designers of the mobile site at kayak could have included all of their navigation items at the expense of the actual flight searching field being pushed down, but the understanding that searching for flights is the main reason people come to their site helped them make the decision to prioritize it and keep it towards the top. The other items are hidden behind a “menu” button.</p>
+
+<img src="/images/responsive/kayak-desktop-site.png" alt="Kayak desktop site" height="202" width="402" />
+
+<img src="/images/responsive/kayak-mobile.png" alt="Kayak mobile site" height="202" width="120" />
+
+<h3>Mobile behaviors</h3>
+<p>It’s vital that designers understand how and why people use their mobile devices to access websites. Contrary to the notion that people are only using their phones while “on-the-go,” in 2011, Wroblewski notes that over 80% of smart phone owners use their devices at home and at work. The main difference between someone exploring a site on their desktop versus their mobile device is that people use their phones for short bursts of activity while desktop use is typically longer. UX designer Rachel Hitman sums it up nicely: “desktop use is diving while mobile use is snorkeling.” They both involve looking at fish, but the way its done is different. This further makes the case that we need to design mobile sites that let users quickly access the information or activity they need.</p>
+
+<p>When it comes to the information and activities users need to access on their mobile devices, Josh Clark, author of Tapworthy, explains that it comes down to three main things:</p>
+<ul>
+	<li>I’m local - I need to figure something out about where I am right now, like a restaurant address, local activities and events, and transit to get there.</li>
+	<li>I’m bored - I’m bored and my phone is going to provide something fun or interesting to pass the time.</li>
+	<li>I’m micro tasking - I need to read, learn, work, or do some other task.</li>
+</ul>
+<p>This means that when we design mobile sites for businesses, we need to to ensure that we are giving people what they want. That means a business mobile site should have their address and phone number in a visible spot (like the footer, as opposed to in a page that’s linked to from behind a “menu” button) and that after the most essential information, a site should allow users to keep exploring (if they’re on the site because they’re bored). If your site involves micro tasking, you need to fully understand which tasks are the most important to the highest number of your users (like booking flights is for Kayak’s users). As an example, Wroblewski points to ESPN’s site for mobile, which has a simple header on the top, followed by timely content and then popular time killers. YouTube, on the other hand, had a flaw back in 2011: when users got to the end of a video, there was nowhere else to go - no suggested content or items that would keep them on the page. Making sure users have a clear actions to take and paths to follow is important for the overall experience, not to mention the valuable aspect of how much time they spend on your site.</p>
+
+<h3>Touch constraints</h3>
+<p>We typically design for mobile for right-handed people (sorry, lefties) and need to make sure that we’re considering what is easy to reach when a user is physically holding a phone in their hand. You don’t want to put a button that will get used a lot in the “stretch” or “ow” areas of the screen. You will want to put extreme or undesirable actions there - things like “delete” or “cancel” - so that users don’t accidentally hit them and suddenly have to start whatever they were doing over.</p>
+
+<img src="/images/responsive/ease-of-touch-on-mobile.png" alt="Ease of touch on mobile" height="302" width="500" />
+
+<p>Designers also need to ensure that touch points are big enough to be easily tapped, swiped, etc, and make sure they are far enough apart from one another that users don’t mistakenly tap the wrong thing. Different companies have different guidelines on how to design for their products. Microsoft recommends 9mm touch targets with a minimum size of 7mm and at least 2mm of space between targets. 
+<br />
+<br />
+<img src="/images/responsive/touch-targets.png" alt="touch targets sizing example" height="402" width="252" />
+<br />
+Luke Wrobleski’s site has a nice article that sums up the different design guidelines <a href="http://www.lukew.com/ff/entry.asp?1085">here.</a></p>
+
+<h3>Consider expected touch actions</h3>
+<p>Thinks like “pull down to refresh” and “swipe for more options” are now expected, and should be included in your design notes. (Never assume a developer will know what’s in your head and make it happen - you must to be detailed about how people will interact with your designs). Interaction design is its own field, as there’s so much that goes into it, but all designers should have a working knowledge of various actions and what’s possible. Research is key here - if your website is a travel service, you need to know what the standard expectations are for mobile versions of travel websites. Users will become frustrated if they expect that a double tap will enlarge a photo on your site and it doesn’t.</p>
+
+<img src="/images/responsive/touch-actions.png" alt="touch actions" height="402" width="402" />
+
+<h3>Embrace forms</h3>
+<p>Forms are among the most boring things to design, but having a form with a great user experience is key. They’re usually how a company gets information they vitally need - an email address for email updates or the credit card number to make a purchase. Forms have a notorious history of having poor user experience, and the effects can be multiplied on a small touch screen where the user has less control. Despite this, people can and do fill out forms on their phones, and we need to design for that reality. Wrobleski, as always, has a ton of great advice in this realm. His advice for designing forms for mobile includes:</p>
+<ul>
+	<li>Save space by putting labels on top of the input field. If possible (like with a text field), put the label inside of the field and have it disappear when the user starts typing.</li>
+	<li>Make strong visual distinctions between a form’s label and the user’s input to the form so that they don’t get confused. If you put a label inside of a text form, make it grey and the answer black - don’t make both of them grey or the users will think certain fields have already been filled out for them.</li>
+	<li>Consider tap efficiency and use “spinners” (like how you select time in your iPhone alarm clock) instead of drop-down selectors when there are many options. If a number input is typically small (like how many travelers you’re purchasing tickets for on kayak.com, which is usually one or two), use a plus and minus button. Always set a default number that makes sense, like Kayak’s “number of travelers” default number of one.</li> 
+	<li>Use input-specific keyboards with different kinds of input fields. For example, use the email keyboard for a text field asking for an email address. It’ll have “.” and “@“ which reduces the number of clicks and makes things easier for the user.</li>
+	<li>Make sure to have a note for the developer to turn off autocapitalize and autocorrect settings for form inputs where they don’t make sense, like email and password.</li>
+	<li>Reveal the format upfront. For example, in a form field collecting the user’s phone number, use  this as your hint text: ___-___-____ . Don’t gradually reveal the input mask while the user is answering the question. With phone numbers, we often see this format: XXX-XXX-XXXX, but as the user types, parenthesis appear around the first number, then the second number, then the first three. This is inconsistent with how the format was presented and can be confusing to users.</li>
+	<li>Wrobleski: “When it comes to mobile forms, be brutally efficient and trim, trim, trim.” If you don’t absolutely need the information, don’t ask for it. It’s touch enough to get users to fill out forms, doubly so on mobile devices. Take any chance to make it quicker and more painless for your users.</li>
+</ul>
+<h3>Rethink hover</h3>
+<p>All hover elements will have to be replaced, since there’s no hover equivalent when using a mobile device. You touch it or you don’t; there is no in-between. If your site reveals something on hover, such as a drop down menu in the navigation that appears when the user hovers over a link, you’ll have to find a new way to display that information. Alternatively, you could use the opportunity to scrap information that gets revealed on hover, as this <a href="https://en.wikipedia.org/wiki/Mystery_meat_navigation">“mystery meat”</a> approach is <a href="http://nerdwerx.com/blog/99-ways-to-make-your-website-useless-mystery-meat-navigation">commonly regarded as a terrible practice.</a> (You can see more examples of all the confusing things you can do with reveal-on-hover things <a href="https://www.safaribooksonline.com/library/view/designing-web-interfaces/9780596155353/ch04s05.html">here.</a></p>
+
+<h3>Remember big screens…probably</h3>
+<p>The discussion around responsive design typically revolves around mobile devices, tablets, laptops and desktops, but doesn’t include designing for responsive design for super wide screens:  The typical desktop-first approach also falls short when we consider large screens. The numbers show about <a href="http://www.rapidtables.com/web/dev/screen-resolution-statistics.htm">10% of Americans are using “large” screen sizes</a> (though that also depends on how you define “large”). Also, it’s typical that websites often visited by people who work in tech will get a <a href="http://webdesign.tutsplus.com/articles/life-beyond-960px-designing-for-large-screens--webdesign-7348">larger percentage</a> of people visiting the site  on a large screen. Although 10% certainly isn’t a big number, it’s very significant and these users need to be considered in the design process as well. Actually doing that is tricky, as this is still a new process without set guidelines. Should you allow your content to fill up all the whitespace? What about a text column that suddenly gets so wide it becomes difficult to read? This is another great reason why designers should have technical understanding. Do you know what will happen to a column of text on a super wide screen? Are you designing for the practical realities of how computers work? <a href="http://webdesign.tutsplus.com/articles/life-beyond-960px-designing-for-large-screens--webdesign-7348">This article</a> is a good starting point if you’re looking to learn more about designing for ultra big screens, and <a href="http://www.visionpointmarketing.com/blog/entry/maximum-page-width-in-fluid-responsive-design">this one</a> helps understand the idea of designing for a maximum screen width.</p>
+
+<h3>Reduce HTTP requests and design for spotty coverage</h3>
+<p>When you go to a website, your web browser fetches files (a page, an image, etc) from a web server. It does this using HTTP, or Hypertext Transfer Protocol, which is a request/response protocol. That means that your computer sends a request for a file (for example, get me the file about.html when clicking on a company’s “About” page), and the web server sends back a response (“Here’s the file”) along with the file itself. (More about how this works <a href="http://rve.org.uk/dumprequest">here</a>). This process doesn’t work well if a user is accessing a site from their phone and they have spotty coverage. Less HTTP requests mean the users are downloading less stuff, which can help improve performance when coverage isn’t great. There are a couple of things we can do to reduce the number of HTTP requests (and don’t be afraid to ask developers on your team for help with this:
+<ul>
+	<li><a href="https://css-tricks.com/css3-gradients/">Use CSS to make gradients</a> instead of using a background image (which would require an HTTP request). (This is some seriously cool CSS and worth checking out regardless lowering HTTP requests.)</li>
+	<li>Also use CSS create rounded corners, text shadows, and box shadows, rather than using images.</li>
+	<li>Use <a href="https://css-tricks.com/data-uris/">data URIs</a> for small images like a special icon for bullet lists or a down arrow in a drop down. Don’t do this for large images.</li>
+	<li>Bundle together and minify CSS and JavaScript files.</li>
+	<li><a href="http://www.html5rocks.com/en/tutorials/appcache/beginner/">Use proper HTTP headers</a> to ensure files are properly cached so that files are available even when the user is offline.</li>
+</ul>
+</p>
+
+
+<h2>Responsive &amp; mobile first development</h2>
+
+<p>Onto an overview of how responsive/movile-first development works. A quick warning to my designer friends who are, like me, on a journey to learn front-end development in order to be able to bring their creations to life and be a better designer: this stuff takes a while to learn. Plan on working on this over the next few days if not weeks. Whatever you do, don’t give up, and don’t be afraid to ask for help. Front-end development beyond basic HTML and CSS is a field in and of itself and if it was easy to learn, everyone would do it. If you get stuck, go back to the basics, find codepens to practice with, google your questions and if possible, as for help. Remember, you don’t want to be a good designer, you want to be a great designer, and knowing these things will help you get there. So be ok with being uncomfortable and read on.</p>
+
+<p>In more technical terms, mobile first means that the first screen designed for is a mobile one. The typical process for implementing the front-end of a website is to start with putting your text and images into the HTML document, then styling it with CSS. You get it looking good on your screen, whatever size that is, and then start dragging the screen to be a smaller width, see where things break (images stocking, things overlapping, etc) and write a breakpoint to give new styling at that width. Then you make your site width a bit smaller, find a new issue, and write a new media query. This is all fine and dandy, except for the part where it’s a ton of unnecessary work. Designing for mobile first, however, means an opposite approach: you start off with your styling at a small mobile screen size (the smallest phone screen designers typically design for right now is 320px, the width of certain iPhones; we’re not considering apple watches here).</p>
+
+<p>But first, there’s a lot to learn, and since there are experts out there who can explain this stuff way better than I can, it’s best to point you to their writing. I’ve curated a list of articles that are going to help you understand how this works. Read them in order and play around with the examples they provide to better understand the concepts.</p>
+
+<ul>
+	<li><p><strong>Understanding the difference between units:</strong> keywords, pixels, points, percentages, ems and rems. Start with <a href="https://css-tricks.com/css-font-size/">this article</a> and then read <a href="http://kyleschaeffer.com/development/css-font-size-em-vs-px-vs-pt-vs/">this one.</a></p></li>
+	<li><p><strong>Next comes understanding responsive design with media queries.</strong> Media queries have long been the way to make websites responsive. Essentially, you write your CSS styles, then set a media query so that at a certain screen width, different styles occur. This is just one of many methods, and it’s probably the most basic, but it’s still in use and something you need to know about. Read about media queries <a href="http://www.htmlgoodies.com/beyond/css/introduction-to-css-media-queries.html">here</a> and practice them with <a href="https://codepen.io/TrentWalton/pen/kqxDy">this codepen.</a></p></li>
+	<li><p><strong>Two types of media queries:</strong> did you notice when you were reading about media queries that sometimes they say mid-width and sometimes they say max-width? Desktop-first design uses max-width and mobile first design uses min-width. It’s ok if you find this confusing - the labeling doesn't do us any favors and even some senior designer still have to look up which is which. Read more about it <a href="http://www.the-haystack.com/2015/12/23/choosing-between-min-and-max-width/">here</a> and practice with max-width <a href="http://codepen.io/schmeeves/pen/bZvPKx">here</a> and min-width <a href="http://codepen.io/schmeeves/pen/GqxbGy">here.</a></p></li>
+	<li><p><strong>Media query pitfulls:</strong> have you figured out the big problem with media queries? They were great back when there were just a few different devices we had to design for. We could set a few breakpoints and be done with it. But now there are dozens of sizes of phones, tables and e-readers, and that means a lot of media queries. Not only that, but there are a few other more <a href="http://trydevkit.com/blog-post/the-drawbacks-of-media-queries-for-responsive-design/df7f6af5-64d0-f043-82b0-526010d5b916">technical drawbacks</a> you should be familiar with.</p></li>
+</ul>
+
+<h3>Up and coming: fluid design</h3>
+<p>“Fluid design” is a newer thing that might overtake media query-based responsive design at some point. I don’t know anyone who uses it, but it’s something you should be familiar with (and full disclaimer, I don’t fully understand it, but want to mention it here and provide some links so you can at least be familiar with it). Some call fluid design the answer to the problem with media queries. When there are so many device sizes out there, we need something more than a website that “responds” to the screen width; our designs need to be truly fluid. There’s still a lot of confusion about the term “fluid” vs. the term “responsive.” As you already know, responsive sites use media queries to create different styles for different screen widths. They have break points and set containers, so if you really think about, everything is still fixed; there are just lots and lots of fixed styles and media queries dictate which one is getting used. Fluid websites, on the other hand, do not have break points or set containers. Start with <a href="http://blog.spinweb.net/6-beautiful-examples-of-fluid-website-design">this article</a> for a nice overview and some example of beautiful fluid websites and then work your way through <a href="http://www.creativebloq.com/css3/create-fluid-layouts-html5-and-css3-3142768">this article</a> to get some practice.</p>
+
+<h3>Understanding Responsive Typography</h3>
+<p>There is a lot to learn here, and things have changed a lot in the last 5 years, meaning that even when you do find a good explanation for something, it might be out of date. From my own time spent trying to figure out how best to handle typography, I’ve learned not to trust anything written before 2013. A nasty <a href="http://stackoverflow.com/questions/12257158/zooming-on-chrome-causes-css-positioning-issues">bug with zooming</a> (which caused layouts to change significantly when users zoomed in on a website) got fixed in 2012, and that changed a lot. So always make sure what you’re reading is current. As of now (summer 2016), there are a few options on how to handle typography.</p>
+<p>Start by getting an understanding of typography by working your way through <a href="http://practicaltypography.com/">this online book.</a> There’s a lot to typography other than purely the text; line height, for example, is an important part of readability that often suffers with responsive design. Get to know the basics here. (Don’t be fooled, the chapter names are all actually clickable links. And if you can afford to, you should absolutely <a href="http://practicaltypography.com/how-to-pay-for-this-book.html">sustain this author’s awesome work monetarily</a>).</p> 
+<p>A popular practice is to set a font size for the entire document, and then treat every instance of font-size that comes after it as a child and use a relative unit, such as ems, that scales the font according to what you set its parent. So if you set the body to font-size: 12px and then set the font-size of a paragraph to font-size: 2em, your paragraph text would be 2 times the size of the body, or 24px. Here is a <a href="http://codepen.io/schmeeves/pen/XKELKw">super simple codepen</a> to use to play around with. Next, read about why it doesn’t always work perfectly <a href="https://www.filamentgroup.com/lab/how-we-learned-to-leave-body-font-size-alone.html">here.</a></p>
+<p>Did you think you were done learning about units? The need for responsive design has necessitated the creation of even more units, but keep going because these ones are really cool and make things much easier. Learn about wh, vh, vmin and vmax <a href="https://css-tricks.com/viewport-sized-typography/">here</a> and then because it can be helpful to read articles that explain it a bit differently, read <a href="http://generatedcontent.org/post/21279324555/viewportunits">this one too.</a> Note that this is for more than just typography, but make sure to test your designs on different browsers since this isn’t fully supported yet.</p>
+<p>Another option is to create a typographical scale. You go int your CSS document and set every type element - h1, h2, p, etc - to the size you want. You get to control exactly how each of the text elements is set by default, and then can use media queries to change the size of those elements for different screens. Start learning about how to set up a type scale <a href="http://webdesign.tutsplus.com/articles/how-to-establish-a-modular-typographic-scale--webdesign-14927">here</a> and then move onto <a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">this article,</a>which explains the issue of relative the scale between elements becoming more exaggerated as screen size becomes lower, and proposes a very specific scale to use for the text elements at 6 different screen sizes.</p>
+<p>If, after all this, you feel ready to go further and continue learning advanced HTML and CSS, go to front-end master <a href="http://learn.shayhowe.com/">Shay Howe’s website</a> and start working through his lessons.</p>
+
+
+<h3>Wrapping it up</h3>
+<p>Mobile first, responsive, and fluid design and implementation encompass a lot of different areas of knowledge, from user-centric understanding of how people use their phones to form design to media queries to a solid understanding of typography. If it takes a while to nail down the task of “creating a responsive website” or “going mobile first,” you know you’re doing it right. At the end of the day, there are multiple options to choose from and it’s important to understand all of them in order to pick the one that best fits your project. Standards are still emerging and browsers are still catching up to what is possible. At the end of the day, the answer is usually the ever-frustrating “it depends,” and you need to use a method that seems like it would make sense for your project, test it out, and make your changes accordingly.</p>
+</section>
+</div>
+      </div>
+
+      <div class= "read-more margin-top">
+          <a href="/blog/2016/09/30/css-architecture/" class="left submit-button button--secondary">← CSS Architecture</a>
+
+          <a href="/blog/2016/09/30/the-technical-designer/" class="submit-button button--secondary right">The Technical Designer →</a>
+      </div>
+      <div class="footer"></div>
+    </div>
+
+  </body>
+</html>
