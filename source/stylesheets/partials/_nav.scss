@@ -1,13 +1,13 @@
 .home {
   .nav-links {
-    color: $white;
+    color: $black;
     &:hover {
-      border-bottom: 1px solid $white;
+      border-bottom: 1px solid $black;
       padding-bottom: 3px;
     }
   }
   .logo {
-    color: $white;
+    // color: $white;
   }
 }
 
@@ -16,7 +16,7 @@
 }
 
 .nav {
-  @include outer-container(900px);
+  @include outer-container(1000px);
   height: 52px;
   position: relative;
   z-index: 5;
