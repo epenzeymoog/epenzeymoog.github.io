@@ -1,32 +1,23 @@
-// body .home {
-//   background-color: #0070ff;
-//   background-image: linear-gradient(#0070ff, #55a0ff);
-//   background-repeat: no-repeat;
-//   font-size: 1em;
-//   height: auto;
-//   left: 0;
-//   min-height: 100%;
-//   position: fixed;
-//   text-align: center;
-//   top: 0;
-//   width: 100%;
-// }
 body {
-  border-top: 8px solid $teal;
+  border-top: 8px solid $blue;
 }
 
 .container {
   @include outer-container(1000px);
-  // padding: 20px 5px;
+  padding: 20px 5px;
 
   @media (min-width: $sm-screen) {
     display: block;
-    padding: 20px 0;
+    padding: 2.5em 1.5em;
   }
 }
 
-.section .container {
-  border-top: 8px solid $border;
+.nav .container {
+  padding: 1em 1.5em 4em;
+}
+
+.pink {
+  background-color: $background;
 }
 
 .module {
@@ -72,15 +63,15 @@ ul {
 }
 
 .title {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 .header {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .section {
-  background-color: $background;
+  // background-color: $background;
 }
 
 .about {
@@ -97,12 +88,13 @@ p {
   letter-spacing: .7px;
 }
 
-a {
+.section a {
+  border-bottom: 4px solid $teal;
   color: $blue;
+  padding-bottom: 1px;
 
   &:hover {
-    text-decoration: underline;
-    transition: all 0.15s linear;
+    border-bottom: 4px solid $pink;
   }
 }
 
@@ -119,18 +111,30 @@ a {
 }
 
 .two-thirds {
-  display: inline-block;
-  width: 66%;
+  width: 100%;
+
+  @media (min-width: 800px) {
+    display: inline-block;
+    width: 66%;
+  }
 }
 
 .one-third {
-  display: inline-block;
-  width: 33%;
+  width: 100%;
+
+  @media (min-width: 800px) {
+    display: inline-block;
+    width: 33%;
+  }
 }
 
 .headshot {
   max-width: 330px;
   width: 100%;
+
+  @media (min-width: 800px) {
+    margin-left: 60px;
+  }
 }
 
 .gist {
