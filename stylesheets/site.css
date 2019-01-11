@@ -371,21 +371,11 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-body .home {
-  background-color: #0070ff;
-  background-image: linear-gradient(#0070ff, #55a0ff);
-  background-repeat: no-repeat;
-  font-size: 1em;
-  height: auto;
-  left: 0;
-  min-height: 100%;
-  position: fixed;
-  text-align: center;
-  top: 0;
-  width: 100%; }
+body {
+  border-top: 8px solid #00588F; }
 
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   padding: 20px 5px; }
@@ -396,7 +386,13 @@ body .home {
   @media (min-width: 375px) {
     .container {
       display: block;
-      padding: 20px; } }
+      padding: 2.5em 1.5em; } }
+
+.nav .container {
+  padding: 1em 1.5em 4em; }
+
+.pink {
+  background-color: #FBE7E6; }
 
 .module {
   max-width: 900px;
@@ -437,41 +433,74 @@ ul {
   font-style: normal;
   letter-spacing: 1px;
   line-height: 1.2em;
-  margin-top: 15em;
+  margin-top: 8em;
   position: relative;
   text-align: center;
   z-index: 5; }
   .title-container:last-child {
     margin-right: 0; }
 
-.title {
-  font-family: "rooney-sans";
-  font-size: 2em;
+.title, .header {
+  color: #3D4B53;
+  font-family: "rooney-sans", arial;
   line-height: 1;
-  text-shadow: 4px 4px #4b00ff;
-  text-transform: uppercase; }
-  @media (min-width: 900px) {
-    .title {
-      font-size: 6em; } }
+  margin-top: 0; }
 
-.subtitle {
+.title {
+  font-size: 2.5em; }
+
+.header {
+  font-size: 2em; }
+
+.about {
+  padding-top: 0;
+  vertical-align: top; }
+
+p {
+  color: #3D4B53;
   font-family: "rooney-sans";
   font-size: 1.1em;
-  margin: 0 auto;
+  margin: 0 auto 1em;
   line-height: 1.7em;
-  letter-spacing: .7px;
-  width: 97%; }
-  .subtitle a {
-    color: #F7F7FF;
-    text-decoration: underline; }
-    .subtitle a:hover {
-      cursor: pointer; }
-  @media (min-width: 900px) {
-    .subtitle {
-      width: 87%; } }
+  letter-spacing: .7px; }
+
+a, .section a, .card__title a, .article-title a {
+  border-bottom: 4px solid #A9D8E5;
+  color: #00588F;
+  padding-bottom: 1px;
+  text-decoration: none; }
+  a:hover, .section a:hover, .card__title a:hover, .article-title a:hover {
+    border-bottom: 4px solid #F2B5D4; }
 
 .center {
   text-align: center; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.two-thirds {
+  width: 100%; }
+  @media (min-width: 800px) {
+    .two-thirds {
+      display: inline-block;
+      width: 66%; } }
+
+.one-third {
+  width: 100%; }
+  @media (min-width: 800px) {
+    .one-third {
+      display: inline-block;
+      width: 33%; } }
+
+.headshot {
+  max-width: 330px;
+  width: 100%; }
+  @media (min-width: 800px) {
+    .headshot {
+      margin-left: 60px; } }
 
 .gist {
   display: block;
@@ -483,60 +512,57 @@ ul {
 .clear {
   clear: both; }
 
+.social-media p {
+  display: inline-block; }
+
+.divider p {
+  color: #5D9761;
+  cursor: default;
+  font-size: 1.3em;
+  padding: 0 .5em; }
+
 .submit-button {
-  color: #F7F7FF;
+  color: #00588F;
   font-weight: 300;
   font-size: 1.1em;
   font-weight: 300;
   letter-spacing: 5px; }
 
-a {
-  color: grey;
-  font-weight: 300;
-  letter-spacing: 2px; }
-
-a {
-  text-decoration: none; }
-  a:hover {
-    transition: all 0.15s linear; }
-
 .article-container h4 {
-  color: #67686b;
+  color: #3D4B53;
   font-weight: 400;
   margin: 0; }
 
 .article-container h3 a {
-  color: #67686b;
+  color: #00588F;
   font-weight: 400; }
 
 .article-container__link a {
-  color: #67686b;
+  color: #00588F;
   font-size: .9em;
   font-weight: 400;
   letter-spacing: 0; }
 
 .title h2 {
-  color: #F7F7FF;
+  color: #3D4B53;
   font-size: 4.5em;
   font-weight: 300; }
 
 ol, ul, li, p {
   font-weight: 300;
-  letter-spacing: 1px;
   line-height: 25px; }
 
 p a {
   text-decoration: none; }
 
 .module__text {
-  color: #353535;
+  color: #3D4B53;
   font-family: "jubilat";
   font-size: 1.375em;
   line-height: 46px;
   margin: 2em 0; }
   .module__text a {
-    color: #353535;
-    letter-spacing: 1px;
+    color: #3D4B53;
     text-decoration: underline; }
     .module__text a:hover {
       color: #007AFF; }
@@ -584,21 +610,11 @@ p a {
   text-align: left; }
 
 .article-title {
-  font-family: "jubilat";
+  font-family: "rooney-sans";
   font-weight: 100;
   font-size: 1.5em;
   margin-top: 2em;
   text-transform: uppercase; }
-  .article-title, .article-title a {
-    color: #353535;
-    line-height: 2; }
-    .article-title a:hover, .article-title a a:hover {
-      border-bottom: 1px solid #007AFF;
-      color: #007AFF;
-      padding-bottom: 2px; }
-      @media (min-width: 550px) {
-        .article-title a:hover, .article-title a a:hover {
-          line-height: 0; } }
 
 .article-body {
   border-bottom: 1px solid #F0F0F2;
@@ -612,9 +628,6 @@ p a {
   .article-body p {
     color: #353535;
     font-family: "jubilat"; }
-  .article-body a {
-    color: #353535;
-    text-decoration: underline; }
   .article-body img {
     max-width: 100%;
     margin: 5px; }
@@ -647,20 +660,6 @@ code {
   .meta__date:after {
     content: "–-";
     margin: 0 0.5rem; }
-
-.meta__tag, .meta__tag a {
-  color: #353535;
-  font-size: 0.9em;
-  font-weight: 100;
-  text-transform: uppercase;
-  line-height: 2; }
-  .meta__tag a:hover, .meta__tag a a:hover {
-    border-bottom: 1px solid #007AFF;
-    color: #007AFF;
-    padding-bottom: 2px; }
-    @media (min-width: 550px) {
-      .meta__tag a:hover, .meta__tag a a:hover {
-        line-height: 0; } }
 
 .content-container--secondary {
   color: #353535;
@@ -718,24 +717,10 @@ code {
 .animation .gist .gist-meta {
   display: none; }
 
-.home .nav-links {
-  color: #F7F7FF; }
-  .home .nav-links:hover {
-    border-bottom: 1px solid #F7F7FF;
-    padding-bottom: 3px; }
-.home .logo {
-  color: #F7F7FF; }
-
-.nav-wrapper {
-  border-bottom: 1px solid #eee; }
-
 .nav {
-  max-width: 900px;
+  max-width: 1000px;
   margin-left: auto;
-  margin-right: auto;
-  height: 52px;
-  position: relative;
-  z-index: 5; }
+  margin-right: auto; }
   .nav::after {
     clear: both;
     content: "";
@@ -750,56 +735,40 @@ code {
   .nav a {
     display: block; }
 
-.nav__logo {
-  float: left;
-  padding-left: 0; }
-
 .nav__items {
   float: right;
   padding-left: 0; }
 
-.logo {
-  color: #353535;
+.nav-links, .logo {
+  border-bottom: 4px solid white;
+  color: #3D4B53;
   font-family: "rooney-sans";
-  letter-spacing: 1px;
-  line-height: 1;
-  text-align: center; }
+  padding-bottom: 1px;
+  line-height: 1; }
+  .nav-links:hover, .logo:hover {
+    border-bottom: 4px solid #F2B5D4; }
 
 .nav-links {
-  color: #353535;
-  font-family: "rooney-sans";
-  font-size: 1em;
-  font-weight: 100;
-  letter-spacing: 1px;
-  line-height: 1;
-  margin-right: 1em;
-  text-align: center;
-  text-transform: lowercase; }
-  .nav-links:hover {
-    border-bottom: 1px solid #353535;
-    padding-bottom: 3px; }
+  margin-left: 1em; }
 
 .active {
-  border-bottom: 1px solid white;
-  color: #353535;
+  border-bottom: 4px solid #A9D8E5;
+  color: #3D4B53;
   font-family: "rooney-sans";
-  font-size: 1em;
-  font-weight: 100;
-  letter-spacing: 1px;
+  margin-left: 1em;
+  padding-bottom: 1px;
   line-height: 1;
-  padding-bottom: 2px;
-  margin-right: 1em;
-  text-align: center;
-  text-transform: lowercase; }
+  text-decoration: none; }
   .active:hover {
-    border-bottom: 1px solid #353535;
-    padding-bottom: 3px; }
+    border-bottom: 4px solid #F2B5D4; }
+
+.nav__logo {
+  float: left;
+  padding-left: 0; }
 
 .footer {
-  border-top: 1px solid #eee;
-  margin-bottom: 1em;
-  margin-top: 4em;
-  padding: 1em 0;
+  border-bottom: 8px solid #00588F;
+  padding: 3em 0 1em;
   text-align: center; }
 
 .footer__text {
@@ -808,6 +777,11 @@ code {
   font-family: "rooney-sans";
   font-size: .9em;
   vertical-align: bottom; }
+
+footer a {
+  border: none; }
+  footer a:hover {
+    border: none; }
 
 .footer-social-icon {
   padding-left: 10px; }
@@ -839,8 +813,6 @@ code {
   padding: 2em 0;
   text-align: center;
   text-transform: uppercase; }
-  .card__title a:hover {
-    text-decoration: underline; }
 
 .card__photo img {
   border-radius: 150px;
@@ -933,18 +905,3 @@ code {
   @media (min-width: 900px) {
     .dog {
       width: 40%; } }
-
-.horatio {
-  background: transparent url("../../images/Horatio.svg") no-repeat; }
-  @media (min-width: 900px) {
-    .horatio {
-      float: right;
-      margin-left: 2em;
-      top: 1em; } }
-
-.hamlet {
-  background: transparent url("../../images/Hamlet.svg") no-repeat; }
-  @media (min-width: 900px) {
-    .hamlet {
-      float: left;
-      top: 1em; } }
