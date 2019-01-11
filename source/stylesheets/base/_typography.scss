@@ -1,5 +1,5 @@
 .submit-button {
-  color: $white;
+  color: $blue;
   font-weight: 300;
   font-size: 1.1em;
   font-weight: 300;
@@ -8,25 +8,25 @@
 
 //blog typography
 .article-container h4 {
-  color: $light-grey;
+  color: $black;
   font-weight: 400;
   margin: 0;
 }
 
 .article-container h3 a {
-  color: $light-grey;
+  color: $blue;
   font-weight: 400;
 }
 
 .article-container__link a {
-  color: $light-grey;
+  color: $blue;
   font-size: .9em;
   font-weight: 400;
   letter-spacing: 0;
 }
 
 .title h2 {
-  color: $white;
+  color: $black;
   font-size: 4.5em;
   font-weight: 300;
 }
@@ -42,14 +42,14 @@ p a {
 
 //about page typography
 .module__text {
-  color: $dark-grey;
+  color: $black;
   font-family: "jubilat";
   font-size: 1.375em;
   line-height: 46px;
   margin: 2em 0;
 
   a {
-    color: $dark-grey;
+    color: $black;
     text-decoration: underline;
 
     &:hover {

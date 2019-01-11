@@ -17,16 +17,16 @@
 }
 
 .article-title {
-  font-family: "jubilat";
+  font-family: "rooney-sans";
   font-weight: 100;
   font-size: 1.5em;
   margin-top: 2em;
   text-transform: uppercase;
 
-  &, a {
-    color: $dark-grey;
-    @include hover;
-  }
+  // &, a {
+  //   color: $dark-grey;
+  //   @include hover;
+  // }
 }
 
 .article-body {
@@ -46,10 +46,10 @@
     font-family: "jubilat";
   }
 
-  a {
-    color: $dark-grey;
-    text-decoration: underline;
-  }
+  // a {
+  //   color: $dark-grey;
+  //   text-decoration: underline;
+  // }
 
   img {
     max-width: 100%;
@@ -95,13 +95,13 @@ code {
   }
 }
 
-.meta__tag, .meta__tag a{
-  color: $dark-grey;
-  font-size: 0.9em;
-  font-weight: 100;
-  text-transform: uppercase;
-  @include hover;
-}
+// .meta__tag, .meta__tag a{
+//   color: $dark-grey;
+//   font-size: 0.9em;
+//   font-weight: 100;
+//   text-transform: uppercase;
+//   @include hover;
+// }
 
 //tag page styles
 .content-container--secondary {

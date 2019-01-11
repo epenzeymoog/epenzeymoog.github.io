@@ -12,6 +12,14 @@
 	vertical-align: bottom;
 }
 
+footer a {
+	border: none;
+
+	&:hover {
+		border: none;
+	}
+}
+
 .footer-social-icon {
 	padding-left: 10px;
 }
