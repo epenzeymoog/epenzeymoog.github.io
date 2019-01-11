@@ -77,21 +77,21 @@
   @media (min-width: $lg-screen) {
     width: 40%;
   }
-}
+} 
 
-.horatio {
-  background: transparent url('../../images/Horatio.svg') no-repeat;
-  @media (min-width: $lg-screen) {
-    float: right;
-    margin-left: 2em;
-    top: 1em;
-  }
-}
+// .horatio {
+//   background: transparent url('../../images/Horatio.svg') no-repeat;
+//   @media (min-width: $lg-screen) {
+//     float: right;
+//     margin-left: 2em;
+//     top: 1em;
+//   }
+// }
 
-.hamlet {
-  background: transparent url('../../images/Hamlet.svg') no-repeat;
-  @media (min-width: $lg-screen) {
-    float: left;
-    top: 1em;
-  }
-}
+// .hamlet {
+//   background: transparent url('../../images/Hamlet.svg') no-repeat;
+//   @media (min-width: $lg-screen) {
+//     float: left;
+//     top: 1em;
+//   }
+// }

@@ -1,49 +1,3 @@
-.nav-links {
-  border-bottom: 4px solid white;
-  color: $black;
-  font-family: "rooney-sans";
-  margin-left: 1em;
-  padding-bottom: 1px;
-  line-height: 1;
-
-  &:hover {
-    border-bottom: 4px solid $pink;
-  }
-}
-
-.active {
-  border-bottom: 4px solid white;
-  color: $black;
-  font-family: "rooney-sans";
-  margin-left: 1em;
-  padding-bottom: 1px;
-  line-height: 1;
-  text-decoration: none;
-  // border-bottom: 1px solid white;
-  // color: $dark-grey;
-  // font-family: "rooney-sans";
-  // font-size: 1em;
-  // font-weight: 100;
-  // letter-spacing: 1px;
-  // line-height: 1;
-  // padding-bottom: 2px;
-  // margin-right: 1em;
-  // text-align: center;
-  // text-transform: lowercase;
-border-bottom: 4px solid $teal;
-
-  &:hover {
-    // border-bottom: 1px solid $dark-grey;
-    // padding-bottom: 3px;
-    border-bottom: 4px solid $pink;
-
-  }
-}
-
-// .nav-wrapper {
-//   border-bottom: 1px solid $hairline;
-// }
-
 .nav {
   @include outer-container(1000px);
 
@@ -63,20 +17,43 @@ border-bottom: 4px solid $teal;
   }
 }
 
-.nav__logo {
-  float: left;
-  padding-left: 0;
-}
-
 .nav__items {
   float: right;
   padding-left: 0;
 }
 
-.logo {
-  color: $dark-grey;
+.nav-links, .logo {
+  border-bottom: 4px solid white;
+  color: $black;
   font-family: "rooney-sans";
-  letter-spacing: 1px;
+  padding-bottom: 1px;
   line-height: 1;
-  text-align: center;
+
+  &:hover {
+    border-bottom: 4px solid $pink;
+  }
+}
+
+.nav-links {
+  margin-left: 1em;
+}
+
+.active {
+  border-bottom: 4px solid $teal;
+  color: $black;
+  font-family: "rooney-sans";
+  margin-left: 1em;
+  padding-bottom: 1px;
+  line-height: 1;
+  text-decoration: none;
+
+  &:hover {
+    border-bottom: 4px solid $pink;
+
+  }
+}
+
+.nav__logo {
+  float: left;
+  padding-left: 0;
 }

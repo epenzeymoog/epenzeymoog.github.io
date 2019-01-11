@@ -70,10 +70,6 @@ ul {
   font-size: 2em;
 }
 
-.section {
-  // background-color: $background;
-}
-
 .about {
   padding-top: 0;
   vertical-align: top;
@@ -148,4 +144,15 @@ p {
 
 .clear {
   clear: both;
+}
+
+.social-media p {
+  display: inline-block;
+}
+
+.divider p {
+  color: $green;
+  cursor: default;
+  font-size: 1.3em;
+  padding: 0 .5em;
 }
