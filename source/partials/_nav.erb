@@ -3,9 +3,9 @@
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 
-<div class="container">
-<div class="sky">
-  <nav class="nav">
+
+<nav class="nav">
+  <div class="container">
     <ul class="nav__logo">
       <li>
         <%= link_to "Home", "/index.html", :class => 'logo clean-list' %>
@@ -19,13 +19,9 @@
       <li>
         <%= link_to "Writing", "/blog.html", :class => 'nav-links clean-list' %>
       </li>
-      <li>
-        <%= link_to "About", "/about.html", :class => 'nav-links clean-list' %>
-      </li>
     </ul>
-  </nav>
-</div>
-</div>
+  </div>
+</nav>
 
 <script>
 function setActive() {

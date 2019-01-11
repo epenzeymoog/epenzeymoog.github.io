@@ -1,8 +1,6 @@
 .footer {
-	border-top: 1px solid $hairline;
-	margin-bottom: 1em;
-	margin-top: 4em;
-	padding: 1em 0;
+	border-bottom: 8px solid $blue;
+	padding: 3em 0 1em;
 	text-align: center;
 }
 
@@ -12,6 +10,14 @@
 	font-family: "rooney-sans";
 	font-size: .9em;
 	vertical-align: bottom;
+}
+
+footer a {
+	border: none;
+
+	&:hover {
+		border: none;
+	}
 }
 
 .footer-social-icon {
