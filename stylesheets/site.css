@@ -433,7 +433,7 @@ ul {
   font-style: normal;
   letter-spacing: 1px;
   line-height: 1.2em;
-  margin-top: 8em;
+  margin-top: 15em;
   position: relative;
   text-align: center;
   z-index: 5; }
@@ -472,6 +472,12 @@ a, .section a, .card__title a, .article-title a {
   a:hover, .section a:hover, .card__title a:hover, .article-title a:hover {
     border-bottom: 4px solid #F2B5D4; }
 
+.link-secondary > a:first-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  color: #3D4B53;
+  text-decoration: underline; }
+
 .center {
   text-align: center; }
 
@@ -480,6 +486,12 @@ a, .section a, .card__title a, .article-title a {
 
 .right {
   float: right; }
+
+.margin-top--large {
+  margin-top: 2em; }
+
+.margin-bottom--ex-large {
+  margin-bottom: 4em; }
 
 .two-thirds {
   width: 100%; }
@@ -569,6 +581,9 @@ p a {
 
 .module__text--emphasized {
   font-weight: 400; }
+
+.bold {
+  font-weight: 600; }
 
 .module__header {
   color: #353535;
