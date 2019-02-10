@@ -6,7 +6,7 @@ To start the server: middleman serve
 Only ever work in the source directory.
 
 To deploy the site:
-stay on branch `source` and then run: 
+stay on branch `source` and run: 
 middleman build
 middleman deploy
 
