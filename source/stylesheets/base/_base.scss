@@ -95,6 +95,13 @@ a, .section a, .card__title a, .article-title a {
   }
 }
 
+.link-secondary > a:first-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  color: $black;
+  text-decoration: underline;
+}
+
 .center {
   text-align: center;
 }
@@ -106,6 +113,15 @@ a, .section a, .card__title a, .article-title a {
 .right {
   float: right;
 }
+
+.margin-top--large {
+  margin-top: 2em;
+}
+
+.margin-bottom--ex-large {
+  margin-bottom: 4em;
+}
+
 
 .two-thirds {
   width: 100%;
