@@ -801,6 +801,9 @@ footer a {
 .footer-social-icon {
   padding-left: 10px; }
 
+.footer-image {
+  width: 20px; }
+
 .card {
   background-color: white;
   margin-bottom: 2em;
