@@ -452,6 +452,9 @@ ul {
 .header {
   font-size: 2em; }
 
+.subheader {
+  font-size: 1.5em; }
+
 .about {
   padding-top: 0;
   vertical-align: top; }
@@ -493,6 +496,15 @@ a, .section a, .card__title a, .article-title a {
 .margin-bottom--ex-large {
   margin-bottom: 4em; }
 
+.half {
+  width: 100%; }
+  @media (min-width: 1000px) {
+    .half {
+      display: inline-block;
+      width: 46%; }
+      .half:first-of-type {
+        margin-right: 4em; } }
+
 .two-thirds {
   width: 100%; }
   @media (min-width: 800px) {
@@ -514,6 +526,19 @@ a, .section a, .card__title a, .article-title a {
     .headshot {
       margin-left: 60px; } }
 
+.speaker-pic {
+  max-width: 400px; }
+  @media (min-width: 1000px) {
+    .speaker-pic {
+      float: right;
+      max-width: 500px; } }
+
+.training-pic {
+  max-width: 400px; }
+  @media (min-width: 1000px) {
+    .training-pic {
+      max-width: 800px; } }
+
 .gist {
   display: block;
   width: 100%; }
@@ -532,6 +557,9 @@ a, .section a, .card__title a, .article-title a {
   cursor: default;
   font-size: 1.3em;
   padding: 0 .5em; }
+
+.top-align {
+  vertical-align: top; }
 
 .submit-button {
   color: #00588F;
@@ -764,13 +792,13 @@ code {
     border-bottom: 4px solid #F2B5D4; }
 
 .nav-links {
-  margin-left: 1em; }
+  margin-left: 2em; }
 
 .active {
   border-bottom: 4px solid #A9D8E5;
   color: #3D4B53;
   font-family: "rooney-sans";
-  margin-left: 1em;
+  margin-left: 2em;
   padding-bottom: 1px;
   line-height: 1;
   text-decoration: none; }
