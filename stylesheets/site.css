@@ -426,9 +426,9 @@ ul {
 .title-container {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 65.88078%;
-  margin-left: 17.05961%;
+  margin-right: 2.3576520234%;
+  width: 65.8807826589%;
+  margin-left: 17.0596086706%;
   color: white;
   font-style: normal;
   letter-spacing: 1px;
@@ -630,18 +630,18 @@ p a {
 .content-container {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 82.94039%;
-  margin-left: 8.5298%; }
+  margin-right: 2.3576520234%;
+  width: 82.9403913294%;
+  margin-left: 8.5298043353%; }
   .content-container:last-child {
     margin-right: 0; }
   @media (min-width: 520px) {
     .content-container {
       float: left;
       display: block;
-      margin-right: 2.35765%;
-      width: 65.88078%;
-      margin-left: 17.05961%; }
+      margin-right: 2.3576520234%;
+      width: 65.8807826589%;
+      margin-left: 17.0596086706%; }
       .content-container:last-child {
         margin-right: 0; } }
 
@@ -721,17 +721,20 @@ code {
       float: left;
       margin: 0 1em 2em 0;
       width: 50%; } }
+
 .animation .right {
   width: 100%; }
   @media (min-width: 700px) {
     .animation .right {
       float: right;
       width: 45%; } }
+
 .animation .wrapper {
   border: solid #68838B;
   background-color: #CECEDC;
   clear: both;
   height: 14.25em; }
+
 .animation .ball {
   animation: bounce 1.5s infinite ease-in-out;
   background: #E7F9FE;
@@ -741,6 +744,7 @@ code {
   margin: 0 auto;
   position: relative;
   width: 4.5em; }
+
 @keyframes bounce {
   0% {
     background: white;
@@ -751,12 +755,14 @@ code {
   100% {
     background: white;
     margin-top: 9em; } }
+
 .animation .gist {
   display: block;
   width: 16em; }
   @media (min-width: 400px) {
     .animation .gist {
       width: 20em; } }
+
 .animation .gist .gist-meta {
   display: none; }
 
@@ -842,8 +848,8 @@ footer a {
     .card {
       float: left;
       display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
+      margin-right: 2.3576520234%;
+      width: 48.8211739883%; }
       .card:last-child {
         margin-right: 0; }
       .card:nth-child(n) {
@@ -874,21 +880,25 @@ footer a {
     background-position: 0 0; }
   to {
     background-position: 10000px 0; } }
+
 @-webkit-keyframes move-clouds-back {
   from {
     background-position: 0 0; }
   to {
     background-position: 10000px 0; } }
+
 @-moz-keyframes move-clouds-back {
   from {
     background-position: 0 0; }
   to {
     background-position: 10000px 0; } }
+
 @-ms-keyframes move-clouds-back {
   from {
     background-position: 0; }
   to {
     background-position: 10000px 0; } }
+
 .sun-container {
   max-width: 900px;
   margin-left: auto;
