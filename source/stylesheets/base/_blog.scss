@@ -9,7 +9,7 @@
 }
 
 .article {
-  font-family: "jubilat";
+  font-family: "rooney-sans";
   font-size: 1rem;
   line-height: 1.5em;
   margin-bottom: 3em;
@@ -22,11 +22,6 @@
   font-size: 1.5em;
   margin-top: 2em;
   text-transform: uppercase;
-
-  // &, a {
-  //   color: $dark-grey;
-  //   @include hover;
-  // }
 }
 
 .article-body {
@@ -37,19 +32,14 @@
   padding: 3em 0 2em 0;
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: "jubilat";
+    font-family: "lora", serif;
     font-weight: 500;
   }
 
   p {
     color: $dark-grey;
-    font-family: "jubilat";
+    font-family: "lora", serif;
   }
-
-  // a {
-  //   color: $dark-grey;
-  //   text-decoration: underline;
-  // }
 
   img {
     max-width: 100%;
@@ -75,6 +65,10 @@ code {
   text-align: center;
 }
 
+.meta__tag {
+  font-family: "rooney-sans";
+}
+
 .meta__author {
   display: inline-block;
   line-height: 1.3;
@@ -87,6 +81,7 @@ code {
 
 .meta__date {
   color: $dark-grey;
+  font-family: "rooney-sans";
   font-size: .8rem;
 
   &:after {
@@ -94,14 +89,6 @@ code {
     margin: 0 0.5rem;
   }
 }
-
-// .meta__tag, .meta__tag a{
-//   color: $dark-grey;
-//   font-size: 0.9em;
-//   font-weight: 100;
-//   text-transform: uppercase;
-//   @include hover;
-// }
 
 //tag page styles
 .content-container--secondary {
@@ -118,8 +105,6 @@ code {
     padding-left: 0;
   }
 }
-
-
 
 .animation {
 
