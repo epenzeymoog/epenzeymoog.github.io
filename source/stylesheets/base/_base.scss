@@ -89,9 +89,8 @@ p {
 }
 
 a, .section a, .card__title a, .article-title a {
-  border-bottom: 4px solid $teal;
+  border-bottom: 3px solid $teal;
   color: $blue;
-  padding-bottom: 1px;
   text-decoration: none;
 
   &:hover {
@@ -120,6 +119,10 @@ a, .section a, .card__title a, .article-title a {
 
 .margin-top--large {
   margin-top: 2em;
+}
+
+.margin-bottom--small {
+  margin-bottom: 1em;
 }
 
 .margin-bottom--ex-large {
@@ -157,6 +160,16 @@ a, .section a, .card__title a, .article-title a {
   }
 }
 
+.img {
+  max-width: 330px;
+  width: 100%;
+}
+
+.img--medium {
+  max-width: 600px;
+  width: 100%;
+}
+
 .headshot {
   max-width: 330px;
   width: 100%;
@@ -168,6 +181,7 @@ a, .section a, .card__title a, .article-title a {
 
 .speaker-pic {
   max-width: 400px;
+  width: 100%;
 
   @media (min-width: 1000px) {
     float: right;
