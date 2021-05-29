@@ -468,9 +468,8 @@ p {
   letter-spacing: .7px; }
 
 a, .section a, .card__title a, .article-title a {
-  border-bottom: 4px solid #A9D8E5;
+  border-bottom: 3px solid #A9D8E5;
   color: #00588F;
-  padding-bottom: 1px;
   text-decoration: none; }
   a:hover, .section a:hover, .card__title a:hover, .article-title a:hover {
     border-bottom: 4px solid #F2B5D4; }
@@ -492,6 +491,9 @@ a, .section a, .card__title a, .article-title a {
 
 .margin-top--large {
   margin-top: 2em; }
+
+.margin-bottom--small {
+  margin-bottom: 1em; }
 
 .margin-bottom--ex-large {
   margin-bottom: 4em; }
@@ -519,6 +521,14 @@ a, .section a, .card__title a, .article-title a {
       display: inline-block;
       width: 33%; } }
 
+.img {
+  max-width: 330px;
+  width: 100%; }
+
+.img--medium {
+  max-width: 600px;
+  width: 100%; }
+
 .headshot {
   max-width: 330px;
   width: 100%; }
@@ -527,7 +537,8 @@ a, .section a, .card__title a, .article-title a {
       margin-left: 60px; } }
 
 .speaker-pic {
-  max-width: 400px; }
+  max-width: 400px;
+  width: 100%; }
   @media (min-width: 1000px) {
     .speaker-pic {
       float: right;
