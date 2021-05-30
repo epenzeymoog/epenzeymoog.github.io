@@ -8,12 +8,12 @@ body {
 
   @media (min-width: $sm-screen) {
     display: block;
+    padding: .5em 1.5em;
+  }
+
+  @media (min-width: 575px) {
     padding: 2.5em 1.5em;
   }
-}
-
-.nav .container {
-  padding: 1em 1.5em 4em;
 }
 
 .pink {
@@ -59,7 +59,7 @@ ul {
   color: $black;
   font-family: "rooney-sans", arial;
   line-height: 1;
-  margin-top: 0; 
+  margin-top: 0;
 }
 
 .title {
@@ -147,7 +147,11 @@ a, .section a, .card__title a, .article-title a {
 
   @media (min-width: 800px) {
     display: inline-block;
-    width: 66%;
+    width: 64%;
+
+    &:first-of-type {
+      margin-right: 4%;
+    }
   }
 }
 
@@ -156,7 +160,7 @@ a, .section a, .card__title a, .article-title a {
 
   @media (min-width: 800px) {
     display: inline-block;
-    width: 33%;
+    width: 31%;
   }
 }
 
@@ -171,11 +175,11 @@ a, .section a, .card__title a, .article-title a {
 }
 
 .headshot {
-  max-width: 330px;
+  max-width: 200px;
   width: 100%;
 
   @media (min-width: 800px) {
-    margin-left: 60px;
+    max-width: 330px;
   }
 }
 
@@ -211,14 +215,23 @@ a, .section a, .card__title a, .article-title a {
 }
 
 .social-media p {
-  display: inline-block;
+  display: block;
+
+  @media (min-width: 575px) {
+    display: inline-block;
+  }
 }
 
 .divider p {
   color: $green;
   cursor: default;
+  display: none;
   font-size: 1.3em;
   padding: 0 .5em;
+
+  @media (min-width: 575px) {
+    display: inline-block;
+  }
 }
 
 .top-align {

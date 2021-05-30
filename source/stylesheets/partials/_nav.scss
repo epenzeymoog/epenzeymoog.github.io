@@ -1,20 +1,43 @@
+.nav .container {
+  padding: 1em 1.5em 1em;
+
+  @media (min-width: 575px) {
+    padding: 1em 1.5em 2em;
+  }
+}
+
 .nav {
   @include outer-container(1000px);
+}
 
-  ul {
+.nav ul {
+  clear: both;
+  float: left;
+  margin-top: 0;
+
+  @media (min-width: 575px) {
     display: inline-block;
+    float: initial;
     margin-bottom: 1em;
+    margin-top: 1em;
   }
+}
 
-  li {
-    display: block;
-    float: left;
-    padding: 0;
-  }
+.nav li {
+  clear: both;
+  display: block;
+  float: left;
+  margin-top: .5em;
+  padding: 0;
 
-  a {
-    display: block;
+  @media (min-width: 575px) {
+    clear: none;
+    margin-top: 0em;
   }
+}
+
+.nav a {
+  display: block;
 }
 
 .nav__items {
@@ -35,17 +58,23 @@
 }
 
 .nav-links {
-  margin-left: 2em;
+
+  @media (min-width: 575px) {
+    margin-left: 2em;
+  }
 }
 
 .active {
   border-bottom: 4px solid $teal;
   color: $black;
   font-family: "rooney-sans";
-  margin-left: 2em;
   padding-bottom: 1px;
   line-height: 1;
   text-decoration: none;
+
+  @media (min-width: 575px) {
+    margin-left: 2em;
+  }
 
   &:hover {
     border-bottom: 4px solid $pink;
@@ -55,5 +84,6 @@
 
 .nav__logo {
   float: left;
+  margin-bottom: 0;
   padding-left: 0;
 }
