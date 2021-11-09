@@ -1,0 +1,84 @@
+<head>
+<script src="https://use.typekit.net/yha5wrx.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+</head>
+
+
+<nav class="nav">
+  <div class="container">
+    <ul class="nav__logo">
+      <li>
+        <a href="/" class="logo clean-list">Home</a>
+      </li>
+    </ul>
+
+    <ul class="nav__items" id="nav">
+      <li>
+        <a href="/speaking-and-workshops/" class="nav-links clean-list">Consulting & Speaking</a>
+      </li>
+      <li>
+        <a href="/about/" class="nav-links clean-list">Book</a>
+      </li>
+      <li>
+        <a href="/blog/" class="nav-links clean-list">Writing</a>
+      </li>
+      <li>
+        <a href="/work/" class="nav-links clean-list">Work</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<script>
+function setActive() {
+  aObj = document.getElementById('nav').getElementsByTagName('a');
+  for(i=0;i<aObj.length;i++) {
+    if(document.location.href.indexOf(aObj[i].href)>=0) {
+      aObj[i].className='active';
+    }
+  }
+}
+
+window.onload = setActive;
+</script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="image/ico" href="/images/hamlet-face.ico" rel="icon" />
+		<script src="https://use.typekit.net/yha5wrx.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/all.js"></script>
+  </head>
+  <body>
+        <div class="content-container">
+    <div class="article">
+        <h3 class="article-title center">You Can't Fix Unethical Design By Yourself</h3>
+        <div class="meta">
+          <time class="meta__date">
+            Jun  2 2020
+          </time>
+          <span class="meta__tag">
+            <a href="/tags/design/">Design</a>, <a href="/tags/ethics/">Ethics</a>, <a href="/tags/safety/">Safety</a>
+          </span>
+        </div>
+
+        <div class="article-body"><p>This piece was born out of my frustration with the emphasis put on individual designers to fix problems that are actually systemic to the industry, and was published in Medium's design-focused publication Modus. To view the article, click <a target="_blank" href="https://modus.medium.com/you-cant-fix-unethical-design-by-yourself-c4ce4b6520a">here.</a>
+</p>
+</div>
+      </div>
+
+      <div class= "read-more margin-top">
+          <a href="/blog/2017/09/06/advice-for-people-interested-in-a-coding-or-design-bootcamp/" class="left submit-button button--secondary">← Advice for People Interested in a Coding/Design Bootcamp</a>
+
+          <a href="/blog/2020/08/25/the-role-of-service-providers-technology-and-mass-media-when-home-isnt-safe/" class="submit-button button--secondary right">The Role of Service Providers, Technology, and Mass Media When Home Isn't Safe for Intimate Partner Violence Victims →</a>
+      </div>
+      <div class="footer"></div>
+    </div>
+
+  </body>
+</html>
