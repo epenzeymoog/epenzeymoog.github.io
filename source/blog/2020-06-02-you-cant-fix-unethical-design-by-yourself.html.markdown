@@ -1,6 +1,6 @@
 ---
 title: You Can't Fix Unethical Design By Yourself
-date: 2020-10-02 02:20 UTC
+date: 2020-06-02 02:20 UTC
 tags: Design, Ethics, Safety
 ---
 

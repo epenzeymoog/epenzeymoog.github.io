@@ -1,5 +1,5 @@
 ---
-title: As Technology Evolves, so Does Domestic Violence: Modern-Day Tech Abuse and Possible Solutions
+title: As Technology Evolves, so Does Domestic Violence
 date: 2021-06-04 02:20 UTC
 tags: Book Chapter, Design, Ethics, Safety
 ---
