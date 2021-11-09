@@ -531,6 +531,12 @@ a, .section a, .card__title a, .article-title a {
   max-width: 600px;
   width: 100%; }
 
+.image--large {
+  max-width: 400px; }
+  @media (min-width: 1000px) {
+    .image--large {
+      max-width: 800px; } }
+
 .headshot {
   max-width: 200px;
   width: 100%; }
@@ -546,11 +552,9 @@ a, .section a, .card__title a, .article-title a {
       float: right;
       max-width: 500px; } }
 
-.training-pic {
-  max-width: 400px; }
-  @media (min-width: 1000px) {
-    .training-pic {
-      max-width: 800px; } }
+.border {
+  border: 1px solid #D4D8DB;
+  border-radius: 3px; }
 
 .gist {
   display: block;
